@@ -1,0 +1,125 @@
+{
+ "all_identical": true,
+ "keys_compared": [
+  "n",
+  "status",
+  "seed",
+  "participant_slopes",
+  "beta_mean",
+  "se",
+  "weight_ci_95",
+  "magnitude_response_scale",
+  "gate",
+  "angle_deg",
+  "angle_ci_B3t_95",
+  "angle_ci_B3boot_stored_not_reported",
+  "contains",
+  "level1"
+ ],
+ "fixtures": {
+  "base_12x3": {
+   "A": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": "onset-dominant cue weighting"
+   },
+   "B": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": "onset-dominant cue weighting"
+   },
+   "C": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": "onset-dominant cue weighting"
+   }
+  },
+  "x2_exclusion_13": {
+   "A": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": "onset-dominant cue weighting"
+   },
+   "B": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": null
+   },
+   "C": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": null
+   }
+  },
+  "identical_singular": {
+   "A": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": null
+   },
+   "B": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": null
+   },
+   "C": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": null
+   }
+  },
+  "n11": {
+   "A": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": null
+   },
+   "B": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": "onset-dominant cue weighting"
+   },
+   "C": {
+    "identical_primary_numeric_keys": true,
+    "differing_keys": [],
+    "same_number_of_departure_flags": true,
+    "departure_text_changed": false,
+    "r2_S6_class": null,
+    "r3_exploratory_label": "onset-dominant cue weighting"
+   }
+  }
+ }
+}

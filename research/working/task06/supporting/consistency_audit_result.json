@@ -1,0 +1,80 @@
+{
+ "broken_section_refs": [],
+ "undefined_OD": [],
+ "stale_terms": [],
+ "em_dashes": {},
+ "open_items": [
+  [
+   "task06-00-readiness-assessment.md",
+   "OPEN only for OD-14; no stale terms; no em d"
+  ],
+  [
+   "task06-00-readiness-assessment.md",
+   "OPEN.** Blocks preregistration, E2 viewer se"
+  ],
+  [
+   "task06-D1-experimental-protocol.md",
+   "OPEN (OD-14)**: no eligible institution or r"
+  ],
+  [
+   "task06-D4-preregistration-draft.md",
+   "OPEN.** No eligible pathway yet identified |"
+  ],
+  [
+   "task06-D4-preregistration-draft.md",
+   "OPEN** (OD-14)."
+  ],
+  [
+   "task06-D4-preregistration-draft.md",
+   "OPEN)"
+  ],
+  [
+   "task06-CHANGELOG-r2-to-r3.md",
+   "OPEN allowed for OD-14, OD-21 and OD-22 |"
+  ],
+  [
+   "task06-CHANGELOG-r3-to-r3.1.md",
+   "OPEN now allowed for OD-14 only. The D5 deci"
+  ],
+  [
+   "task06-D3-E2-display-validation-protocol.md",
+   "OPEN, OD-14**. It may need approval or a det"
+  ],
+  [
+   "task06-CHANGELOG.md",
+   "OPEN (OD-14). Wrapper and tests exist. M fro"
+  ],
+  [
+   "task06-CHANGELOG.md",
+   "OPEN; E2 per station; M; provisional thresho"
+  ],
+  [
+   "task06-D5-decision-register.md",
+   "OPEN.** Unresolved until an eligible institu"
+  ]
+ ],
+ "OD_defined": [
+  "OD-01",
+  "OD-02",
+  "OD-03",
+  "OD-04",
+  "OD-05",
+  "OD-06",
+  "OD-07",
+  "OD-08",
+  "OD-09",
+  "OD-10",
+  "OD-11",
+  "OD-12",
+  "OD-13",
+  "OD-14",
+  "OD-15",
+  "OD-16",
+  "OD-17",
+  "OD-18",
+  "OD-19",
+  "OD-20",
+  "OD-21",
+  "OD-22"
+ ]
+}

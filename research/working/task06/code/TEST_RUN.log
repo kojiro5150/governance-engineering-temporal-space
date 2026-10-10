@@ -1,0 +1,48 @@
+# Task 06 r3.1 test run, 2026-10-10T15:58:32+11:00
+# python 3.13.16 numpy 2.5.3 scipy 1.18.1
+test_addback_n12_still_exploratory_and_suppressed (tests.test_task06_analysis.TestAddBackR3.test_addback_n12_still_exploratory_and_suppressed) ... ok
+test_difference_from_primary_reported (tests.test_task06_analysis.TestAddBackR3.test_difference_from_primary_reported) ... ok
+test_ids_flags_and_suppression_n13 (tests.test_task06_analysis.TestAddBackR3.test_ids_flags_and_suppression_n13) ... ok
+test_no_addback_when_nothing_to_add (tests.test_task06_analysis.TestAddBackR3.test_no_addback_when_nothing_to_add) ... ok
+test_primary_unchanged_by_addback (tests.test_task06_analysis.TestAddBackR3.test_primary_unchanged_by_addback) ... ok
+test_ambiguous_intervals (tests.test_task06_analysis.TestClassificationR3.test_ambiguous_intervals) ... ok
+test_boundary_containment (tests.test_task06_analysis.TestClassificationR3.test_boundary_containment) ... ok
+test_exploratory_status_fields (tests.test_task06_analysis.TestClassificationR3.test_exploratory_status_fields) ... ok
+test_gate_failure_reports_no_label_but_keeps_numbers (tests.test_task06_analysis.TestClassificationR3.test_gate_failure_reports_no_label_but_keeps_numbers) ... ok
+test_labels_never_appear_outside_exploratory_objects (tests.test_task06_analysis.TestClassificationR3.test_labels_never_appear_outside_exploratory_objects) ... ok
+test_numbers_reported_alongside_label (tests.test_task06_analysis.TestClassificationR3.test_numbers_reported_alongside_label) ... ok
+test_offset_dominant (tests.test_task06_analysis.TestClassificationR3.test_offset_dominant) ... ok
+test_ols_analysis_removed_from_outputs (tests.test_task06_analysis.TestClassificationR3.test_ols_analysis_removed_from_outputs) ... ok
+test_q2_derived_and_qualified (tests.test_task06_analysis.TestClassificationR3.test_q2_derived_and_qualified) ... ok
+test_response_coding_matches_frozen_convention (tests.test_task06_analysis.TestCoding.test_response_coding_matches_frozen_convention) ... ok
+test_seed_rule (tests.test_task06_analysis.TestCoding.test_seed_rule) ... ok
+test_comparison_not_computed_when_a_gate_fails (tests.test_task06_analysis.TestDescriptive.test_comparison_not_computed_when_a_gate_fails) ... ok
+test_descriptive_comparison_has_no_intervals (tests.test_task06_analysis.TestDescriptive.test_descriptive_comparison_has_no_intervals) ... ok
+test_level1_exact (tests.test_task06_analysis.TestDescriptive.test_level1_exact) ... ok
+test_n11_gate_pass_suppressed_numeric_kept (tests.test_task06_analysis.TestEnvelopeR31.test_n11_gate_pass_suppressed_numeric_kept) ... ok
+test_n12_gate_pass_classified (tests.test_task06_analysis.TestEnvelopeR31.test_n12_gate_pass_classified) ... ok
+test_n12_numeric_matches_frozen (tests.test_task06_analysis.TestEnvelopeR31.test_n12_numeric_matches_frozen) ... ok
+test_n13_gate_fail_suppressed (tests.test_task06_analysis.TestEnvelopeR31.test_n13_gate_fail_suppressed) ... ok
+test_n13_gate_pass_suppressed_numeric_kept (tests.test_task06_analysis.TestEnvelopeR31.test_n13_gate_pass_suppressed_numeric_kept) ... ok
+test_complete_participants_included (tests.test_task06_analysis.TestExclusions.test_complete_participants_included) ... ok
+test_duplicate_valid_main_trial_is_x6 (tests.test_task06_analysis.TestExclusions.test_duplicate_valid_main_trial_is_x6) ... ok
+test_each_rule (tests.test_task06_analysis.TestExclusions.test_each_rule) ... ok
+test_exclusions_never_read_main_responses (tests.test_task06_analysis.TestExclusions.test_exclusions_never_read_main_responses) ... ok
+test_missing_catch_is_x6 (tests.test_task06_analysis.TestExclusions.test_missing_catch_is_x6) ... ok
+test_requeued_trial_restores_completeness (tests.test_task06_analysis.TestExclusions.test_requeued_trial_restores_completeness) ... ok
+test_hashes_verified (tests.test_task06_analysis.TestFrozenCode.test_hashes_verified) ... ok
+test_refuses_modified_copy (tests.test_task06_analysis.TestFrozenCode.test_refuses_modified_copy) ... ok
+test_circular_containment_across_boundary (tests.test_task06_analysis.TestInterpretation.test_circular_containment_across_boundary) ... ok
+test_q2_outcomes (tests.test_task06_analysis.TestInterpretation.test_q2_outcomes) ... ok
+test_s6_classifier (tests.test_task06_analysis.TestInterpretation.test_s6_classifier) ... ok
+test_closed_form_equals_ols_with_intercept_on_complete_data (tests.test_task06_analysis.TestPrimaryAnalysis.test_closed_form_equals_ols_with_intercept_on_complete_data) ... ok
+test_deterministic_and_order_invariant (tests.test_task06_analysis.TestPrimaryAnalysis.test_deterministic_and_order_invariant) ... ok
+test_matches_frozen_run_b3_exactly (tests.test_task06_analysis.TestPrimaryAnalysis.test_matches_frozen_run_b3_exactly) ... ok
+test_n11_departure_flag_and_t10 (tests.test_task06_analysis.TestPrimaryAnalysis.test_n11_departure_flag_and_t10) ... ok
+test_n_below_3_not_computable (tests.test_task06_analysis.TestPrimaryAnalysis.test_n_below_3_not_computable) ... ok
+test_singular_covariance_fails_gate (tests.test_task06_analysis.TestPrimaryAnalysis.test_singular_covariance_fails_gate) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.387s
+
+OK

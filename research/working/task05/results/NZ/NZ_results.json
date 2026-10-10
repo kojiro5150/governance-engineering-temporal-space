@@ -1,0 +1,1211 @@
+{
+ "n_rows": 1000,
+ "errors": 0,
+ "by_variant": {
+  "B3-t": {
+   "per_grid": {
+    "a=0.000": {
+     "n": 200,
+     "failures": 0,
+     "target_beta_star": [
+      0.0,
+      0.0
+     ],
+     "target_angle": null,
+     "weight_cov_w_on": {
+      "k": 191,
+      "n": 200,
+      "rate": 0.955,
+      "wilson95": [
+       0.9167,
+       0.9761
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "weight_cov_w_off": {
+      "k": 196,
+      "n": 200,
+      "rate": 0.98,
+      "wilson95": [
+       0.9497,
+       0.9922
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "gate_pass": {
+      "k": 5,
+      "n": 200,
+      "rate": 0.025,
+      "wilson95": [
+       0.0107,
+       0.0572
+      ]
+     },
+     "gate_and_excl_0": {
+      "k": 4,
+      "n": 200,
+      "rate": 0.02,
+      "wilson95": [
+       0.0078,
+       0.0503
+      ]
+     },
+     "gate_and_excl_45": {
+      "k": 5,
+      "n": 200,
+      "rate": 0.025,
+      "wilson95": [
+       0.0107,
+       0.0572
+      ]
+     },
+     "mean_est": [
+      0.00182,
+      0.00196
+     ],
+     "bias_vs_beta_star": [
+      0.00182,
+      0.00196
+     ],
+     "bias_mc_se": [
+      0.00137,
+      0.00129
+     ],
+     "angle_point": {
+      "circular_mean_deg": 41.17,
+      "mean_resultant_length": 0.061,
+      "share_abs_angle_gt_90": 0.455
+     },
+     "angle_ci_width": {
+      "median_all": 262.6,
+      "median_gate_passed": 95.8,
+      "share_ge_180": 0.77,
+      "share_ge_360": 0.0
+     },
+     "wrapping": {
+      "share_interval_beyond_pm180": 0.645,
+      "circular_vs_linear_disagree_0": 0,
+      "circular_vs_linear_disagree_45": 6
+     }
+    },
+    "a=0.050": {
+     "n": 200,
+     "failures": 0,
+     "target_beta_star": [
+      0.018795137826789227,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "weight_cov_w_on": {
+      "k": 187,
+      "n": 200,
+      "rate": 0.935,
+      "wilson95": [
+       0.892,
+       0.9616
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "weight_cov_w_off": {
+      "k": 193,
+      "n": 200,
+      "rate": 0.965,
+      "wilson95": [
+       0.9295,
+       0.9829
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "gate_pass": {
+      "k": 22,
+      "n": 200,
+      "rate": 0.11,
+      "wilson95": [
+       0.0738,
+       0.1609
+      ]
+     },
+     "gate_and_excl_0": {
+      "k": 8,
+      "n": 200,
+      "rate": 0.04,
+      "wilson95": [
+       0.0204,
+       0.0769
+      ]
+     },
+     "gate_and_excl_45": {
+      "k": 15,
+      "n": 200,
+      "rate": 0.075,
+      "wilson95": [
+       0.046,
+       0.12
+      ]
+     },
+     "mean_est": [
+      0.01715,
+      -9e-05
+     ],
+     "bias_vs_beta_star": [
+      -0.00164,
+      -9e-05
+     ],
+     "bias_mc_se": [
+      0.00161,
+      0.00138
+     ],
+     "angle_point": {
+      "circular_mean_deg": -0.31,
+      "mean_resultant_length": 0.462,
+      "share_abs_angle_gt_90": 0.19
+     },
+     "angle_ci_width": {
+      "median_all": 212.5,
+      "median_gate_passed": 86.1,
+      "share_ge_180": 0.61,
+      "share_ge_360": 0.0
+     },
+     "wrapping": {
+      "share_interval_beyond_pm180": 0.375,
+      "circular_vs_linear_disagree_0": 0,
+      "circular_vs_linear_disagree_45": 0
+     },
+     "angle_cov": {
+      "k": 169,
+      "n": 200,
+      "rate": 0.845,
+      "wilson95": [
+       0.7884,
+       0.8886
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "clearly outside"
+     }
+    },
+    "a=0.100": {
+     "n": 200,
+     "failures": 0,
+     "target_beta_star": [
+      0.037505856592067545,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "weight_cov_w_on": {
+      "k": 189,
+      "n": 200,
+      "rate": 0.945,
+      "wilson95": [
+       0.9042,
+       0.969
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "weight_cov_w_off": {
+      "k": 195,
+      "n": 200,
+      "rate": 0.975,
+      "wilson95": [
+       0.9428,
+       0.9893
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "gate_pass": {
+      "k": 58,
+      "n": 200,
+      "rate": 0.29,
+      "wilson95": [
+       0.2315,
+       0.3564
+      ]
+     },
+     "gate_and_excl_0": {
+      "k": 5,
+      "n": 200,
+      "rate": 0.025,
+      "wilson95": [
+       0.0107,
+       0.0572
+      ]
+     },
+     "gate_and_excl_45": {
+      "k": 33,
+      "n": 200,
+      "rate": 0.165,
+      "wilson95": [
+       0.12,
+       0.2227
+      ]
+     },
+     "mean_est": [
+      0.03772,
+      0.00108
+     ],
+     "bias_vs_beta_star": [
+      0.00021,
+      0.00108
+     ],
+     "bias_mc_se": [
+      0.00151,
+      0.00126
+     ],
+     "angle_point": {
+      "circular_mean_deg": 2.01,
+      "mean_resultant_length": 0.818,
+      "share_abs_angle_gt_90": 0.04
+     },
+     "angle_ci_width": {
+      "median_all": 139.6,
+      "median_gate_passed": 82.4,
+      "share_ge_180": 0.345,
+      "share_ge_360": 0.0
+     },
+     "wrapping": {
+      "share_interval_beyond_pm180": 0.115,
+      "circular_vs_linear_disagree_0": 0,
+      "circular_vs_linear_disagree_45": 0
+     },
+     "angle_cov": {
+      "k": 191,
+      "n": 200,
+      "rate": 0.955,
+      "wilson95": [
+       0.9167,
+       0.9761
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     }
+    },
+    "a=0.200": {
+     "n": 200,
+     "failures": 0,
+     "target_beta_star": [
+      0.07433262806515967,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "weight_cov_w_on": {
+      "k": 185,
+      "n": 200,
+      "rate": 0.925,
+      "wilson95": [
+       0.88,
+       0.954
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "weight_cov_w_off": {
+      "k": 191,
+      "n": 200,
+      "rate": 0.955,
+      "wilson95": [
+       0.9167,
+       0.9761
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass": {
+      "k": 162,
+      "n": 200,
+      "rate": 0.81,
+      "wilson95": [
+       0.75,
+       0.8583
+      ]
+     },
+     "gate_and_excl_0": {
+      "k": 10,
+      "n": 200,
+      "rate": 0.05,
+      "wilson95": [
+       0.0274,
+       0.0896
+      ]
+     },
+     "gate_and_excl_45": {
+      "k": 113,
+      "n": 200,
+      "rate": 0.565,
+      "wilson95": [
+       0.4957,
+       0.6318
+      ]
+     },
+     "mean_est": [
+      0.07471,
+      0.00328
+     ],
+     "bias_vs_beta_star": [
+      0.00038,
+      0.00328
+     ],
+     "bias_mc_se": [
+      0.00143,
+      0.00146
+     ],
+     "angle_point": {
+      "circular_mean_deg": 2.67,
+      "mean_resultant_length": 0.961,
+      "share_abs_angle_gt_90": 0.0
+     },
+     "angle_ci_width": {
+      "median_all": 67.9,
+      "median_gate_passed": 62.2,
+      "share_ge_180": 0.025,
+      "share_ge_360": 0.0
+     },
+     "wrapping": {
+      "share_interval_beyond_pm180": 0.005,
+      "circular_vs_linear_disagree_0": 0,
+      "circular_vs_linear_disagree_45": 0
+     },
+     "angle_cov": {
+      "k": 190,
+      "n": 200,
+      "rate": 0.95,
+      "wilson95": [
+       0.9104,
+       0.9726
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     }
+    },
+    "a=0.333": {
+     "n": 200,
+     "failures": 0,
+     "target_beta_star": [
+      0.12119321977761041,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "weight_cov_w_on": {
+      "k": 193,
+      "n": 200,
+      "rate": 0.965,
+      "wilson95": [
+       0.9295,
+       0.9829
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "weight_cov_w_off": {
+      "k": 190,
+      "n": 200,
+      "rate": 0.95,
+      "wilson95": [
+       0.9104,
+       0.9726
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass": {
+      "k": 199,
+      "n": 200,
+      "rate": 0.995,
+      "wilson95": [
+       0.9722,
+       0.9991
+      ]
+     },
+     "gate_and_excl_0": {
+      "k": 12,
+      "n": 200,
+      "rate": 0.06,
+      "wilson95": [
+       0.0347,
+       0.1019
+      ]
+     },
+     "gate_and_excl_45": {
+      "k": 194,
+      "n": 200,
+      "rate": 0.97,
+      "wilson95": [
+       0.9361,
+       0.9862
+      ]
+     },
+     "mean_est": [
+      0.12319,
+      0.00188
+     ],
+     "bias_vs_beta_star": [
+      0.002,
+      0.00188
+     ],
+     "bias_mc_se": [
+      0.0014,
+      0.00134
+     ],
+     "angle_point": {
+      "circular_mean_deg": 0.89,
+      "mean_resultant_length": 0.987,
+      "share_abs_angle_gt_90": 0.0
+     },
+     "angle_ci_width": {
+      "median_all": 38.4,
+      "median_gate_passed": 38.4,
+      "share_ge_180": 0.0,
+      "share_ge_360": 0.0
+     },
+     "wrapping": {
+      "share_interval_beyond_pm180": 0.0,
+      "circular_vs_linear_disagree_0": 0,
+      "circular_vs_linear_disagree_45": 0
+     },
+     "angle_cov": {
+      "k": 188,
+      "n": 200,
+      "rate": 0.94,
+      "wilson95": [
+       0.8981,
+       0.9653
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     }
+    }
+   },
+   "criteria": {
+    "N1 a=0.000 w_on": {
+     "k": 191,
+     "n": 200,
+     "rate": 0.955,
+     "wilson95": [
+      0.9167,
+      0.9761
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "N1 a=0.000 w_off": {
+     "k": 196,
+     "n": 200,
+     "rate": 0.98,
+     "wilson95": [
+      0.9497,
+      0.9922
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "N4 a=0 gate false positive": {
+     "k": 5,
+     "n": 200,
+     "rate": 0.025,
+     "wilson95": [
+      0.0107,
+      0.0572
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "N5 a=0.000 failures": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.0188
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "N1 a=0.050 w_on": {
+     "k": 187,
+     "n": 200,
+     "rate": 0.935,
+     "wilson95": [
+      0.892,
+      0.9616
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "N1 a=0.050 w_off": {
+     "k": 193,
+     "n": 200,
+     "rate": 0.965,
+     "wilson95": [
+      0.9295,
+      0.9829
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "N3 a=0.050 false strategy claim": {
+     "k": 8,
+     "n": 200,
+     "rate": 0.04,
+     "wilson95": [
+      0.0204,
+      0.0769
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "N5 a=0.050 failures": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.0188
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "N1 a=0.100 w_on": {
+     "k": 189,
+     "n": 200,
+     "rate": 0.945,
+     "wilson95": [
+      0.9042,
+      0.969
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "N1 a=0.100 w_off": {
+     "k": 195,
+     "n": 200,
+     "rate": 0.975,
+     "wilson95": [
+      0.9428,
+      0.9893
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "N3 a=0.100 false strategy claim": {
+     "k": 5,
+     "n": 200,
+     "rate": 0.025,
+     "wilson95": [
+      0.0107,
+      0.0572
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "N5 a=0.100 failures": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.0188
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "N1 a=0.200 w_on": {
+     "k": 185,
+     "n": 200,
+     "rate": 0.925,
+     "wilson95": [
+      0.88,
+      0.954
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "N1 a=0.200 w_off": {
+     "k": 191,
+     "n": 200,
+     "rate": 0.955,
+     "wilson95": [
+      0.9167,
+      0.9761
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "N2 a=0.200 angle": {
+     "k": 190,
+     "n": 200,
+     "rate": 0.95,
+     "wilson95": [
+      0.9104,
+      0.9726
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "N3 a=0.200 false strategy claim": {
+     "k": 10,
+     "n": 200,
+     "rate": 0.05,
+     "wilson95": [
+      0.0274,
+      0.0896
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "N5 a=0.200 failures": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.0188
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "N1 a=0.333 w_on": {
+     "k": 193,
+     "n": 200,
+     "rate": 0.965,
+     "wilson95": [
+      0.9295,
+      0.9829
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "N1 a=0.333 w_off": {
+     "k": 190,
+     "n": 200,
+     "rate": 0.95,
+     "wilson95": [
+      0.9104,
+      0.9726
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "N2 a=0.333 angle": {
+     "k": 188,
+     "n": 200,
+     "rate": 0.94,
+     "wilson95": [
+      0.8981,
+      0.9653
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "N3 a=0.333 false strategy claim": {
+     "k": 12,
+     "n": 200,
+     "rate": 0.06,
+     "wilson95": [
+      0.0347,
+      0.1019
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "N5 a=0.333 failures": {
+     "k": 0,
+     "n": 200,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.0188
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    }
+   },
+   "all_met_point": true,
+   "any_clearly_outside": false,
+   "n_indeterminate": 10,
+   "NZ_outcome": "CONFIRMED"
+  },
+  "B3-boot (descriptive)": {
+   "per_grid": {
+    "a=0.000": {
+     "n": 200,
+     "failures": 0,
+     "target_beta_star": [
+      0.0,
+      0.0
+     ],
+     "target_angle": null,
+     "weight_cov_w_on": {
+      "k": 191,
+      "n": 200,
+      "rate": 0.955,
+      "wilson95": [
+       0.9167,
+       0.9761
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "weight_cov_w_off": {
+      "k": 196,
+      "n": 200,
+      "rate": 0.98,
+      "wilson95": [
+       0.9497,
+       0.9922
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "gate_pass": {
+      "k": 5,
+      "n": 200,
+      "rate": 0.025,
+      "wilson95": [
+       0.0107,
+       0.0572
+      ]
+     },
+     "gate_and_excl_0": {
+      "k": 4,
+      "n": 200,
+      "rate": 0.02,
+      "wilson95": [
+       0.0078,
+       0.0503
+      ]
+     },
+     "gate_and_excl_45": {
+      "k": 5,
+      "n": 200,
+      "rate": 0.025,
+      "wilson95": [
+       0.0107,
+       0.0572
+      ]
+     },
+     "mean_est": [
+      0.00182,
+      0.00196
+     ],
+     "bias_vs_beta_star": [
+      0.00182,
+      0.00196
+     ],
+     "bias_mc_se": [
+      0.00137,
+      0.00129
+     ],
+     "angle_point": {
+      "circular_mean_deg": 41.17,
+      "mean_resultant_length": 0.061,
+      "share_abs_angle_gt_90": 0.455
+     },
+     "angle_ci_width": {
+      "median_all": 242.4,
+      "median_gate_passed": 79.4,
+      "share_ge_180": 0.685,
+      "share_ge_360": 0.0
+     },
+     "wrapping": {
+      "share_interval_beyond_pm180": 0.6,
+      "circular_vs_linear_disagree_0": 0,
+      "circular_vs_linear_disagree_45": 6
+     }
+    },
+    "a=0.050": {
+     "n": 200,
+     "failures": 0,
+     "target_beta_star": [
+      0.018795137826789227,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "weight_cov_w_on": {
+      "k": 187,
+      "n": 200,
+      "rate": 0.935,
+      "wilson95": [
+       0.892,
+       0.9616
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "weight_cov_w_off": {
+      "k": 193,
+      "n": 200,
+      "rate": 0.965,
+      "wilson95": [
+       0.9295,
+       0.9829
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "gate_pass": {
+      "k": 22,
+      "n": 200,
+      "rate": 0.11,
+      "wilson95": [
+       0.0738,
+       0.1609
+      ]
+     },
+     "gate_and_excl_0": {
+      "k": 8,
+      "n": 200,
+      "rate": 0.04,
+      "wilson95": [
+       0.0204,
+       0.0769
+      ]
+     },
+     "gate_and_excl_45": {
+      "k": 17,
+      "n": 200,
+      "rate": 0.085,
+      "wilson95": [
+       0.0537,
+       0.1319
+      ]
+     },
+     "mean_est": [
+      0.01715,
+      -9e-05
+     ],
+     "bias_vs_beta_star": [
+      -0.00164,
+      -9e-05
+     ],
+     "bias_mc_se": [
+      0.00161,
+      0.00138
+     ],
+     "angle_point": {
+      "circular_mean_deg": -0.31,
+      "mean_resultant_length": 0.462,
+      "share_abs_angle_gt_90": 0.19
+     },
+     "angle_ci_width": {
+      "median_all": 183.4,
+      "median_gate_passed": 74.0,
+      "share_ge_180": 0.53,
+      "share_ge_360": 0.0
+     },
+     "wrapping": {
+      "share_interval_beyond_pm180": 0.35,
+      "circular_vs_linear_disagree_0": 0,
+      "circular_vs_linear_disagree_45": 0
+     },
+     "angle_cov": {
+      "k": 165,
+      "n": 200,
+      "rate": 0.825,
+      "wilson95": [
+       0.7664,
+       0.8714
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "clearly outside"
+     }
+    },
+    "a=0.100": {
+     "n": 200,
+     "failures": 0,
+     "target_beta_star": [
+      0.037505856592067545,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "weight_cov_w_on": {
+      "k": 189,
+      "n": 200,
+      "rate": 0.945,
+      "wilson95": [
+       0.9042,
+       0.969
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "weight_cov_w_off": {
+      "k": 195,
+      "n": 200,
+      "rate": 0.975,
+      "wilson95": [
+       0.9428,
+       0.9893
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "gate_pass": {
+      "k": 58,
+      "n": 200,
+      "rate": 0.29,
+      "wilson95": [
+       0.2315,
+       0.3564
+      ]
+     },
+     "gate_and_excl_0": {
+      "k": 7,
+      "n": 200,
+      "rate": 0.035,
+      "wilson95": [
+       0.0171,
+       0.0705
+      ]
+     },
+     "gate_and_excl_45": {
+      "k": 37,
+      "n": 200,
+      "rate": 0.185,
+      "wilson95": [
+       0.1373,
+       0.2446
+      ]
+     },
+     "mean_est": [
+      0.03772,
+      0.00108
+     ],
+     "bias_vs_beta_star": [
+      0.00021,
+      0.00108
+     ],
+     "bias_mc_se": [
+      0.00151,
+      0.00126
+     ],
+     "angle_point": {
+      "circular_mean_deg": 2.01,
+      "mean_resultant_length": 0.818,
+      "share_abs_angle_gt_90": 0.04
+     },
+     "angle_ci_width": {
+      "median_all": 120.3,
+      "median_gate_passed": 69.8,
+      "share_ge_180": 0.28,
+      "share_ge_360": 0.0
+     },
+     "wrapping": {
+      "share_interval_beyond_pm180": 0.1,
+      "circular_vs_linear_disagree_0": 0,
+      "circular_vs_linear_disagree_45": 0
+     },
+     "angle_cov": {
+      "k": 186,
+      "n": 200,
+      "rate": 0.93,
+      "wilson95": [
+       0.8859,
+       0.9578
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     }
+    },
+    "a=0.200": {
+     "n": 200,
+     "failures": 0,
+     "target_beta_star": [
+      0.07433262806515967,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "weight_cov_w_on": {
+      "k": 185,
+      "n": 200,
+      "rate": 0.925,
+      "wilson95": [
+       0.88,
+       0.954
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "weight_cov_w_off": {
+      "k": 191,
+      "n": 200,
+      "rate": 0.955,
+      "wilson95": [
+       0.9167,
+       0.9761
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass": {
+      "k": 162,
+      "n": 200,
+      "rate": 0.81,
+      "wilson95": [
+       0.75,
+       0.8583
+      ]
+     },
+     "gate_and_excl_0": {
+      "k": 17,
+      "n": 200,
+      "rate": 0.085,
+      "wilson95": [
+       0.0537,
+       0.1319
+      ]
+     },
+     "gate_and_excl_45": {
+      "k": 136,
+      "n": 200,
+      "rate": 0.68,
+      "wilson95": [
+       0.6125,
+       0.7407
+      ]
+     },
+     "mean_est": [
+      0.07471,
+      0.00328
+     ],
+     "bias_vs_beta_star": [
+      0.00038,
+      0.00328
+     ],
+     "bias_mc_se": [
+      0.00143,
+      0.00146
+     ],
+     "angle_point": {
+      "circular_mean_deg": 2.67,
+      "mean_resultant_length": 0.961,
+      "share_abs_angle_gt_90": 0.0
+     },
+     "angle_ci_width": {
+      "median_all": 57.2,
+      "median_gate_passed": 52.5,
+      "share_ge_180": 0.015,
+      "share_ge_360": 0.0
+     },
+     "wrapping": {
+      "share_interval_beyond_pm180": 0.0,
+      "circular_vs_linear_disagree_0": 0,
+      "circular_vs_linear_disagree_45": 0
+     },
+     "angle_cov": {
+      "k": 183,
+      "n": 200,
+      "rate": 0.915,
+      "wilson95": [
+       0.8681,
+       0.9463
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     }
+    },
+    "a=0.333": {
+     "n": 200,
+     "failures": 0,
+     "target_beta_star": [
+      0.12119321977761041,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "weight_cov_w_on": {
+      "k": 193,
+      "n": 200,
+      "rate": 0.965,
+      "wilson95": [
+       0.9295,
+       0.9829
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "weight_cov_w_off": {
+      "k": 190,
+      "n": 200,
+      "rate": 0.95,
+      "wilson95": [
+       0.9104,
+       0.9726
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass": {
+      "k": 199,
+      "n": 200,
+      "rate": 0.995,
+      "wilson95": [
+       0.9722,
+       0.9991
+      ]
+     },
+     "gate_and_excl_0": {
+      "k": 18,
+      "n": 200,
+      "rate": 0.09,
+      "wilson95": [
+       0.0577,
+       0.1378
+      ]
+     },
+     "gate_and_excl_45": {
+      "k": 197,
+      "n": 200,
+      "rate": 0.985,
+      "wilson95": [
+       0.9568,
+       0.9949
+      ]
+     },
+     "mean_est": [
+      0.12319,
+      0.00188
+     ],
+     "bias_vs_beta_star": [
+      0.002,
+      0.00188
+     ],
+     "bias_mc_se": [
+      0.0014,
+      0.00134
+     ],
+     "angle_point": {
+      "circular_mean_deg": 0.89,
+      "mean_resultant_length": 0.987,
+      "share_abs_angle_gt_90": 0.0
+     },
+     "angle_ci_width": {
+      "median_all": 32.8,
+      "median_gate_passed": 32.8,
+      "share_ge_180": 0.0,
+      "share_ge_360": 0.0
+     },
+     "wrapping": {
+      "share_interval_beyond_pm180": 0.0,
+      "circular_vs_linear_disagree_0": 0,
+      "circular_vs_linear_disagree_45": 0
+     },
+     "angle_cov": {
+      "k": 182,
+      "n": 200,
+      "rate": 0.91,
+      "wilson95": [
+       0.8622,
+       0.9423
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     }
+    }
+   }
+  }
+ },
+ "decision_rule": "NZ CONFIRMED for B3-t iff N1-N5 all met at point estimates and none clearly outside. Otherwise NOT CONFIRMED and returned to the reviewer; the provisional acceptance is not changed automatically in either direction. No other method is evaluated or selected."
+}

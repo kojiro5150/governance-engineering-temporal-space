@@ -1,0 +1,90 @@
+{
+ "M0": {
+  "params": {
+   "q": 0.1,
+   "sigma": 1.2,
+   "c": 1.0,
+   "lam": 0.02,
+   "E": null,
+   "D": 6.0,
+   "policy": "timing",
+   "sigma_p": 0.08,
+   "c_p": 0.04
+  },
+  "b_on": 0.28703703703703703
+ },
+ "target_ratio": 0.85,
+ "target_b_on": 0.24398148148148147,
+ "M1": {
+  "params": {
+   "q": 0.1,
+   "sigma": 1.2,
+   "c": 1.0,
+   "lam": 0.15389099121093752,
+   "E": null,
+   "D": 6.0,
+   "policy": "timing",
+   "sigma_p": 0.08,
+   "c_p": 0.04
+  },
+  "b_on": 0.2440925925925926,
+  "calibrated": {
+   "lam": 0.15389099121093752
+  }
+ },
+ "M2a": {
+  "params": {
+   "q": 0.1,
+   "sigma": 1.2,
+   "c": 1.0,
+   "lam": 0.02,
+   "E": 22.509048461914062,
+   "D": 6.0,
+   "policy": "timing",
+   "sigma_p": 0.08,
+   "c_p": 0.04
+  },
+  "b_on": 0.244,
+  "calibrated": {
+   "E_mean_engaged_s": 22.509048461914062,
+   "D_mean_disengaged_s": 6.0,
+   "stationary_disengaged_fraction": 0.21045949702655095
+  }
+ },
+ "M2b": {
+  "params": {
+   "q": 0.1,
+   "sigma": 1.2,
+   "c": 1.0,
+   "lam": 0.02,
+   "E": 10.332534790039062,
+   "D": 6.0,
+   "policy": "snapshot",
+   "sigma_p": 0.08,
+   "c_p": 0.04
+  },
+  "b_on": 0.2435,
+  "calibrated": {
+   "E_mean_engaged_s": 10.332534790039062,
+   "D_mean_disengaged_s": 6.0,
+   "stationary_disengaged_fraction": 0.3673648993945079
+  }
+ },
+ "M3": {
+  "params": {
+   "q": 0.1,
+   "sigma": 2.049444580078125,
+   "c": 1.0,
+   "lam": 0.02,
+   "E": null,
+   "D": 6.0,
+   "policy": "timing",
+   "sigma_p": 0.08,
+   "c_p": 0.04
+  },
+  "b_on": 0.24401851851851852,
+  "calibrated": {
+   "sigma_s": 2.049444580078125
+  }
+ }
+}

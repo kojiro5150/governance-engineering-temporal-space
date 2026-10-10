@@ -1,0 +1,285 @@
+{
+ "n_sim_participants_per_cell": 20000,
+ "rows": [
+  {
+   "J": 20,
+   "truth": "onset moderate",
+   "w": [
+    0.7,
+    0.0
+   ],
+   "evidence_floor_norm": 0.169,
+   "p_onset": 0.7742,
+   "p_midpoint": 0.0593,
+   "p_other": 0.0639,
+   "p_unclassifiable": 0.1026,
+   "angle_sd_deg": 15.17
+  },
+  {
+   "J": 20,
+   "truth": "midpoint moderate",
+   "w": [
+    0.35,
+    0.35
+   ],
+   "evidence_floor_norm": 0.169,
+   "p_onset": 0.0944,
+   "p_midpoint": 0.4293,
+   "p_other": 0.0908,
+   "p_unclassifiable": 0.3855,
+   "angle_sd_deg": 21.86
+  },
+  {
+   "J": 20,
+   "truth": "onset low",
+   "w": [
+    0.3333333333333333,
+    0.0
+   ],
+   "evidence_floor_norm": 0.169,
+   "p_onset": 0.2268,
+   "p_midpoint": 0.0544,
+   "p_other": 0.0617,
+   "p_unclassifiable": 0.657,
+   "angle_sd_deg": 25.53
+  },
+  {
+   "J": 20,
+   "truth": "midpoint low",
+   "w": [
+    0.16666666666666666,
+    0.16666666666666666
+   ],
+   "evidence_floor_norm": 0.169,
+   "p_onset": 0.0455,
+   "p_midpoint": 0.0885,
+   "p_other": 0.0518,
+   "p_unclassifiable": 0.8142,
+   "angle_sd_deg": 34.48
+  },
+  {
+   "J": 28,
+   "truth": "onset moderate",
+   "w": [
+    0.7,
+    0.0
+   ],
+   "evidence_floor_norm": 0.141,
+   "p_onset": 0.894,
+   "p_midpoint": 0.0399,
+   "p_other": 0.0408,
+   "p_unclassifiable": 0.0254,
+   "angle_sd_deg": 12.76
+  },
+  {
+   "J": 28,
+   "truth": "midpoint moderate",
+   "w": [
+    0.35,
+    0.35
+   ],
+   "evidence_floor_norm": 0.1348,
+   "p_onset": 0.0907,
+   "p_midpoint": 0.6147,
+   "p_other": 0.0893,
+   "p_unclassifiable": 0.2053,
+   "angle_sd_deg": 18.75
+  },
+  {
+   "J": 28,
+   "truth": "onset low",
+   "w": [
+    0.3333333333333333,
+    0.0
+   ],
+   "evidence_floor_norm": 0.1348,
+   "p_onset": 0.3469,
+   "p_midpoint": 0.0722,
+   "p_other": 0.0769,
+   "p_unclassifiable": 0.504,
+   "angle_sd_deg": 22.42
+  },
+  {
+   "J": 28,
+   "truth": "midpoint low",
+   "w": [
+    0.16666666666666666,
+    0.16666666666666666
+   ],
+   "evidence_floor_norm": 0.141,
+   "p_onset": 0.0475,
+   "p_midpoint": 0.1525,
+   "p_other": 0.054,
+   "p_unclassifiable": 0.746,
+   "angle_sd_deg": 29.08
+  },
+  {
+   "J": 36,
+   "truth": "onset moderate",
+   "w": [
+    0.7,
+    0.0
+   ],
+   "evidence_floor_norm": 0.1195,
+   "p_onset": 0.949,
+   "p_midpoint": 0.0217,
+   "p_other": 0.0244,
+   "p_unclassifiable": 0.0049,
+   "angle_sd_deg": 11.05
+  },
+  {
+   "J": 36,
+   "truth": "midpoint moderate",
+   "w": [
+    0.35,
+    0.35
+   ],
+   "evidence_floor_norm": 0.1195,
+   "p_onset": 0.0723,
+   "p_midpoint": 0.7594,
+   "p_other": 0.0732,
+   "p_unclassifiable": 0.095,
+   "angle_sd_deg": 16.39
+  },
+  {
+   "J": 36,
+   "truth": "onset low",
+   "w": [
+    0.3333333333333333,
+    0.0
+   ],
+   "evidence_floor_norm": 0.1195,
+   "p_onset": 0.4395,
+   "p_midpoint": 0.0778,
+   "p_other": 0.0832,
+   "p_unclassifiable": 0.3995,
+   "angle_sd_deg": 20.58
+  },
+  {
+   "J": 36,
+   "truth": "midpoint low",
+   "w": [
+    0.16666666666666666,
+    0.16666666666666666
+   ],
+   "evidence_floor_norm": 0.1187,
+   "p_onset": 0.0674,
+   "p_midpoint": 0.2087,
+   "p_other": 0.0737,
+   "p_unclassifiable": 0.6502,
+   "angle_sd_deg": 26.85
+  },
+  {
+   "J": 52,
+   "truth": "onset moderate",
+   "w": [
+    0.7,
+    0.0
+   ],
+   "evidence_floor_norm": 0.0984,
+   "p_onset": 0.9848,
+   "p_midpoint": 0.0076,
+   "p_other": 0.0076,
+   "p_unclassifiable": 0.0001,
+   "angle_sd_deg": 9.0
+  },
+  {
+   "J": 52,
+   "truth": "midpoint moderate",
+   "w": [
+    0.35,
+    0.35
+   ],
+   "evidence_floor_norm": 0.0984,
+   "p_onset": 0.0493,
+   "p_midpoint": 0.8838,
+   "p_other": 0.0501,
+   "p_unclassifiable": 0.0168,
+   "angle_sd_deg": 13.66
+  },
+  {
+   "J": 52,
+   "truth": "onset low",
+   "w": [
+    0.3333333333333333,
+    0.0
+   ],
+   "evidence_floor_norm": 0.0984,
+   "p_onset": 0.6302,
+   "p_midpoint": 0.0795,
+   "p_other": 0.079,
+   "p_unclassifiable": 0.2112,
+   "angle_sd_deg": 17.92
+  },
+  {
+   "J": 52,
+   "truth": "midpoint low",
+   "w": [
+    0.16666666666666666,
+    0.16666666666666666
+   ],
+   "evidence_floor_norm": 0.0984,
+   "p_onset": 0.0765,
+   "p_midpoint": 0.3384,
+   "p_other": 0.0754,
+   "p_unclassifiable": 0.5098,
+   "angle_sd_deg": 22.59
+  },
+  {
+   "J": 68,
+   "truth": "onset moderate",
+   "w": [
+    0.7,
+    0.0
+   ],
+   "evidence_floor_norm": 0.0848,
+   "p_onset": 0.9949,
+   "p_midpoint": 0.0029,
+   "p_other": 0.0022,
+   "p_unclassifiable": 0.0,
+   "angle_sd_deg": 7.77
+  },
+  {
+   "J": 68,
+   "truth": "midpoint moderate",
+   "w": [
+    0.35,
+    0.35
+   ],
+   "evidence_floor_norm": 0.0848,
+   "p_onset": 0.0297,
+   "p_midpoint": 0.9392,
+   "p_other": 0.0286,
+   "p_unclassifiable": 0.0024,
+   "angle_sd_deg": 11.87
+  },
+  {
+   "J": 68,
+   "truth": "onset low",
+   "w": [
+    0.3333333333333333,
+    0.0
+   ],
+   "evidence_floor_norm": 0.0845,
+   "p_onset": 0.7608,
+   "p_midpoint": 0.0711,
+   "p_other": 0.0687,
+   "p_unclassifiable": 0.0994,
+   "angle_sd_deg": 16.01
+  },
+  {
+   "J": 68,
+   "truth": "midpoint low",
+   "w": [
+    0.16666666666666666,
+    0.16666666666666666
+   ],
+   "evidence_floor_norm": 0.0848,
+   "p_onset": 0.0828,
+   "p_midpoint": 0.4389,
+   "p_other": 0.0798,
+   "p_unclassifiable": 0.3987,
+   "angle_sd_deg": 20.8
+  }
+ ]
+}

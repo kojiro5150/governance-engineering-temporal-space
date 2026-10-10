@@ -1,0 +1,31 @@
+{
+ "purpose": "attention-induced offset weight (M2b) vs genuine attentive strategy (M4) with matched angle",
+ "M2b_pooled_angle": 11.59,
+ "M4_q": 0.2014,
+ "M4_pooled_angle": 11.58,
+ "by_mechanism": {
+  "M2b": {
+   "b3_on_mean": 0.2452,
+   "b3_angle_median": 12.02,
+   "b0_angle_median": 13.36,
+   "catch_error_rate_mean": 0.0584,
+   "S_rate_simultaneous_mean": 0.4314,
+   "S_rate_all_main_mean": 0.2543
+  },
+  "M4": {
+   "b3_on_mean": 0.2486,
+   "b3_angle_median": 11.81,
+   "b0_angle_median": 14.16,
+   "catch_error_rate_mean": 0.0134,
+   "S_rate_simultaneous_mean": 0.454,
+   "S_rate_all_main_mean": 0.2907
+  }
+ },
+ "auc_M2b_vs_M4": {
+  "catch_error_rate": 0.103,
+  "S_rate_simultaneous": 0.593,
+  "S_rate_all_main": 0.815,
+  "b3_angle": 0.469,
+  "b3_on": 0.571
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "n_participants_per_fit": 400,
+ "R1_threshold_onset": {
+  "q=0.0": {
+   "w_on": 0.9854,
+   "w_off": -0.0012,
+   "angle_deg": -0.07,
+   "se_w_on": 0.0062,
+   "se_w_off": 0.0118,
+   "stable": false,
+   "deduced_angle_deg": 0.0
+  },
+  "q=0.05": {
+   "w_on": 0.9604,
+   "w_off": 0.0419,
+   "angle_deg": 2.5,
+   "se_w_on": 0.0155,
+   "se_w_off": 0.0116,
+   "stable": true,
+   "deduced_angle_deg": 3.01
+  },
+  "q=0.1": {
+   "w_on": 0.919,
+   "w_off": 0.1075,
+   "angle_deg": 6.67,
+   "se_w_on": 0.0154,
+   "se_w_off": 0.0114,
+   "stable": true,
+   "deduced_angle_deg": 6.34
+  },
+  "q=0.2": {
+   "w_on": 0.7823,
+   "w_off": 0.2081,
+   "angle_deg": 14.9,
+   "se_w_on": 0.0137,
+   "se_w_off": 0.011,
+   "stable": true,
+   "deduced_angle_deg": 14.04
+  },
+  "q=0.3": {
+   "w_on": 0.7186,
+   "w_off": 0.3173,
+   "angle_deg": 23.82,
+   "se_w_on": 0.0131,
+   "se_w_off": 0.0111,
+   "stable": true,
+   "deduced_angle_deg": 23.2
+  }
+ },
+ "R2_snapshot": {
+  "t=1.0s after mean onset": {
+   "w_on": 1.4337,
+   "w_off": 0.142,
+   "angle_deg": 5.66,
+   "se_w_on": 0.0285,
+   "se_w_off": 0.0143,
+   "stable": true
+  },
+  "t=3.0s after mean onset": {
+   "w_on": 1.3956,
+   "w_off": 0.4539,
+   "angle_deg": 18.01,
+   "se_w_on": 0.0262,
+   "se_w_off": 0.016,
+   "stable": true
+  },
+  "t=6.0s after mean onset": {
+   "w_on": 0.9351,
+   "w_off": 0.9123,
+   "angle_deg": 44.29,
+   "se_w_on": 0.0193,
+   "se_w_off": 0.0191,
+   "stable": true
+  },
+  "t=9.0s after mean onset": {
+   "w_on": 0.4606,
+   "w_off": 1.4315,
+   "angle_deg": 72.17,
+   "se_w_on": 0.0162,
+   "se_w_off": 0.0273,
+   "stable": true
+  },
+  "t=12.0s after mean onset": {
+   "w_on": 0.0368,
+   "w_off": 0.7805,
+   "angle_deg": 87.3,
+   "se_w_on": 0.0108,
+   "se_w_off": 0.0137,
+   "stable": true
+  },
+  "t=15.0s after mean onset": {
+   "w_on": -0.0189,
+   "w_off": -0.0083,
+   "angle_deg": -156.23,
+   "se_w_on": 0.0089,
+   "se_w_off": 0.0089,
+   "stable": true
+  }
+ },
+ "R3_graph_proxies": {
+  "kink (onset, 0.5 s localisation noise)": {
+   "w_on": 3.2227,
+   "w_off": -0.0187,
+   "angle_deg": -0.33,
+   "se_w_on": 0.3335,
+   "se_w_off": 0.0159,
+   "stable": true
+  },
+  "top (offset, 0.5 s localisation noise)": {
+   "w_on": 0.0151,
+   "w_off": 2.9995,
+   "angle_deg": 89.71,
+   "se_w_on": 0.0159,
+   "se_w_off": 0.2361,
+   "stable": true
+  },
+  "column at x=8.0s": {
+   "w_on": 1.2567,
+   "w_off": 0.5178,
+   "angle_deg": 22.39,
+   "se_w_on": 0.0226,
+   "se_w_off": 0.0159,
+   "stable": true
+  },
+  "column at x=12.0s": {
+   "w_on": 0.6913,
+   "w_off": 1.1688,
+   "angle_deg": 59.4,
+   "se_w_on": 0.0174,
+   "se_w_off": 0.0219,
+   "stable": true
+  },
+  "area (time-averaged progress)": {
+   "w_on": 2.011,
+   "w_off": 2.0012,
+   "angle_deg": 44.86,
+   "se_w_on": 0.0816,
+   "se_w_off": 0.0816,
+   "stable": true
+  }
+ }
+}

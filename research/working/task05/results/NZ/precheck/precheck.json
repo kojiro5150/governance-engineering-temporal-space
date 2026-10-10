@@ -1,0 +1,92 @@
+{
+ "targets": {
+  "a=0.000": {
+   "a": 0.0,
+   "beta_star": [
+    0.0,
+    0.0
+   ],
+   "beta_star_mc_se": [
+    0.0,
+    0.0
+   ],
+   "angle_beta_star": null,
+   "angle_note": "a=0: beta*=(0,0) exactly (zero-mean design columns; deduction); angle undefined"
+  },
+  "a=0.050": {
+   "a": 0.05,
+   "beta_star": [
+    0.018795137826789227,
+    -6.681897833392026e-22
+   ],
+   "beta_star_mc_se": [
+    1.058234472635005e-06,
+    2.5789198394907616e-21
+   ],
+   "angle_beta_star": -2.0369339587672145e-18,
+   "angle_note": "latent angle 0 deg; response-scale angle 0 deg (w_off=0 => beta*_off=0 by symmetry)"
+  },
+  "a=0.100": {
+   "a": 0.1,
+   "beta_star": [
+    0.037505856592067545,
+    1.8606515505291894e-21
+   ],
+   "beta_star_mc_se": [
+    2.1165719818766885e-06,
+    2.7577696996608695e-21
+   ],
+   "angle_beta_star": 2.8424222421930387e-18,
+   "angle_note": "latent angle 0 deg; response-scale angle 0 deg (w_off=0 => beta*_off=0 by symmetry)"
+  },
+  "a=0.200": {
+   "a": 0.2,
+   "beta_star": [
+    0.07433262806515967,
+    -5.448316694919713e-22
+   ],
+   "beta_star_mc_se": [
+    4.2303163724511734e-06,
+    3.560437961504414e-21
+   ],
+   "angle_beta_star": -4.1995764201411297e-19,
+   "angle_note": "latent angle 0 deg; response-scale angle 0 deg (w_off=0 => beta*_off=0 by symmetry)"
+  },
+  "a=0.333": {
+   "a": 0.3333333333333333,
+   "beta_star": [
+    0.12119321977761041,
+    1.2335811384723908e-21
+   ],
+   "beta_star_mc_se": [
+    7.001365937467482e-06,
+    5.2294259719533665e-21
+   ],
+   "angle_beta_star": 5.831926328148319e-19,
+   "angle_note": "latent angle 0 deg; response-scale angle 0 deg (w_off=0 => beta*_off=0 by symmetry)"
+  }
+ },
+ "benchmark": {
+  "a=0.000": {
+   "median_s": 0.00177,
+   "max_s": 0.00751
+  },
+  "a=0.050": {
+   "median_s": 0.00198,
+   "max_s": 0.00332
+  },
+  "a=0.100": {
+   "median_s": 0.00193,
+   "max_s": 0.00252
+  },
+  "a=0.200": {
+   "median_s": 0.00189,
+   "max_s": 0.00255
+  },
+  "a=0.333": {
+   "median_s": 0.002,
+   "max_s": 0.0026
+  }
+ },
+ "projection_1000_single_process_s": 1.9
+}

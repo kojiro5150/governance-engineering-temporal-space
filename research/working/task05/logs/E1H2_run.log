@@ -1,0 +1,11 @@
+jobs 500; batches 10; done 0; pending 10
+{"session_id": "20261010-111312", "time": "11:13:17", "batch": 0, "completed": 50, "total": 500, "errors_in_batch": 0, "elapsed_s": 5.0, "rate_per_s": 9.97, "eta_s": 45.1}
+{"session_id": "20261010-111312", "time": "11:13:22", "batch": 1, "completed": 100, "total": 500, "errors_in_batch": 0, "elapsed_s": 10.3, "rate_per_s": 9.75, "eta_s": 41.0}
+{"session_id": "20261010-111312", "time": "11:13:27", "batch": 2, "completed": 150, "total": 500, "errors_in_batch": 0, "elapsed_s": 15.7, "rate_per_s": 9.57, "eta_s": 36.6}
+{"session_id": "20261010-111312", "time": "11:13:31", "batch": 3, "completed": 200, "total": 500, "errors_in_batch": 0, "elapsed_s": 19.6, "rate_per_s": 10.22, "eta_s": 29.4}
+{"session_id": "20261010-111312", "time": "11:13:35", "batch": 4, "completed": 250, "total": 500, "errors_in_batch": 0, "elapsed_s": 23.7, "rate_per_s": 10.55, "eta_s": 23.7}
+{"session_id": "20261010-111312", "time": "11:13:39", "batch": 5, "completed": 300, "total": 500, "errors_in_batch": 0, "elapsed_s": 27.7, "rate_per_s": 10.85, "eta_s": 18.4}
+{"session_id": "20261010-111312", "time": "11:13:43", "batch": 6, "completed": 350, "total": 500, "errors_in_batch": 0, "elapsed_s": 31.7, "rate_per_s": 11.04, "eta_s": 13.6}
+{"session_id": "20261010-111312", "time": "11:13:47", "batch": 7, "completed": 400, "total": 500, "errors_in_batch": 0, "elapsed_s": 35.5, "rate_per_s": 11.28, "eta_s": 8.9}
+{"session_id": "20261010-111312", "time": "11:13:51", "batch": 8, "completed": 450, "total": 500, "errors_in_batch": 0, "elapsed_s": 39.4, "rate_per_s": 11.42, "eta_s": 4.4}
+{"session_id": "20261010-111312", "time": "11:13:54", "batch": 9, "completed": 500, "total": 500, "errors_in_batch": 0, "elapsed_s": 42.9, "rate_per_s": 11.65, "eta_s": 0.0}

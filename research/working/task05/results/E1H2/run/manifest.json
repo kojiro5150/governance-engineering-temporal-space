@@ -1,0 +1,20 @@
+{
+ "frozen_spec_sha256": "666c0cb5326206e74bdfc94e221251d72eb945cc4ce1ef9292673cd6fa033745",
+ "code_sha256": {
+  "e1h2/e1h2_common.py": "7cafc4e03c1cd430393bb49f9ae78dead66e6e989ffeef116ce7c0ac645644ac",
+  "e1h2/e1h2_run.py": "7908594c959be4349e84563669c12f162f88f750ff4d6cfe732810ef42994ae2",
+  "e1h2/e1h2_analyse.py": "b90db4837f05b5dbdff8460cdaf7db8ebd61d0d11d7a1b3aafeee7f6578f40d9",
+  "e1h2/e1h2_precheck.py": "a21af6c615d99128b8b46312822a6d74451853debfc14a940f77e192d4fd1e31",
+  "e1h2/build_e1h2_spec.py": "aa318a1daf87ffc219edc3066a103604f6c6949b126f75fe4e3401238d403783",
+  "e1_methods.py": "db99b8ba6fd85e6d7a55609cad8cf9838db32c8fadd795b85a9664723263e1c9",
+  "e1_run.py": "e546ebf612257632000f5af1ff641536b5777523c90a88fd6c3d8c477a54d8ce",
+  "e1_analyse.py": "b33bf0c46107675b94462d1bd50105a078723285364b4c54a964ca573a44d200",
+  "heterogeneity_methods.py": "3cfe209ac8a9d0a435fc74bd008ae07731f0849ef3581e1324a6ad36ba758f7d",
+  "ordinal_model.py": "590db5f37b028e9ae82e8069d611f347d0a3b118b61e4d24685b7dda33ceb7fe",
+  "stimulus.py": "238d882ab07d1f728bbc9454a0abe35af989afd0c3ce113bf04be50ec83bb0e3"
+ },
+ "reps": 500,
+ "seed_namespace": "task05-E1H2-confirm-v1",
+ "batch_size": 50,
+ "created": "2026-10-10 11:13:12 AEDT"
+}

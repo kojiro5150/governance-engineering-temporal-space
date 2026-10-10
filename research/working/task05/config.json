@@ -1,0 +1,106 @@
+{
+ "task": "Task 05 statistical robustness review",
+ "date": "2026-10-10",
+ "machine": "2 CPU cloud container, Python 3.13.16, numpy 2.5.3, scipy 1.18.1",
+ "inherited_from_task04_archive_unchanged": {
+  "stimulus.py": "238d882ab07d1f728bbc9454a0abe35af989afd0c3ce113bf04be50ec83bb0e3",
+  "ordinal_model.py": "590db5f37b028e9ae82e8069d611f347d0a3b118b61e4d24685b7dda33ceb7fe",
+  "simulate_recovery.py": "7068e977f78e52a0a4b1370ec65649290c17b1a16bdb3abdda3fab2b76f77bab",
+  "simulate_recovery_v2.py": "2282bc8733d28cc81966751e1f1d4e661e6afd34bdc6cf65a0c38c1b0cae002b",
+  "burden.py": "d91779e2b928a0fe3444fb01f9702b9699c2b2eae4cdae9b37bcfee399ac79ff"
+ },
+ "task05_code": {
+  "adversarial_checks.py": "b2e01c776608e75d3cc22b4f66add831b0f8ff87a14930c8876a01be7390778e",
+  "analyse_C1.py": "233c78d8f617eaa33cc448c182d34ed7ca64e06567ca512bc210196cf81fe328",
+  "analyse_validationA.py": "abbc7777248e6c1923377786404192c2dde10445696b16fd7870a45cd64996b0",
+  "catch_trials.py": "54f8da74e1e0c072e454fe813dc25d117116b3d96d9edfcfc478252d12151518",
+  "feasibility_B.py": "f64a0e6ab897b7354cd48de54dc4057e9834e03e72fa26f2cc6d010f365f63d1",
+  "heterogeneity_methods.py": "3cfe209ac8a9d0a435fc74bd008ae07731f0849ef3581e1324a6ad36ba758f7d",
+  "individual_identifiability.py": "fcb724c621441c77fea3856ce29e6b8130f848931ad2fed88b5fb51b71facd32",
+  "lapse_catch.py": "5c49d2fcc6d1f83c4db14384aca0cdec54dfb4864acf1665dfb21e9018bbf029",
+  "m4_check.py": "84cefb767a9db8ae415f371e2e9dae6c049520dea3476e6ced9ad442c4fc45d9",
+  "mechanisms_C2.py": "2a194399a69aaf4f4fc7e8a2eccea4b6d3989152348822e8e55cf6d337bb7153",
+  "process_observer.py": "41c4aa18b9c6902b393aedc10a619c0539140a52ba7ea8c89b0dd21b7629d332",
+  "simulate_recovery_v3.py": "b7efd8ce1bbdcc05da1d2975179765b0bd11cefe634e0fc155c41e82ef157f36"
+ },
+ "runs": [
+  {
+   "id": "A",
+   "cmd": "python3 simulate_recovery_v3.py run --run-dir ../results/validationA/J20_core_reps500 --reps 500 --allocations 'J20 (k=2)' --workers 2 --batch-size 50 --no-lapse-refits --scenarios <8 core>",
+   "seed_namespace": "task04-recovery-v1 (unchanged)",
+   "fits": 4000,
+   "wall_s": 259.8
+  },
+  {
+   "id": "A-analysis",
+   "cmd": "python3 analyse_validationA.py ../results/validationA/J20_core_reps500 <task04 stage2 fits.csv> ../results/validationA/validationA_analysis.json"
+  },
+  {
+   "id": "B-timing-probe",
+   "cmd": "inline, see logs/validationB_timing_probe.log",
+   "datasets": 2
+  },
+  {
+   "id": "B-feasibility",
+   "cmd": "python3 feasibility_B.py --reps 20 --reps-b1 10 --boot-datasets 2 --boot-n 100 --out ../results/validationB",
+   "seed_namespace": "task05-B-feasibility-v1",
+   "wall_s": 45.0,
+   "note": "run 1 superseded (B3 truth bug, D1)"
+  },
+  {
+   "id": "B-individual",
+   "cmd": "python3 individual_identifiability.py ../results/validationB/individual_identifiability.json",
+   "seed": 20261010,
+   "wall_s": 2.1
+  },
+  {
+   "id": "C1",
+   "cmd": "python3 lapse_catch.py --reps 100 --workers 2 --out ../results/validationC/lapse_catch.jsonl",
+   "seed_namespace": "task05-C1-v1",
+   "jobs": 800,
+   "fits": 3200,
+   "wall_s": 378.4
+  },
+  {
+   "id": "C1-analysis",
+   "cmd": "python3 analyse_C1.py ../results/validationC/lapse_catch.jsonl ../results/validationC/C1_analysis.json"
+  },
+  {
+   "id": "C2",
+   "cmd": "python3 mechanisms_C2.py --datasets 200 --b0-datasets 100 --target {0.60,0.85} --out ../results/validationC",
+   "seed_namespace": "task05-C2-v1",
+   "wall_s": {
+    "0.60": 81.8,
+    "0.85": 74.2
+   }
+  },
+  {
+   "id": "M4",
+   "cmd": "python3 m4_check.py ../results/validationC",
+   "wall_s": 27.5,
+   "note": "exploratory, added after C2 (D4)"
+  },
+  {
+   "id": "adversarial",
+   "cmd": "python3 adversarial_checks.py ../results/adversarial_checks.json",
+   "seed": 606,
+   "wall_s": 23.6
+  },
+  {
+   "id": "burden",
+   "cmd": "inline using inherited burden.py, see results/burden_with_catch.json"
+  }
+ ],
+ "self_imposed_compute_limit": "any single run estimated > 10 min requires approval; no run exceeded 6.5 min",
+ "shared_workspace_note": "/home/claude/task05 already contained material from two earlier, unreviewed Task 05 attempts (01:29-01:35 and 09:50-09:55). Not used as inputs. Their files are left in place unchanged, except code/heterogeneity_methods.py, which this review overwrote at 10:02 before discovering the collision; the earlier version is not recoverable. Their runner.py and timing_test_b.py import that module and will not reproduce their original behaviour.",
+ "independent_reproduction": "All 4000 Validation A fits identical (w_on, w_off, se_w_on, se_w_off, sd_u, angle_lo, angle_hi) to results/validation_a/merged/merged_core_500.jsonl produced by the 01:29 attempt.",
+ "not_part_of_this_review_left_in_workspace": {
+  "aggregate_A.py": "45d8a0e128a73380dacb42c660f8e40bacf47725c2582f92909135cb192a9a6e",
+  "attention_sim.py": "4d1a527cdca8e3b3e706403f7775ccf564904a70a4983cf404a60a36f5411f6c",
+  "evaluate_a.py": "79bc6bafb9617e3e7a30c09f74266ea319be2a9158af27be673befe23131d832",
+  "run_validation_a.py": "88d7632ac3c75854cdaf53656d7cb9635f7d0d414511536dca3b364ca5af48dd",
+  "runner.py": "b2c3af35debe2d0cdd367c07e29f9835fdcfce3fa2a4eb344a355349cc92878e",
+  "simulate_lapses_c.py": "75206f342b443c1ca232cc864bd809c5ae6e72657010881cab6f242526466ccb",
+  "timing_test_b.py": "67a40816a91e0b540fc312d7ffd295138d1039178fe00c80c7c23f8b07a2a3d1"
+ }
+}

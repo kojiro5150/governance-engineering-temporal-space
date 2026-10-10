@@ -1,0 +1,157 @@
+{
+ "reps_per_grid_point": 200,
+ "grid_onset_weight": [
+  0.0,
+  0.05,
+  0.1,
+  0.2,
+  0.3333333333333333
+ ],
+ "summary": {
+  "a=0.000": {
+   "B2": {
+    "ok": 199,
+    "gate_pass_rate": 0.0352,
+    "median_angle_ci_width_all": 269.7,
+    "median_angle_ci_width_gate_passed": 95.7,
+    "share_width_ge_180": 0.769,
+    "share_width_ge_360": 0.0,
+    "circular_vs_linear_disagree_on_0": 0,
+    "circular_vs_linear_disagree_on_45": 4,
+    "false_claim_rate": 0.0352,
+    "claim_midpoint_excluded_given_gate": 0.0302
+   },
+   "B3": {
+    "ok": 200,
+    "gate_pass_rate": 0.03,
+    "median_angle_ci_width_all": 253.1,
+    "median_angle_ci_width_gate_passed": 70.7,
+    "share_width_ge_180": 0.685,
+    "share_width_ge_360": 0.0,
+    "circular_vs_linear_disagree_on_0": 0,
+    "circular_vs_linear_disagree_on_45": 6,
+    "false_claim_rate": 0.03,
+    "claim_midpoint_excluded_given_gate": 0.025
+   }
+  },
+  "a=0.050": {
+   "B2": {
+    "ok": 200,
+    "gate_pass_rate": 0.075,
+    "median_angle_ci_width_all": 237.8,
+    "median_angle_ci_width_gate_passed": 107.2,
+    "share_width_ge_180": 0.7,
+    "share_width_ge_360": 0.0,
+    "circular_vs_linear_disagree_on_0": 0,
+    "circular_vs_linear_disagree_on_45": 3,
+    "false_claim_rate": 0.025,
+    "claim_midpoint_excluded_given_gate": 0.055
+   },
+   "B3": {
+    "ok": 200,
+    "gate_pass_rate": 0.05,
+    "median_angle_ci_width_all": 214.7,
+    "median_angle_ci_width_gate_passed": 83.0,
+    "share_width_ge_180": 0.605,
+    "share_width_ge_360": 0.0,
+    "circular_vs_linear_disagree_on_0": 0,
+    "circular_vs_linear_disagree_on_45": 1,
+    "false_claim_rate": 0.025,
+    "claim_midpoint_excluded_given_gate": 0.04
+   }
+  },
+  "a=0.100": {
+   "B2": {
+    "ok": 200,
+    "gate_pass_rate": 0.33,
+    "median_angle_ci_width_all": 142.8,
+    "median_angle_ci_width_gate_passed": 92.3,
+    "share_width_ge_180": 0.335,
+    "share_width_ge_360": 0.0,
+    "circular_vs_linear_disagree_on_0": 0,
+    "circular_vs_linear_disagree_on_45": 3,
+    "false_claim_rate": 0.045,
+    "claim_midpoint_excluded_given_gate": 0.19
+   },
+   "B3": {
+    "ok": 200,
+    "gate_pass_rate": 0.28,
+    "median_angle_ci_width_all": 117.0,
+    "median_angle_ci_width_gate_passed": 71.5,
+    "share_width_ge_180": 0.27,
+    "share_width_ge_360": 0.0,
+    "circular_vs_linear_disagree_on_0": 0,
+    "circular_vs_linear_disagree_on_45": 1,
+    "false_claim_rate": 0.05,
+    "claim_midpoint_excluded_given_gate": 0.195
+   }
+  },
+  "a=0.200": {
+   "B2": {
+    "ok": 200,
+    "gate_pass_rate": 0.845,
+    "median_angle_ci_width_all": 66.1,
+    "median_angle_ci_width_gate_passed": 62.4,
+    "share_width_ge_180": 0.02,
+    "share_width_ge_360": 0.0,
+    "circular_vs_linear_disagree_on_0": 0,
+    "circular_vs_linear_disagree_on_45": 0,
+    "false_claim_rate": 0.045,
+    "claim_midpoint_excluded_given_gate": 0.665
+   },
+   "B3": {
+    "ok": 200,
+    "gate_pass_rate": 0.83,
+    "median_angle_ci_width_all": 53.5,
+    "median_angle_ci_width_gate_passed": 51.3,
+    "share_width_ge_180": 0.01,
+    "share_width_ge_360": 0.0,
+    "circular_vs_linear_disagree_on_0": 0,
+    "circular_vs_linear_disagree_on_45": 0,
+    "false_claim_rate": 0.09,
+    "claim_midpoint_excluded_given_gate": 0.75
+   }
+  },
+  "a=0.333": {
+   "B2": {
+    "ok": 200,
+    "gate_pass_rate": 1.0,
+    "median_angle_ci_width_all": 42.3,
+    "median_angle_ci_width_gate_passed": 42.3,
+    "share_width_ge_180": 0.0,
+    "share_width_ge_360": 0.0,
+    "circular_vs_linear_disagree_on_0": 0,
+    "circular_vs_linear_disagree_on_45": 0,
+    "false_claim_rate": 0.05,
+    "claim_midpoint_excluded_given_gate": 0.975
+   },
+   "B3": {
+    "ok": 200,
+    "gate_pass_rate": 0.995,
+    "median_angle_ci_width_all": 34.3,
+    "median_angle_ci_width_gate_passed": 34.3,
+    "share_width_ge_180": 0.0,
+    "share_width_ge_360": 0.0,
+    "circular_vs_linear_disagree_on_0": 0,
+    "circular_vs_linear_disagree_on_45": 0,
+    "false_claim_rate": 0.075,
+    "claim_midpoint_excluded_given_gate": 0.99
+   }
+  }
+ },
+ "archived_angle_statistics_recheck": {
+  "Task05 Validation A (500 reps)": {
+   "stable_fits_checked": 3992,
+   "disagreements": {}
+  },
+  "Task04 Stage 2 (100 reps)": {
+   "stable_fits_checked": 1568,
+   "disagreements": {
+    "S10 guessing | False | -45": 2,
+    "S10 guessing | True | -45": 1,
+    "S10 guessing | True | +45": 3,
+    "S10 guessing | False | +45": 2
+   }
+  }
+ }
+}

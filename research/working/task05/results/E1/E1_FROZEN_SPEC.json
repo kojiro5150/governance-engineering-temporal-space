@@ -1,0 +1,345 @@
+{
+ "title": "Task 05 E1 heterogeneity validation: FROZEN specification",
+ "frozen_at": "2026-10-10 10:57:23 AEDT",
+ "frozen": true,
+ "reps": 500,
+ "n_participants": 12,
+ "order_trials": 20,
+ "seed_namespace": "task05-E1-v1",
+ "seed_rule": "int(sha256(f'{ns}|{scenario}|{rep}')[:16], 16) -> numpy default_rng",
+ "scenarios": {
+  "S01 onset moderate": {
+   "groups": [
+    [
+     12,
+     0.7,
+     0.0
+    ]
+   ],
+   "lapse": 0.02
+  },
+  "S03 onset high": {
+   "groups": [
+    [
+     12,
+     1.07,
+     0.0
+    ]
+   ],
+   "lapse": 0.02
+  },
+  "S04 midpoint moderate": {
+   "groups": [
+    [
+     12,
+     0.35,
+     0.35
+    ]
+   ],
+   "lapse": 0.02
+  },
+  "S13 heterogeneous weights+thresholds": {
+   "groups": [
+    [
+     12,
+     0.7,
+     0.0
+    ]
+   ],
+   "lapse": 0.02,
+   "w_het_sd": 0.3,
+   "tau_het_sd": 0.3
+  },
+  "H2 mixture 6 onset + 6 midpoint": {
+   "groups": [
+    [
+     6,
+     0.7,
+     0.0
+    ],
+    [
+     6,
+     0.35,
+     0.35
+    ]
+   ],
+   "lapse": 0.02
+  },
+  "S12 onset with lapses 0.15": {
+   "groups": [
+    [
+     12,
+     0.7,
+     0.0
+    ]
+   ],
+   "lapse": 0.15
+  },
+  "S10 guessing": {
+   "groups": [
+    [
+     12,
+     0.0,
+     0.0
+    ]
+   ],
+   "lapse": 0.02
+  }
+ },
+ "methods": {
+  "B2": "B0 random-intercept ternary cumulative logit (marginal ML) + CR1 cluster-robust sandwich; weight CIs est +/- t(11) SE; gate: Wald T2/2 ~ F(2,11), p<0.05; angle CI: 2,000 multivariate t(11) draws, unwrapped percentile.",
+  "B3-boot": "Per-participant LS slopes of signed score; group mean; weight CIs mean +/- t(11) SE; gate: one-sample Hotelling F(2,10), p<0.05; angle CI: 2,000 participant-bootstrap resamples, unwrapped percentile.",
+  "B3-t": "As B3-boot, but angle CI from 2,000 multivariate t(11) draws using the participant sample covariance / n (AMENDMENT AM3)."
+ },
+ "targets": {
+  "S01 onset moderate": {
+   "mu_w": [
+    0.7,
+    0.0
+   ],
+   "angle_mu_w": 0.0,
+   "theta_star": [
+    0.67578,
+    -0.00034
+   ],
+   "theta_star_mc_se": [
+    0.00101,
+    0.00054
+   ],
+   "angle_theta_star": -0.029,
+   "beta_star": [
+    0.225867,
+    0.0
+   ],
+   "beta_star_mc_se": [
+    1.1e-05,
+    0.0
+   ],
+   "angle_beta_star": 0.0
+  },
+  "S03 onset high": {
+   "mu_w": [
+    1.07,
+    0.0
+   ],
+   "angle_mu_w": 0.0,
+   "theta_star": [
+    1.0161,
+    0.00112
+   ],
+   "theta_star_mc_se": [
+    0.00054,
+    0.0003
+   ],
+   "angle_theta_star": 0.063,
+   "beta_star": [
+    0.286109,
+    -0.0
+   ],
+   "beta_star_mc_se": [
+    7.8e-06,
+    0.0
+   ],
+   "angle_beta_star": -0.0
+  },
+  "S04 midpoint moderate": {
+   "mu_w": [
+    0.35,
+    0.35
+   ],
+   "angle_mu_w": 45.0,
+   "theta_star": [
+    0.34101,
+    0.33946
+   ],
+   "theta_star_mc_se": [
+    0.00079,
+    0.00117
+   ],
+   "angle_theta_star": 44.87,
+   "beta_star": [
+    0.117562,
+    0.117562
+   ],
+   "beta_star_mc_se": [
+    6.1e-06,
+    6.1e-06
+   ],
+   "angle_beta_star": 45.0
+  },
+  "S13 heterogeneous weights+thresholds": {
+   "mu_w": [
+    0.73222,
+    0.0
+   ],
+   "angle_mu_w": 0.0,
+   "theta_star": [
+    0.66255,
+    0.00069
+   ],
+   "theta_star_mc_se": [
+    0.00323,
+    0.00083
+   ],
+   "angle_theta_star": 0.06,
+   "beta_star": [
+    0.2212,
+    -0.0
+   ],
+   "beta_star_mc_se": [
+    7.33e-05,
+    0.0
+   ],
+   "angle_beta_star": -0.0
+  },
+  "H2 mixture 6 onset + 6 midpoint": {
+   "mu_w": [
+    0.525,
+    0.175
+   ],
+   "angle_mu_w": 18.435,
+   "theta_star": [
+    0.47845,
+    0.1723
+   ],
+   "theta_star_mc_se": [
+    0.00123,
+    0.00093
+   ],
+   "angle_theta_star": 19.805,
+   "beta_star": [
+    0.171706,
+    0.058777
+   ],
+   "beta_star_mc_se": [
+    8.9e-06,
+    4.3e-06
+   ],
+   "angle_beta_star": 18.897
+  },
+  "S12 onset with lapses 0.15": {
+   "mu_w": [
+    0.7,
+    0.0
+   ],
+   "angle_mu_w": 0.0,
+   "theta_star": [
+    0.54368,
+    0.00021
+   ],
+   "theta_star_mc_se": [
+    0.00166,
+    0.00074
+   ],
+   "angle_theta_star": 0.022,
+   "beta_star": [
+    0.195901,
+    0.0
+   ],
+   "beta_star_mc_se": [
+    9.6e-06,
+    0.0
+   ],
+   "angle_beta_star": 0.0
+  },
+  "S10 guessing": {
+   "mu_w": [
+    0.0,
+    0.0
+   ],
+   "angle_mu_w": null,
+   "theta_star": [
+    0.00141,
+    -0.00052
+   ],
+   "theta_star_mc_se": [
+    0.00095,
+    0.00143
+   ],
+   "angle_theta_star": null,
+   "beta_star": [
+    0.0,
+    0.0
+   ],
+   "beta_star_mc_se": [
+    0.0,
+    0.0
+   ],
+   "angle_beta_star": null
+  }
+ },
+ "criteria": {
+  "E1a_band": [
+   0.9,
+   0.98
+  ],
+  "E1a_definition": "Coverage of each method's OWN target by its 95% weight CIs (B2: theta*; B3: beta*), w_on and w_off, every scenario.",
+  "E1a2_band": [
+   0.9,
+   0.98
+  ],
+  "E1a2_definition": "AMENDMENT AM5: coverage of the method's own target ANGLE by its angle interval (circular containment), every scenario with a defined angle (not S10).",
+  "E1b_onset_scenario": "S01 onset moderate",
+  "E1b_midpoint_scenario": "S04 midpoint moderate",
+  "E1b_min": 0.8,
+  "E1b_definition": "P(gate passes AND angle interval excludes 45 deg | S01) >= 0.80 and P(gate passes AND excludes 0 deg | S04) >= 0.80 (circular containment; AMENDMENT AM4).",
+  "E1c_guessing_scenario": "S10 guessing",
+  "E1c_max": 0.07,
+  "E1c_definition": "P(gate passes | S10 guessing) <= 0.07.",
+  "E1d_max": 0.05,
+  "E1d_definition": "Estimation failure rate <= 0.05 in every scenario.",
+  "E1e_definition": "AMENDMENT AM5: interpretation. B2: |angle(theta*) - angle(mu_w)| <= 5 deg in every scenario with defined angle. B3: |angle(beta*) - angle(mu_w)| <= 5 deg in every scenario AND max latent-to-response angle distortion over the frozen mapping grid <= 5 deg.",
+  "magnitude": "Bias of B2 estimates relative to mu_w is REPORTED (estimand-specific) but not a pass/fail criterion; magnitude is the secondary estimand.",
+  "mc_rule": "Each criterion judged on its point estimate; Wilson 95% MC interval classified clearly inside / indeterminate / clearly outside."
+ },
+ "E1e_results": {
+  "B2": {
+   "max_abs_angle_deviation_deg": 1.37,
+   "per_scenario": {
+    "S01 onset moderate": 0.029,
+    "S03 onset high": 0.063,
+    "S04 midpoint moderate": 0.13,
+    "S13 heterogeneous weights+thresholds": 0.06,
+    "H2 mixture 6 onset + 6 midpoint": 1.37,
+    "S12 onset with lapses 0.15": 0.022
+   },
+   "met": true
+  },
+  "B3": {
+   "max_abs_angle_deviation_deg": 0.462,
+   "per_scenario": {
+    "S01 onset moderate": 0.0,
+    "S03 onset high": 0.0,
+    "S04 midpoint moderate": 0.0,
+    "S13 heterogeneous weights+thresholds": 0.0,
+    "H2 mixture 6 onset + 6 midpoint": 0.462,
+    "S12 onset with lapses 0.15": 0.0
+   },
+   "max_mapping_distortion_deg": 2.84,
+   "met": true
+  }
+ },
+ "decision_rule": "A method variant is ACCEPTABLE only if every criterion E1a, E1a2, E1b, E1c, E1d is met at its point estimate, none is 'clearly outside' by MC interval, and E1e is met. If more than one variant is acceptable, NO automatic selection: report trade-offs (estimand scale, magnitude bias vs mu_w, interval width, discrimination) for reviewer decision. If exactly one is acceptable, recommend it subject to review. If none, REVISE the analysis plan. Latent-scale interpretation is not a tie-breaker.",
+ "amendments_vs_task05_companion_section2": [
+  "AM1 B2 target redefined as the pseudo-true working-model weights theta* (KL projection), estimated from 4 fits of 6,000 simulated participants per scenario; the companion's 'mean of individual latent weights in S13 and H2' target is replaced. Bias relative to mu_w reported separately.",
+  "AM2 B3 target beta* kept on the response scale; no numeric comparison of B2 and B3 coefficients or angles.",
+  "AM3 B3-t angle interval added after the near-zero pre-check showed the specified bootstrap interval falsely excluding the true onset angle in 7.5-9% of datasets at moderate-low sensitivity. The specified B3 bootstrap variant is retained and evaluated unchanged.",
+  "AM4 Circular containment for all angle checks; discrimination counted only when the sensitivity gate passes; gate tests defined (B2 robust Wald F(2,11); B3 Hotelling F(2,10)).",
+  "AM5 Criteria added: E1a2 (angle coverage of own target), E1e (interpretation). Magnitude bias reported, not gating.",
+  "AM6 Decision rule changed: no default preference for B2 when more than one variant is acceptable (reviewer instruction).",
+  "AM7 Archived Task 04 Stage 2 S10 angle statistics were computed with linear containment (8 disagreements with circular); not used in any criterion; noted only."
+ ],
+ "precheck_evidence_sha256": {
+  "P1_P2_targets.json": "ab1231f29bdcfb76ab2b010ea1479f9a3242b737a4db4269f527e9bc205cf00e",
+  "P3_benchmark.json": "3c94ed216d8a379e8b8eed64a3a82a8c59f419d42d4b7fc07fe2bd2131f84731",
+  "P4_near_zero.json": "9368ec15053c6354d7ff390d68b94a999497478c92f583121ba61923ea73f927"
+ },
+ "code_sha256": {
+  "e1_methods.py": "db99b8ba6fd85e6d7a55609cad8cf9838db32c8fadd795b85a9664723263e1c9",
+  "e1_run.py": "e546ebf612257632000f5af1ff641536b5777523c90a88fd6c3d8c477a54d8ce",
+  "e1_analyse.py": "b33bf0c46107675b94462d1bd50105a078723285364b4c54a964ca573a44d200",
+  "heterogeneity_methods.py": "3cfe209ac8a9d0a435fc74bd008ae07731f0849ef3581e1324a6ad36ba758f7d",
+  "ordinal_model.py": "590db5f37b028e9ae82e8069d611f347d0a3b118b61e4d24685b7dda33ceb7fe",
+  "stimulus.py": "238d882ab07d1f728bbc9454a0abe35af989afd0c3ce113bf04be50ec83bb0e3"
+ }
+}

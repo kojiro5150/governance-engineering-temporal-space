@@ -1,0 +1,204 @@
+{
+ "outcome": "CONFIRMED",
+ "indeterminate": 10,
+ "criteria": {
+  "N1 a=0.000 w_on": [
+   0.955,
+   [
+    0.9167,
+    0.9761
+   ],
+   "met",
+   "clearly inside"
+  ],
+  "N1 a=0.000 w_off": [
+   0.98,
+   [
+    0.9497,
+    0.9922
+   ],
+   "met",
+   "indeterminate"
+  ],
+  "N4 a=0 gate false positive": [
+   0.025,
+   [
+    0.0107,
+    0.0572
+   ],
+   "met",
+   "clearly inside"
+  ],
+  "N5 a=0.000 failures": [
+   0.0,
+   [
+    0.0,
+    0.0188
+   ],
+   "met",
+   "clearly inside"
+  ],
+  "N1 a=0.050 w_on": [
+   0.935,
+   [
+    0.892,
+    0.9616
+   ],
+   "met",
+   "indeterminate"
+  ],
+  "N1 a=0.050 w_off": [
+   0.965,
+   [
+    0.9295,
+    0.9829
+   ],
+   "met",
+   "indeterminate"
+  ],
+  "N3 a=0.050 false strategy claim": [
+   0.04,
+   [
+    0.0204,
+    0.0769
+   ],
+   "met",
+   "indeterminate"
+  ],
+  "N5 a=0.050 failures": [
+   0.0,
+   [
+    0.0,
+    0.0188
+   ],
+   "met",
+   "clearly inside"
+  ],
+  "N1 a=0.100 w_on": [
+   0.945,
+   [
+    0.9042,
+    0.969
+   ],
+   "met",
+   "clearly inside"
+  ],
+  "N1 a=0.100 w_off": [
+   0.975,
+   [
+    0.9428,
+    0.9893
+   ],
+   "met",
+   "indeterminate"
+  ],
+  "N3 a=0.100 false strategy claim": [
+   0.025,
+   [
+    0.0107,
+    0.0572
+   ],
+   "met",
+   "clearly inside"
+  ],
+  "N5 a=0.100 failures": [
+   0.0,
+   [
+    0.0,
+    0.0188
+   ],
+   "met",
+   "clearly inside"
+  ],
+  "N1 a=0.200 w_on": [
+   0.925,
+   [
+    0.88,
+    0.954
+   ],
+   "met",
+   "indeterminate"
+  ],
+  "N1 a=0.200 w_off": [
+   0.955,
+   [
+    0.9167,
+    0.9761
+   ],
+   "met",
+   "clearly inside"
+  ],
+  "N2 a=0.200 angle": [
+   0.95,
+   [
+    0.9104,
+    0.9726
+   ],
+   "met",
+   "clearly inside"
+  ],
+  "N3 a=0.200 false strategy claim": [
+   0.05,
+   [
+    0.0274,
+    0.0896
+   ],
+   "met",
+   "indeterminate"
+  ],
+  "N5 a=0.200 failures": [
+   0.0,
+   [
+    0.0,
+    0.0188
+   ],
+   "met",
+   "clearly inside"
+  ],
+  "N1 a=0.333 w_on": [
+   0.965,
+   [
+    0.9295,
+    0.9829
+   ],
+   "met",
+   "indeterminate"
+  ],
+  "N1 a=0.333 w_off": [
+   0.95,
+   [
+    0.9104,
+    0.9726
+   ],
+   "met",
+   "clearly inside"
+  ],
+  "N2 a=0.333 angle": [
+   0.94,
+   [
+    0.8981,
+    0.9653
+   ],
+   "met",
+   "indeterminate"
+  ],
+  "N3 a=0.333 false strategy claim": [
+   0.06,
+   [
+    0.0347,
+    0.1019
+   ],
+   "met",
+   "indeterminate"
+  ],
+  "N5 a=0.333 failures": [
+   0.0,
+   [
+    0.0,
+    0.0188
+   ],
+   "met",
+   "clearly inside"
+  ]
+ }
+}

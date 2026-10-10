@@ -1,0 +1,171 @@
+{
+ "target_ratio": 0.6,
+ "calibration_reached": {
+  "M1": 0.997,
+  "M2a": 1.012,
+  "M2b": 1.147,
+  "M3": 1.0
+ },
+ "seconds_total": 81.8,
+ "seconds_calibration": 23.6,
+ "datasets_per_mechanism": 200,
+ "b0_datasets_per_mechanism": 100,
+ "by_mechanism": {
+  "M0": {
+   "b3_on_mean": 0.285,
+   "b3_off_mean": 0.0214,
+   "b3_angle_median": 4.33,
+   "b3_angle_ci_excludes_0": 0.37,
+   "b3_angle_ci_excludes_45": 1.0,
+   "b0_angle_median": 6.17,
+   "b0_angle_ci_excludes_0": 0.34,
+   "b0_angle_ci_excludes_45": 1.0,
+   "b0_w_on_mean": 1.0193,
+   "b0_w_off_mean": 0.1107,
+   "catch_error_rate_mean": 0.0127,
+   "catch_error_rate_p5_p95": [
+    0.0,
+    0.0417
+   ],
+   "participants_with_any_catch_error": 0.0504,
+   "S_rate_simultaneous_mean": 0.4956,
+   "S_rate_all_main_mean": 0.268
+  },
+  "M1": {
+   "b3_on_mean": 0.1705,
+   "b3_off_mean": 0.0114,
+   "b3_angle_median": 4.28,
+   "b3_angle_ci_excludes_0": 0.15,
+   "b3_angle_ci_excludes_45": 1.0,
+   "b0_angle_median": 3.51,
+   "b0_angle_ci_excludes_0": 0.08,
+   "b0_angle_ci_excludes_45": 1.0,
+   "b0_w_on_mean": 0.4488,
+   "b0_w_off_mean": 0.0311,
+   "catch_error_rate_mean": 0.2751,
+   "catch_error_rate_p5_p95": [
+    0.1875,
+    0.375
+   ],
+   "participants_with_any_catch_error": 0.7292,
+   "S_rate_simultaneous_mean": 0.432,
+   "S_rate_all_main_mean": 0.2957
+  },
+  "M2a": {
+   "b3_on_mean": 0.1693,
+   "b3_off_mean": 0.0131,
+   "b3_angle_median": 3.97,
+   "b3_angle_ci_excludes_0": 0.17,
+   "b3_angle_ci_excludes_45": 1.0,
+   "b0_angle_median": 4.59,
+   "b0_angle_ci_excludes_0": 0.16,
+   "b0_angle_ci_excludes_45": 1.0,
+   "b0_w_on_mean": 0.6757,
+   "b0_w_off_mean": 0.0576,
+   "catch_error_rate_mean": 0.1849,
+   "catch_error_rate_p5_p95": [
+    0.1031,
+    0.2917
+   ],
+   "participants_with_any_catch_error": 0.5708,
+   "S_rate_simultaneous_mean": 0.7098,
+   "S_rate_all_main_mean": 0.568
+  },
+  "M2b": {
+   "b3_on_mean": 0.1939,
+   "b3_off_mean": 0.0996,
+   "b3_angle_median": 26.85,
+   "b3_angle_ci_excludes_0": 1.0,
+   "b3_angle_ci_excludes_45": 0.845,
+   "b0_angle_median": 28.42,
+   "b0_angle_ci_excludes_0": 1.0,
+   "b0_angle_ci_excludes_45": 0.828,
+   "b0_w_on_mean": 0.5248,
+   "b0_w_off_mean": 0.2902,
+   "catch_error_rate_mean": 0.1111,
+   "catch_error_rate_p5_p95": [
+    0.0417,
+    0.1875
+   ],
+   "participants_with_any_catch_error": 0.3792,
+   "S_rate_simultaneous_mean": 0.279,
+   "S_rate_all_main_mean": 0.1878
+  },
+  "M3": {
+   "b3_on_mean": 0.1705,
+   "b3_off_mean": 0.0096,
+   "b3_angle_median": 2.74,
+   "b3_angle_ci_excludes_0": 0.08,
+   "b3_angle_ci_excludes_45": 1.0,
+   "b0_angle_median": 3.61,
+   "b0_angle_ci_excludes_0": 0.061,
+   "b0_angle_ci_excludes_45": 1.0,
+   "b0_w_on_mean": 0.4227,
+   "b0_w_off_mean": 0.0257,
+   "catch_error_rate_mean": 0.064,
+   "catch_error_rate_p5_p95": [
+    0.0208,
+    0.125
+   ],
+   "participants_with_any_catch_error": 0.2329,
+   "S_rate_simultaneous_mean": 0.2992,
+   "S_rate_all_main_mean": 0.1914
+  }
+ },
+ "auc_pairs": {
+  "M1 vs M2a": {
+   "catch_error_rate": 0.135,
+   "S_rate_simultaneous": 0.998,
+   "S_rate_all_main": 1.0,
+   "b3_angle": 0.512,
+   "b3_on": 0.476,
+   "b0_angle": 0.539,
+   "catch_errors_single_participant": 0.387
+  },
+  "M1 vs M2b": {
+   "catch_error_rate": 0.011,
+   "S_rate_simultaneous": 0.064,
+   "S_rate_all_main": 0.004,
+   "b3_angle": 0.998,
+   "b3_on": 0.798,
+   "b0_angle": 1.0,
+   "catch_errors_single_participant": 0.288
+  },
+  "M1 vs M3": {
+   "catch_error_rate": 0.0,
+   "S_rate_simultaneous": 0.082,
+   "S_rate_all_main": 0.005,
+   "b3_angle": 0.468,
+   "b3_on": 0.501,
+   "b0_angle": 0.487,
+   "catch_errors_single_participant": 0.224
+  },
+  "M2a vs M2b": {
+   "catch_error_rate": 0.152,
+   "S_rate_simultaneous": 0.0,
+   "S_rate_all_main": 0.0,
+   "b3_angle": 0.998,
+   "b3_on": 0.865,
+   "b0_angle": 0.999,
+   "catch_errors_single_participant": 0.393
+  },
+  "M2a vs M3": {
+   "catch_error_rate": 0.032,
+   "S_rate_simultaneous": 0.0,
+   "S_rate_all_main": 0.0,
+   "b3_angle": 0.445,
+   "b3_on": 0.528,
+   "b0_angle": 0.452,
+   "catch_errors_single_participant": 0.32
+  },
+  "M2b vs M3": {
+   "catch_error_rate": 0.195,
+   "S_rate_simultaneous": 0.582,
+   "S_rate_all_main": 0.535,
+   "b3_angle": 0.004,
+   "b3_on": 0.2,
+   "b0_angle": 0.001,
+   "catch_errors_single_participant": 0.424
+  }
+ }
+}

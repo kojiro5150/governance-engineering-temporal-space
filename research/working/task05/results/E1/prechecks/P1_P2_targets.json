@@ -1,0 +1,526 @@
+{
+ "seconds_theta_star": 183.0,
+ "targets": {
+  "S01 onset moderate": {
+   "mu_w": [
+    0.7,
+    0.0
+   ],
+   "angle_mu_w": 0.0,
+   "theta_star": [
+    0.67578,
+    -0.00034
+   ],
+   "theta_star_mc_se": [
+    0.00101,
+    0.00054
+   ],
+   "theta_star_replicates": [
+    [
+     0.67724,
+     -0.00108
+    ],
+    [
+     0.67778,
+     -0.00121
+    ],
+    [
+     0.67432,
+     -0.0002
+    ],
+    [
+     0.6738,
+     0.00115
+    ]
+   ],
+   "theta_star_all_fits_stable": true,
+   "angle_theta_star": -0.029,
+   "theta_star_minus_mu_w_relative_to_norm_mu": [
+    -0.0346,
+    -0.0005
+   ],
+   "beta_star": [
+    0.225867,
+    0.0
+   ],
+   "beta_star_mc_se": [
+    1.1e-05,
+    0.0
+   ],
+   "angle_beta_star": 0.0
+  },
+  "S03 onset high": {
+   "mu_w": [
+    1.07,
+    0.0
+   ],
+   "angle_mu_w": 0.0,
+   "theta_star": [
+    1.0161,
+    0.00112
+   ],
+   "theta_star_mc_se": [
+    0.00054,
+    0.0003
+   ],
+   "theta_star_replicates": [
+    [
+     1.01598,
+     0.00042
+    ],
+    [
+     1.0156,
+     0.00083
+    ],
+    [
+     1.01517,
+     0.00176
+    ],
+    [
+     1.01763,
+     0.00147
+    ]
+   ],
+   "theta_star_all_fits_stable": true,
+   "angle_theta_star": 0.063,
+   "theta_star_minus_mu_w_relative_to_norm_mu": [
+    -0.0504,
+    0.001
+   ],
+   "beta_star": [
+    0.286109,
+    -0.0
+   ],
+   "beta_star_mc_se": [
+    7.8e-06,
+    0.0
+   ],
+   "angle_beta_star": -0.0
+  },
+  "S04 midpoint moderate": {
+   "mu_w": [
+    0.35,
+    0.35
+   ],
+   "angle_mu_w": 45.0,
+   "theta_star": [
+    0.34101,
+    0.33946
+   ],
+   "theta_star_mc_se": [
+    0.00079,
+    0.00117
+   ],
+   "theta_star_replicates": [
+    [
+     0.33922,
+     0.33955
+    ],
+    [
+     0.34051,
+     0.33748
+    ],
+    [
+     0.34131,
+     0.34273
+    ],
+    [
+     0.34299,
+     0.33808
+    ]
+   ],
+   "theta_star_all_fits_stable": true,
+   "angle_theta_star": 44.87,
+   "theta_star_minus_mu_w_relative_to_norm_mu": [
+    -0.0182,
+    -0.0213
+   ],
+   "beta_star": [
+    0.117562,
+    0.117562
+   ],
+   "beta_star_mc_se": [
+    6.1e-06,
+    6.1e-06
+   ],
+   "angle_beta_star": 45.0
+  },
+  "S13 heterogeneous weights+thresholds": {
+   "mu_w": [
+    0.73222,
+    0.0
+   ],
+   "angle_mu_w": 0.0,
+   "theta_star": [
+    0.66255,
+    0.00069
+   ],
+   "theta_star_mc_se": [
+    0.00323,
+    0.00083
+   ],
+   "theta_star_replicates": [
+    [
+     0.65618,
+     -0.0001
+    ],
+    [
+     0.65797,
+     -0.00123
+    ],
+    [
+     0.66669,
+     0.00174
+    ],
+    [
+     0.66938,
+     0.00236
+    ]
+   ],
+   "theta_star_all_fits_stable": true,
+   "angle_theta_star": 0.06,
+   "theta_star_minus_mu_w_relative_to_norm_mu": [
+    -0.0951,
+    0.0009
+   ],
+   "beta_star": [
+    0.2212,
+    -0.0
+   ],
+   "beta_star_mc_se": [
+    7.33e-05,
+    0.0
+   ],
+   "angle_beta_star": -0.0
+  },
+  "H2 mixture 6 onset + 6 midpoint": {
+   "mu_w": [
+    0.525,
+    0.175
+   ],
+   "angle_mu_w": 18.435,
+   "theta_star": [
+    0.47845,
+    0.1723
+   ],
+   "theta_star_mc_se": [
+    0.00123,
+    0.00093
+   ],
+   "theta_star_replicates": [
+    [
+     0.48093,
+     0.17032
+    ],
+    [
+     0.47839,
+     0.17454
+    ],
+    [
+     0.47938,
+     0.17304
+    ],
+    [
+     0.4751,
+     0.17131
+    ]
+   ],
+   "theta_star_all_fits_stable": true,
+   "angle_theta_star": 19.805,
+   "theta_star_minus_mu_w_relative_to_norm_mu": [
+    -0.0841,
+    -0.0049
+   ],
+   "beta_star": [
+    0.171706,
+    0.058777
+   ],
+   "beta_star_mc_se": [
+    8.9e-06,
+    4.3e-06
+   ],
+   "angle_beta_star": 18.897
+  },
+  "S12 onset with lapses 0.15": {
+   "mu_w": [
+    0.7,
+    0.0
+   ],
+   "angle_mu_w": 0.0,
+   "theta_star": [
+    0.54368,
+    0.00021
+   ],
+   "theta_star_mc_se": [
+    0.00166,
+    0.00074
+   ],
+   "theta_star_replicates": [
+    [
+     0.5388,
+     0.00081
+    ],
+    [
+     0.5456,
+     0.00128
+    ],
+    [
+     0.54591,
+     -0.00198
+    ],
+    [
+     0.54442,
+     0.00072
+    ]
+   ],
+   "theta_star_all_fits_stable": true,
+   "angle_theta_star": 0.022,
+   "theta_star_minus_mu_w_relative_to_norm_mu": [
+    -0.2233,
+    0.0003
+   ],
+   "beta_star": [
+    0.195901,
+    0.0
+   ],
+   "beta_star_mc_se": [
+    9.6e-06,
+    0.0
+   ],
+   "angle_beta_star": 0.0
+  },
+  "S10 guessing": {
+   "mu_w": [
+    0.0,
+    0.0
+   ],
+   "angle_mu_w": null,
+   "theta_star": [
+    0.00141,
+    -0.00052
+   ],
+   "theta_star_mc_se": [
+    0.00095,
+    0.00143
+   ],
+   "theta_star_replicates": [
+    [
+     0.00415,
+     0.0036
+    ],
+    [
+     0.00063,
+     -0.0008
+    ],
+    [
+     0.00102,
+     -0.00216
+    ],
+    [
+     -0.00016,
+     -0.00273
+    ]
+   ],
+   "theta_star_all_fits_stable": true,
+   "angle_theta_star": null,
+   "theta_star_minus_mu_w_relative_to_norm_mu": null,
+   "beta_star": [
+    0.0,
+    0.0
+   ],
+   "beta_star_mc_se": [
+    0.0,
+    0.0
+   ],
+   "angle_beta_star": null
+  }
+ },
+ "latent_to_response_angle": {
+  "a=0.35 (|w_on|+|w_off|)": [
+   {
+    "latent_angle": 0,
+    "response_angle": 0.0
+   },
+   {
+    "latent_angle": 5,
+    "response_angle": 4.84
+   },
+   {
+    "latent_angle": 10,
+    "response_angle": 9.74
+   },
+   {
+    "latent_angle": 14.04,
+    "response_angle": 13.73
+   },
+   {
+    "latent_angle": 20,
+    "response_angle": 19.67
+   },
+   {
+    "latent_angle": 25,
+    "response_angle": 24.7
+   },
+   {
+    "latent_angle": 30,
+    "response_angle": 29.75
+   },
+   {
+    "latent_angle": 35,
+    "response_angle": 34.82
+   },
+   {
+    "latent_angle": 40,
+    "response_angle": 39.91
+   },
+   {
+    "latent_angle": 45,
+    "response_angle": 45.0
+   },
+   {
+    "latent_angle": 60,
+    "response_angle": 60.25
+   },
+   {
+    "latent_angle": 75,
+    "response_angle": 75.32
+   },
+   {
+    "latent_angle": 90,
+    "response_angle": 90.0
+   },
+   {
+    "latent_angle": -20,
+    "response_angle": -19.67
+   },
+   {
+    "latent_angle": -45,
+    "response_angle": -45.0
+   }
+  ],
+  "a=0.7 (|w_on|+|w_off|)": [
+   {
+    "latent_angle": 0,
+    "response_angle": 0.0
+   },
+   {
+    "latent_angle": 5,
+    "response_angle": 4.37
+   },
+   {
+    "latent_angle": 10,
+    "response_angle": 8.95
+   },
+   {
+    "latent_angle": 14.04,
+    "response_angle": 12.8
+   },
+   {
+    "latent_angle": 20,
+    "response_angle": 18.67
+   },
+   {
+    "latent_angle": 25,
+    "response_angle": 23.75
+   },
+   {
+    "latent_angle": 30,
+    "response_angle": 28.96
+   },
+   {
+    "latent_angle": 35,
+    "response_angle": 34.25
+   },
+   {
+    "latent_angle": 40,
+    "response_angle": 39.61
+   },
+   {
+    "latent_angle": 45,
+    "response_angle": 45.0
+   },
+   {
+    "latent_angle": 60,
+    "response_angle": 61.04
+   },
+   {
+    "latent_angle": 75,
+    "response_angle": 76.27
+   },
+   {
+    "latent_angle": 90,
+    "response_angle": 90.0
+   },
+   {
+    "latent_angle": -20,
+    "response_angle": -18.67
+   },
+   {
+    "latent_angle": -45,
+    "response_angle": -45.0
+   }
+  ],
+  "a=1.07 (|w_on|+|w_off|)": [
+   {
+    "latent_angle": 0,
+    "response_angle": 0.0
+   },
+   {
+    "latent_angle": 5,
+    "response_angle": 3.81
+   },
+   {
+    "latent_angle": 10,
+    "response_angle": 7.91
+   },
+   {
+    "latent_angle": 14.04,
+    "response_angle": 11.48
+   },
+   {
+    "latent_angle": 20,
+    "response_angle": 17.16
+   },
+   {
+    "latent_angle": 25,
+    "response_angle": 22.29
+   },
+   {
+    "latent_angle": 30,
+    "response_angle": 27.7
+   },
+   {
+    "latent_angle": 35,
+    "response_angle": 33.34
+   },
+   {
+    "latent_angle": 40,
+    "response_angle": 39.13
+   },
+   {
+    "latent_angle": 45,
+    "response_angle": 45.0
+   },
+   {
+    "latent_angle": 60,
+    "response_angle": 62.3
+   },
+   {
+    "latent_angle": 75,
+    "response_angle": 77.64
+   },
+   {
+    "latent_angle": 90,
+    "response_angle": 90.0
+   },
+   {
+    "latent_angle": -20,
+    "response_angle": -17.16
+   },
+   {
+    "latent_angle": -45,
+    "response_angle": -45.0
+   }
+  ]
+ }
+}

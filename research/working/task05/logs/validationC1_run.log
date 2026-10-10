@@ -1,0 +1,10 @@
+pending 800, already done 0
+{"done": 100, "of": 800, "elapsed_s": 47.2, "eta_s": 330.6}
+{"done": 200, "of": 800, "elapsed_s": 99.0, "eta_s": 297.1}
+{"done": 300, "of": 800, "elapsed_s": 140.5, "eta_s": 234.1}
+{"done": 400, "of": 800, "elapsed_s": 202.1, "eta_s": 202.1}
+{"done": 500, "of": 800, "elapsed_s": 238.9, "eta_s": 143.4}
+{"done": 600, "of": 800, "elapsed_s": 287.5, "eta_s": 95.8}
+{"done": 700, "of": 800, "elapsed_s": 336.8, "eta_s": 48.1}
+{"done": 800, "of": 800, "elapsed_s": 378.4, "eta_s": 0.0}
+finished 378.4 s

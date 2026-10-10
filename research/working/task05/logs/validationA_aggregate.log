@@ -1,0 +1,8 @@
+{
+ "completed": 4000,
+ "missing": 0,
+ "errors": 0,
+ "evaluation": {
+  "J20 (k=2)": "not evaluable: missing scenarios or no stable fits"
+ }
+}

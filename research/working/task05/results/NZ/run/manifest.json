@@ -1,0 +1,27 @@
+{
+ "frozen_spec_sha256": "a2abb1caa66ab9e1f2b395b2e172cd6ec02d28f93965167f3dd77bb3adf32ef0",
+ "code_sha256": {
+  "nz/nz_common.py": "e89f47537dc0dcd4d9568103ee8b0bfeeb7c0bae0571753efd9ea55f862b5fca",
+  "nz/nz_run.py": "80de514f3e817b6bdae76022cfd177db7bb1dfee07ade577097751bf031d9b60",
+  "nz/nz_analyse.py": "a410344a2a89858a645a29d9f728acf5ce811f1b26c190ed397504492c0aba83",
+  "nz/nz_precheck.py": "ba8fe3b665df7e135c25c124bb501c79442267d306f07c354c41c7fc69a5aa8c",
+  "nz/build_nz_spec.py": "d8b6cc090dd590f326401e47106cd3006c59adb092ededcbc083dfc61a19e218",
+  "e1_methods.py": "db99b8ba6fd85e6d7a55609cad8cf9838db32c8fadd795b85a9664723263e1c9",
+  "e1_run.py": "e546ebf612257632000f5af1ff641536b5777523c90a88fd6c3d8c477a54d8ce",
+  "e1_analyse.py": "b33bf0c46107675b94462d1bd50105a078723285364b4c54a964ca573a44d200",
+  "heterogeneity_methods.py": "3cfe209ac8a9d0a435fc74bd008ae07731f0849ef3581e1324a6ad36ba758f7d",
+  "ordinal_model.py": "590db5f37b028e9ae82e8069d611f347d0a3b118b61e4d24685b7dda33ceb7fe",
+  "stimulus.py": "238d882ab07d1f728bbc9454a0abe35af989afd0c3ce113bf04be50ec83bb0e3"
+ },
+ "reps_per_grid": 200,
+ "grid": [
+  0.0,
+  0.05,
+  0.1,
+  0.2,
+  0.3333333333333333
+ ],
+ "seed_namespace": "task05-NZ-v1",
+ "batch_size": 50,
+ "created": "2026-10-10 11:33:17 AEDT"
+}

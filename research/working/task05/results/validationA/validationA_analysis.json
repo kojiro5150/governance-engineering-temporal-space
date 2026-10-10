@@ -1,0 +1,1026 @@
+{
+ "reproduction_of_stage2": {
+  "fits_compared": 800,
+  "fields_compared": [
+   "w_on",
+   "w_off",
+   "se_w_on",
+   "se_w_off",
+   "theta1",
+   "theta2",
+   "sd_u",
+   "angle_lo",
+   "angle_hi",
+   "stable"
+  ],
+  "mismatches": 0,
+  "examples": []
+ },
+ "n_fits": 4000,
+ "by_scenario": {
+  "S01 onset moderate": {
+   "reps_0_99": {
+    "reps": 100,
+    "stable": 100,
+    "unstable": 0,
+    "unstable_rate_wilson95": [
+     0.0,
+     0.037
+    ],
+    "sd_u_at_boundary": 12,
+    "true": [
+     0.7,
+     0.0
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": -0.0177,
+    "bias_w_on_over_a_mc95": [
+     -0.0358,
+     0.0003
+    ],
+    "bias_w_off_over_a": -0.0108,
+    "bias_w_off_over_a_mc95": [
+     -0.0284,
+     0.0068
+    ],
+    "empirical_sd_w_on": 0.0644,
+    "median_se_w_on": 0.0734,
+    "se_ratio_on(median_se/empirical_sd)": 1.138,
+    "empirical_sd_w_off": 0.0628,
+    "median_se_w_off": 0.0593,
+    "se_ratio_off": 0.945,
+    "coverage_w_on": 0.93,
+    "coverage_w_on_wilson95": [
+     0.8625,
+     0.9657
+    ],
+    "coverage_w_off": 0.95,
+    "coverage_w_off_wilson95": [
+     0.8882,
+     0.9785
+    ],
+    "angle_true_deg": 0.0,
+    "angle_ci_covers_truth": 0.94,
+    "angle_ci_covers_truth_wilson95": [
+     0.8752,
+     0.9722
+    ],
+    "angle_ci_excludes_0": 0.06,
+    "angle_ci_excludes_0_wilson95": [
+     0.0278,
+     0.1248
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.963,
+     1.0
+    ],
+    "median_angle_ci_width": 19.54
+   },
+   "reps_0_499": {
+    "reps": 500,
+    "stable": 498,
+    "unstable": 2,
+    "unstable_rate_wilson95": [
+     0.0011,
+     0.0145
+    ],
+    "sd_u_at_boundary": 61,
+    "true": [
+     0.7,
+     0.0
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": -0.0213,
+    "bias_w_on_over_a_mc95": [
+     -0.0298,
+     -0.0128
+    ],
+    "bias_w_off_over_a": 0.0005,
+    "bias_w_off_over_a_mc95": [
+     -0.0075,
+     0.0086
+    ],
+    "empirical_sd_w_on": 0.068,
+    "median_se_w_on": 0.0729,
+    "se_ratio_on(median_se/empirical_sd)": 1.072,
+    "empirical_sd_w_off": 0.0641,
+    "median_se_w_off": 0.0593,
+    "se_ratio_off": 0.926,
+    "coverage_w_on": 0.9538,
+    "coverage_w_on_wilson95": [
+     0.9317,
+     0.969
+    ],
+    "coverage_w_off": 0.9438,
+    "coverage_w_off_wilson95": [
+     0.9199,
+     0.9608
+    ],
+    "angle_true_deg": 0.0,
+    "angle_ci_covers_truth": 0.9438,
+    "angle_ci_covers_truth_wilson95": [
+     0.9199,
+     0.9608
+    ],
+    "angle_ci_excludes_0": 0.0562,
+    "angle_ci_excludes_0_wilson95": [
+     0.0392,
+     0.0801
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.9923,
+     1.0
+    ],
+    "median_angle_ci_width": 19.42
+   }
+  },
+  "S03 onset high": {
+   "reps_0_99": {
+    "reps": 100,
+    "stable": 99,
+    "unstable": 1,
+    "unstable_rate_wilson95": [
+     0.0018,
+     0.0545
+    ],
+    "sd_u_at_boundary": 14,
+    "true": [
+     1.07,
+     0.0
+    ],
+    "a": 1.07,
+    "bias_w_on_over_a": -0.0282,
+    "bias_w_on_over_a_mc95": [
+     -0.0483,
+     -0.008
+    ],
+    "bias_w_off_over_a": -0.0053,
+    "bias_w_off_over_a_mc95": [
+     -0.0173,
+     0.0066
+    ],
+    "empirical_sd_w_on": 0.1095,
+    "median_se_w_on": 0.1023,
+    "se_ratio_on(median_se/empirical_sd)": 0.934,
+    "empirical_sd_w_off": 0.0651,
+    "median_se_w_off": 0.0694,
+    "se_ratio_off": 1.067,
+    "coverage_w_on": 0.899,
+    "coverage_w_on_wilson95": [
+     0.824,
+     0.9442
+    ],
+    "coverage_w_off": 0.9697,
+    "coverage_w_off_wilson95": [
+     0.9147,
+     0.9896
+    ],
+    "angle_true_deg": 0.0,
+    "angle_ci_covers_truth": 0.9697,
+    "angle_ci_covers_truth_wilson95": [
+     0.9147,
+     0.9896
+    ],
+    "angle_ci_excludes_0": 0.0303,
+    "angle_ci_excludes_0_wilson95": [
+     0.0104,
+     0.0853
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.9626,
+     1.0
+    ],
+    "median_angle_ci_width": 15.0
+   },
+   "reps_0_499": {
+    "reps": 500,
+    "stable": 499,
+    "unstable": 1,
+    "unstable_rate_wilson95": [
+     0.0004,
+     0.0112
+    ],
+    "sd_u_at_boundary": 77,
+    "true": [
+     1.07,
+     0.0
+    ],
+    "a": 1.07,
+    "bias_w_on_over_a": -0.0265,
+    "bias_w_on_over_a_mc95": [
+     -0.0356,
+     -0.0174
+    ],
+    "bias_w_off_over_a": -0.0025,
+    "bias_w_off_over_a_mc95": [
+     -0.0082,
+     0.0032
+    ],
+    "empirical_sd_w_on": 0.1107,
+    "median_se_w_on": 0.1015,
+    "se_ratio_on(median_se/empirical_sd)": 0.917,
+    "empirical_sd_w_off": 0.07,
+    "median_se_w_off": 0.0692,
+    "se_ratio_off": 0.988,
+    "coverage_w_on": 0.9218,
+    "coverage_w_on_wilson95": [
+     0.8949,
+     0.9423
+    ],
+    "coverage_w_off": 0.9539,
+    "coverage_w_off_wilson95": [
+     0.9318,
+     0.9691
+    ],
+    "angle_true_deg": 0.0,
+    "angle_ci_covers_truth": 0.9599,
+    "angle_ci_covers_truth_wilson95": [
+     0.9389,
+     0.9739
+    ],
+    "angle_ci_excludes_0": 0.0401,
+    "angle_ci_excludes_0_wilson95": [
+     0.0261,
+     0.0611
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.9924,
+     1.0
+    ],
+    "median_angle_ci_width": 15.03
+   }
+  },
+  "S04 midpoint moderate": {
+   "reps_0_99": {
+    "reps": 100,
+    "stable": 100,
+    "unstable": 0,
+    "unstable_rate_wilson95": [
+     0.0,
+     0.037
+    ],
+    "sd_u_at_boundary": 4,
+    "true": [
+     0.35,
+     0.35
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": -0.0099,
+    "bias_w_on_over_a_mc95": [
+     -0.0254,
+     0.0056
+    ],
+    "bias_w_off_over_a": -0.0014,
+    "bias_w_off_over_a_mc95": [
+     -0.0191,
+     0.0163
+    ],
+    "empirical_sd_w_on": 0.0555,
+    "median_se_w_on": 0.0592,
+    "se_ratio_on(median_se/empirical_sd)": 1.066,
+    "empirical_sd_w_off": 0.0633,
+    "median_se_w_off": 0.0594,
+    "se_ratio_off": 0.938,
+    "coverage_w_on": 0.97,
+    "coverage_w_on_wilson95": [
+     0.9155,
+     0.9897
+    ],
+    "coverage_w_off": 0.93,
+    "coverage_w_off_wilson95": [
+     0.8625,
+     0.9657
+    ],
+    "angle_true_deg": 45.0,
+    "angle_ci_covers_truth": 0.92,
+    "angle_ci_covers_truth_wilson95": [
+     0.85,
+     0.9589
+    ],
+    "angle_ci_excludes_0": 1.0,
+    "angle_ci_excludes_0_wilson95": [
+     0.963,
+     1.0
+    ],
+    "angle_ci_excludes_45": 0.08,
+    "angle_ci_excludes_45_wilson95": [
+     0.0411,
+     0.15
+    ],
+    "median_angle_ci_width": 24.72
+   },
+   "reps_0_499": {
+    "reps": 500,
+    "stable": 500,
+    "unstable": 0,
+    "unstable_rate_wilson95": [
+     0.0,
+     0.0076
+    ],
+    "sd_u_at_boundary": 33,
+    "true": [
+     0.35,
+     0.35
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": -0.0052,
+    "bias_w_on_over_a_mc95": [
+     -0.0128,
+     0.0024
+    ],
+    "bias_w_off_over_a": -0.0077,
+    "bias_w_off_over_a_mc95": [
+     -0.0153,
+     -0.0
+    ],
+    "empirical_sd_w_on": 0.0606,
+    "median_se_w_on": 0.0593,
+    "se_ratio_on(median_se/empirical_sd)": 0.979,
+    "empirical_sd_w_off": 0.0611,
+    "median_se_w_off": 0.0593,
+    "se_ratio_off": 0.971,
+    "coverage_w_on": 0.938,
+    "coverage_w_on_wilson95": [
+     0.9133,
+     0.956
+    ],
+    "coverage_w_off": 0.932,
+    "coverage_w_off_wilson95": [
+     0.9065,
+     0.9509
+    ],
+    "angle_true_deg": 45.0,
+    "angle_ci_covers_truth": 0.936,
+    "angle_ci_covers_truth_wilson95": [
+     0.911,
+     0.9543
+    ],
+    "angle_ci_excludes_0": 1.0,
+    "angle_ci_excludes_0_wilson95": [
+     0.9924,
+     1.0
+    ],
+    "angle_ci_excludes_45": 0.064,
+    "angle_ci_excludes_45_wilson95": [
+     0.0457,
+     0.089
+    ],
+    "median_angle_ci_width": 24.8
+   }
+  },
+  "S06 midpoint high": {
+   "reps_0_99": {
+    "reps": 100,
+    "stable": 99,
+    "unstable": 1,
+    "unstable_rate_wilson95": [
+     0.0018,
+     0.0545
+    ],
+    "sd_u_at_boundary": 7,
+    "true": [
+     0.535,
+     0.535
+    ],
+    "a": 1.07,
+    "bias_w_on_over_a": -0.0204,
+    "bias_w_on_over_a_mc95": [
+     -0.0333,
+     -0.0075
+    ],
+    "bias_w_off_over_a": -0.0088,
+    "bias_w_off_over_a_mc95": [
+     -0.0228,
+     0.0052
+    ],
+    "empirical_sd_w_on": 0.0701,
+    "median_se_w_on": 0.0691,
+    "se_ratio_on(median_se/empirical_sd)": 0.987,
+    "empirical_sd_w_off": 0.076,
+    "median_se_w_off": 0.0698,
+    "se_ratio_off": 0.918,
+    "coverage_w_on": 0.9192,
+    "coverage_w_on_wilson95": [
+     0.8486,
+     0.9585
+    ],
+    "coverage_w_off": 0.9192,
+    "coverage_w_off_wilson95": [
+     0.8486,
+     0.9585
+    ],
+    "angle_true_deg": 45.0,
+    "angle_ci_covers_truth": 0.9192,
+    "angle_ci_covers_truth_wilson95": [
+     0.8486,
+     0.9585
+    ],
+    "angle_ci_excludes_0": 1.0,
+    "angle_ci_excludes_0_wilson95": [
+     0.9626,
+     1.0
+    ],
+    "angle_ci_excludes_45": 0.0808,
+    "angle_ci_excludes_45_wilson95": [
+     0.0415,
+     0.1514
+    ],
+    "median_angle_ci_width": 16.72
+   },
+   "reps_0_499": {
+    "reps": 500,
+    "stable": 498,
+    "unstable": 2,
+    "unstable_rate_wilson95": [
+     0.0011,
+     0.0145
+    ],
+    "sd_u_at_boundary": 46,
+    "true": [
+     0.535,
+     0.535
+    ],
+    "a": 1.07,
+    "bias_w_on_over_a": -0.0177,
+    "bias_w_on_over_a_mc95": [
+     -0.0237,
+     -0.0117
+    ],
+    "bias_w_off_over_a": -0.0106,
+    "bias_w_off_over_a_mc95": [
+     -0.0168,
+     -0.0045
+    ],
+    "empirical_sd_w_on": 0.0726,
+    "median_se_w_on": 0.069,
+    "se_ratio_on(median_se/empirical_sd)": 0.95,
+    "empirical_sd_w_off": 0.0746,
+    "median_se_w_off": 0.0695,
+    "se_ratio_off": 0.931,
+    "coverage_w_on": 0.9197,
+    "coverage_w_on_wilson95": [
+     0.8925,
+     0.9405
+    ],
+    "coverage_w_off": 0.9257,
+    "coverage_w_off_wilson95": [
+     0.8993,
+     0.9456
+    ],
+    "angle_true_deg": 45.0,
+    "angle_ci_covers_truth": 0.9297,
+    "angle_ci_covers_truth_wilson95": [
+     0.9038,
+     0.949
+    ],
+    "angle_ci_excludes_0": 1.0,
+    "angle_ci_excludes_0_wilson95": [
+     0.9923,
+     1.0
+    ],
+    "angle_ci_excludes_45": 0.0703,
+    "angle_ci_excludes_45_wilson95": [
+     0.051,
+     0.0962
+    ],
+    "median_angle_ci_width": 16.69
+   }
+  },
+  "S07 threshold-onset q=0.2": {
+   "reps_0_99": {
+    "reps": 100,
+    "stable": 100,
+    "unstable": 0,
+    "unstable_rate_wilson95": [
+     0.0,
+     0.037
+    ],
+    "sd_u_at_boundary": 8,
+    "true": [
+     0.5599999999999999,
+     0.13999999999999999
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": -0.0223,
+    "bias_w_on_over_a_mc95": [
+     -0.0402,
+     -0.0044
+    ],
+    "bias_w_off_over_a": -0.0142,
+    "bias_w_off_over_a_mc95": [
+     -0.0289,
+     0.0006
+    ],
+    "empirical_sd_w_on": 0.064,
+    "median_se_w_on": 0.0653,
+    "se_ratio_on(median_se/empirical_sd)": 1.02,
+    "empirical_sd_w_off": 0.0526,
+    "median_se_w_off": 0.0569,
+    "se_ratio_off": 1.082,
+    "coverage_w_on": 0.96,
+    "coverage_w_on_wilson95": [
+     0.9016,
+     0.9843
+    ],
+    "coverage_w_off": 0.94,
+    "coverage_w_off_wilson95": [
+     0.8752,
+     0.9722
+    ],
+    "angle_true_deg": 14.04,
+    "angle_ci_covers_truth": 0.95,
+    "angle_ci_covers_truth_wilson95": [
+     0.8882,
+     0.9785
+    ],
+    "angle_ci_excludes_0": 0.64,
+    "angle_ci_excludes_0_wilson95": [
+     0.5424,
+     0.7273
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.963,
+     1.0
+    ],
+    "median_angle_ci_width": 22.64
+   },
+   "reps_0_499": {
+    "reps": 500,
+    "stable": 500,
+    "unstable": 0,
+    "unstable_rate_wilson95": [
+     0.0,
+     0.0076
+    ],
+    "sd_u_at_boundary": 40,
+    "true": [
+     0.5599999999999999,
+     0.13999999999999999
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": -0.0205,
+    "bias_w_on_over_a_mc95": [
+     -0.0285,
+     -0.0125
+    ],
+    "bias_w_off_over_a": -0.0098,
+    "bias_w_off_over_a_mc95": [
+     -0.0168,
+     -0.0029
+    ],
+    "empirical_sd_w_on": 0.0642,
+    "median_se_w_on": 0.0657,
+    "se_ratio_on(median_se/empirical_sd)": 1.024,
+    "empirical_sd_w_off": 0.0558,
+    "median_se_w_off": 0.0572,
+    "se_ratio_off": 1.025,
+    "coverage_w_on": 0.952,
+    "coverage_w_on_wilson95": [
+     0.9296,
+     0.9675
+    ],
+    "coverage_w_off": 0.946,
+    "coverage_w_off_wilson95": [
+     0.9226,
+     0.9626
+    ],
+    "angle_true_deg": 14.04,
+    "angle_ci_covers_truth": 0.954,
+    "angle_ci_covers_truth_wilson95": [
+     0.9319,
+     0.9692
+    ],
+    "angle_ci_excludes_0": 0.66,
+    "angle_ci_excludes_0_wilson95": [
+     0.6174,
+     0.7002
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.9924,
+     1.0
+    ],
+    "median_angle_ci_width": 22.6
+   }
+  },
+  "S08 offset moderate": {
+   "reps_0_99": {
+    "reps": 100,
+    "stable": 100,
+    "unstable": 0,
+    "unstable_rate_wilson95": [
+     0.0,
+     0.037
+    ],
+    "sd_u_at_boundary": 10,
+    "true": [
+     0.0,
+     0.7
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": 0.0061,
+    "bias_w_on_over_a_mc95": [
+     -0.0106,
+     0.0228
+    ],
+    "bias_w_off_over_a": 0.0003,
+    "bias_w_off_over_a_mc95": [
+     -0.0202,
+     0.0207
+    ],
+    "empirical_sd_w_on": 0.0597,
+    "median_se_w_on": 0.0595,
+    "se_ratio_on(median_se/empirical_sd)": 0.996,
+    "empirical_sd_w_off": 0.073,
+    "median_se_w_off": 0.0744,
+    "se_ratio_off": 1.019,
+    "coverage_w_on": 0.97,
+    "coverage_w_on_wilson95": [
+     0.9155,
+     0.9897
+    ],
+    "coverage_w_off": 0.96,
+    "coverage_w_off_wilson95": [
+     0.9016,
+     0.9843
+    ],
+    "angle_true_deg": 90.0,
+    "angle_ci_covers_truth": 0.99,
+    "angle_ci_covers_truth_wilson95": [
+     0.9455,
+     0.9982
+    ],
+    "angle_ci_excludes_0": 1.0,
+    "angle_ci_excludes_0_wilson95": [
+     0.963,
+     1.0
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.963,
+     1.0
+    ],
+    "median_angle_ci_width": 19.23
+   },
+   "reps_0_499": {
+    "reps": 500,
+    "stable": 497,
+    "unstable": 3,
+    "unstable_rate_wilson95": [
+     0.002,
+     0.0175
+    ],
+    "sd_u_at_boundary": 50,
+    "true": [
+     0.0,
+     0.7
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": -0.0003,
+    "bias_w_on_over_a_mc95": [
+     -0.0075,
+     0.0069
+    ],
+    "bias_w_off_over_a": -0.0209,
+    "bias_w_off_over_a_mc95": [
+     -0.0297,
+     -0.0121
+    ],
+    "empirical_sd_w_on": 0.0576,
+    "median_se_w_on": 0.0592,
+    "se_ratio_on(median_se/empirical_sd)": 1.028,
+    "empirical_sd_w_off": 0.0704,
+    "median_se_w_off": 0.0729,
+    "se_ratio_off": 1.035,
+    "coverage_w_on": 0.9678,
+    "coverage_w_on_wilson95": [
+     0.9483,
+     0.9801
+    ],
+    "coverage_w_off": 0.9557,
+    "coverage_w_off_wilson95": [
+     0.9339,
+     0.9706
+    ],
+    "angle_true_deg": 90.0,
+    "angle_ci_covers_truth": 0.9718,
+    "angle_ci_covers_truth_wilson95": [
+     0.9533,
+     0.9831
+    ],
+    "angle_ci_excludes_0": 1.0,
+    "angle_ci_excludes_0_wilson95": [
+     0.9923,
+     1.0
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.9923,
+     1.0
+    ],
+    "median_angle_ci_width": 19.51
+   }
+  },
+  "S09 duration heuristic": {
+   "reps_0_99": {
+    "reps": 100,
+    "stable": 100,
+    "unstable": 0,
+    "unstable_rate_wilson95": [
+     0.0,
+     0.037
+    ],
+    "sd_u_at_boundary": 10,
+    "true": [
+     0.35,
+     -0.35
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": -0.0055,
+    "bias_w_on_over_a_mc95": [
+     -0.0214,
+     0.0104
+    ],
+    "bias_w_off_over_a": -0.0032,
+    "bias_w_off_over_a_mc95": [
+     -0.0183,
+     0.012
+    ],
+    "empirical_sd_w_on": 0.0567,
+    "median_se_w_on": 0.0593,
+    "se_ratio_on(median_se/empirical_sd)": 1.046,
+    "empirical_sd_w_off": 0.0542,
+    "median_se_w_off": 0.0598,
+    "se_ratio_off": 1.104,
+    "coverage_w_on": 0.96,
+    "coverage_w_on_wilson95": [
+     0.9016,
+     0.9843
+    ],
+    "coverage_w_off": 0.97,
+    "coverage_w_off_wilson95": [
+     0.9155,
+     0.9897
+    ],
+    "angle_true_deg": -45.0,
+    "angle_ci_covers_truth": 0.98,
+    "angle_ci_covers_truth_wilson95": [
+     0.93,
+     0.9945
+    ],
+    "angle_ci_excludes_0": 1.0,
+    "angle_ci_excludes_0_wilson95": [
+     0.963,
+     1.0
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.963,
+     1.0
+    ],
+    "median_angle_ci_width": 24.22
+   },
+   "reps_0_499": {
+    "reps": 500,
+    "stable": 500,
+    "unstable": 0,
+    "unstable_rate_wilson95": [
+     0.0,
+     0.0076
+    ],
+    "sd_u_at_boundary": 48,
+    "true": [
+     0.35,
+     -0.35
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": -0.0117,
+    "bias_w_on_over_a_mc95": [
+     -0.0191,
+     -0.0043
+    ],
+    "bias_w_off_over_a": 0.01,
+    "bias_w_off_over_a_mc95": [
+     0.0027,
+     0.0174
+    ],
+    "empirical_sd_w_on": 0.0591,
+    "median_se_w_on": 0.0592,
+    "se_ratio_on(median_se/empirical_sd)": 1.001,
+    "empirical_sd_w_off": 0.0586,
+    "median_se_w_off": 0.0593,
+    "se_ratio_off": 1.012,
+    "coverage_w_on": 0.948,
+    "coverage_w_on_wilson95": [
+     0.9249,
+     0.9643
+    ],
+    "coverage_w_off": 0.944,
+    "coverage_w_off_wilson95": [
+     0.9203,
+     0.961
+    ],
+    "angle_true_deg": -45.0,
+    "angle_ci_covers_truth": 0.96,
+    "angle_ci_covers_truth_wilson95": [
+     0.939,
+     0.974
+    ],
+    "angle_ci_excludes_0": 1.0,
+    "angle_ci_excludes_0_wilson95": [
+     0.9924,
+     1.0
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.9924,
+     1.0
+    ],
+    "median_angle_ci_width": 24.85
+   }
+  },
+  "S11 biased onset": {
+   "reps_0_99": {
+    "reps": 100,
+    "stable": 100,
+    "unstable": 0,
+    "unstable_rate_wilson95": [
+     0.0,
+     0.037
+    ],
+    "sd_u_at_boundary": 1,
+    "true": [
+     0.7,
+     0.0
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": -0.0426,
+    "bias_w_on_over_a_mc95": [
+     -0.0637,
+     -0.0215
+    ],
+    "bias_w_off_over_a": -0.01,
+    "bias_w_off_over_a_mc95": [
+     -0.025,
+     0.005
+    ],
+    "empirical_sd_w_on": 0.0752,
+    "median_se_w_on": 0.0768,
+    "se_ratio_on(median_se/empirical_sd)": 1.021,
+    "empirical_sd_w_off": 0.0536,
+    "median_se_w_off": 0.0613,
+    "se_ratio_off": 1.145,
+    "coverage_w_on": 0.94,
+    "coverage_w_on_wilson95": [
+     0.8752,
+     0.9722
+    ],
+    "coverage_w_off": 0.97,
+    "coverage_w_off_wilson95": [
+     0.9155,
+     0.9897
+    ],
+    "angle_true_deg": 0.0,
+    "angle_ci_covers_truth": 0.99,
+    "angle_ci_covers_truth_wilson95": [
+     0.9455,
+     0.9982
+    ],
+    "angle_ci_excludes_0": 0.01,
+    "angle_ci_excludes_0_wilson95": [
+     0.0018,
+     0.0545
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.963,
+     1.0
+    ],
+    "median_angle_ci_width": 20.85
+   },
+   "reps_0_499": {
+    "reps": 500,
+    "stable": 500,
+    "unstable": 0,
+    "unstable_rate_wilson95": [
+     0.0,
+     0.0076
+    ],
+    "sd_u_at_boundary": 2,
+    "true": [
+     0.7,
+     0.0
+    ],
+    "a": 0.7,
+    "bias_w_on_over_a": -0.0343,
+    "bias_w_on_over_a_mc95": [
+     -0.0446,
+     -0.0241
+    ],
+    "bias_w_off_over_a": -0.0031,
+    "bias_w_off_over_a_mc95": [
+     -0.0109,
+     0.0047
+    ],
+    "empirical_sd_w_on": 0.0818,
+    "median_se_w_on": 0.0779,
+    "se_ratio_on(median_se/empirical_sd)": 0.953,
+    "empirical_sd_w_off": 0.0621,
+    "median_se_w_off": 0.0617,
+    "se_ratio_off": 0.994,
+    "coverage_w_on": 0.924,
+    "coverage_w_on_wilson95": [
+     0.8974,
+     0.9441
+    ],
+    "coverage_w_off": 0.95,
+    "coverage_w_off_wilson95": [
+     0.9272,
+     0.9659
+    ],
+    "angle_true_deg": 0.0,
+    "angle_ci_covers_truth": 0.95,
+    "angle_ci_covers_truth_wilson95": [
+     0.9272,
+     0.9659
+    ],
+    "angle_ci_excludes_0": 0.05,
+    "angle_ci_excludes_0_wilson95": [
+     0.0341,
+     0.0728
+    ],
+    "angle_ci_excludes_45": 1.0,
+    "angle_ci_excludes_45_wilson95": [
+     0.9924,
+     1.0
+    ],
+    "median_angle_ci_width": 20.79
+   }
+  }
+ },
+ "criteria_with_mc_uncertainty": {
+  "S01 onset moderate": {
+   "RC1_bias_w_on": "clearly met",
+   "RC1_bias_w_off": "clearly met",
+   "RC2_coverage_w_on": "clearly met",
+   "RC2_coverage_w_off": "clearly met",
+   "RC3_unstable": "clearly met"
+  },
+  "S03 onset high": {
+   "RC1_bias_w_on": "clearly met",
+   "RC1_bias_w_off": "clearly met",
+   "RC2_coverage_w_on": "indeterminate (MC interval straddles boundary)",
+   "RC2_coverage_w_off": "clearly met",
+   "RC3_unstable": "clearly met"
+  },
+  "S04 midpoint moderate": {
+   "RC1_bias_w_on": "clearly met",
+   "RC1_bias_w_off": "clearly met",
+   "RC2_coverage_w_on": "clearly met",
+   "RC2_coverage_w_off": "clearly met",
+   "RC3_unstable": "clearly met"
+  },
+  "S06 midpoint high": {
+   "RC1_bias_w_on": "clearly met",
+   "RC1_bias_w_off": "clearly met",
+   "RC2_coverage_w_on": "indeterminate (MC interval straddles boundary)",
+   "RC2_coverage_w_off": "indeterminate (MC interval straddles boundary)",
+   "RC3_unstable": "clearly met"
+  },
+  "S07 threshold-onset q=0.2": {
+   "RC1_bias_w_on": "clearly met",
+   "RC1_bias_w_off": "clearly met",
+   "RC2_coverage_w_on": "clearly met",
+   "RC2_coverage_w_off": "clearly met",
+   "RC3_unstable": "clearly met"
+  },
+  "S08 offset moderate": {
+   "RC1_bias_w_on": "clearly met",
+   "RC1_bias_w_off": "clearly met",
+   "RC2_coverage_w_on": "indeterminate (MC interval straddles boundary)",
+   "RC2_coverage_w_off": "clearly met",
+   "RC3_unstable": "clearly met"
+  },
+  "S09 duration heuristic": {
+   "RC1_bias_w_on": "clearly met",
+   "RC1_bias_w_off": "clearly met",
+   "RC2_coverage_w_on": "clearly met",
+   "RC2_coverage_w_off": "clearly met",
+   "RC3_unstable": "clearly met"
+  },
+  "S11 biased onset": {
+   "RC1_bias_w_on": "clearly met",
+   "RC1_bias_w_off": "clearly met",
+   "RC2_coverage_w_on": "indeterminate (MC interval straddles boundary)",
+   "RC2_coverage_w_off": "clearly met",
+   "RC3_unstable": "clearly met"
+  },
+  "RC4_onset_excludes_45": "clearly met",
+  "RC4_midpoint_excludes_0": "clearly met"
+ }
+}

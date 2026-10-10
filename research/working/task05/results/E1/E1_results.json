@@ -1,0 +1,2701 @@
+{
+ "n_rows": 3500,
+ "errors": 0,
+ "by_method": {
+  "B2": {
+   "per_scenario": {
+    "S01 onset moderate": {
+     "n": 500,
+     "failures": 1,
+     "failure_rate": 0.002,
+     "target": [
+      0.67578,
+      -0.00034
+     ],
+     "target_angle": -0.029,
+     "mean_est": [
+      0.68779,
+      0.00242
+     ],
+     "bias_vs_own_target": [
+      0.01201,
+      0.00276
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.0034,
+      0.00271
+     ],
+     "empirical_sd": [
+      0.07595,
+      0.06061
+     ],
+     "median_se": [
+      0.07199,
+      0.05876
+     ],
+     "coverage_w_on": {
+      "k": 480,
+      "n": 499,
+      "rate": 0.9619,
+      "wilson95": [
+       0.9413,
+       0.9755
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 482,
+      "n": 499,
+      "rate": 0.9659,
+      "wilson95": [
+       0.9461,
+       0.9786
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "bias_vs_mu_w": [
+      -0.01221,
+      0.00242
+     ],
+     "relative_bias_vs_mu_w_norm": [
+      -0.0174,
+      0.0035
+     ],
+     "coverage_of_mu_w_on_(informational)": 0.9399,
+     "angle_coverage": {
+      "k": 481,
+      "n": 499,
+      "rate": 0.9639,
+      "wilson95": [
+       0.9437,
+       0.9771
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "median_angle_ci_width": 21.78,
+     "mean_angle_est": 0.236,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.0361,
+     "_counts": {
+      "ok": 499,
+      "gate_excl45": 499,
+      "gate_excl0": 18,
+      "gate_pass": 499
+     }
+    },
+    "S03 onset high": {
+     "n": 500,
+     "failures": 1,
+     "failure_rate": 0.002,
+     "target": [
+      1.0161,
+      0.00112
+     ],
+     "target_angle": 0.063,
+     "mean_est": [
+      1.03157,
+      -0.00699
+     ],
+     "bias_vs_own_target": [
+      0.01547,
+      -0.00811
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00484,
+      0.00309
+     ],
+     "empirical_sd": [
+      0.10802,
+      0.06896
+     ],
+     "median_se": [
+      0.09939,
+      0.06809
+     ],
+     "coverage_w_on": {
+      "k": 474,
+      "n": 499,
+      "rate": 0.9499,
+      "wilson95": [
+       0.9271,
+       0.9658
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 476,
+      "n": 499,
+      "rate": 0.9539,
+      "wilson95": [
+       0.9318,
+       0.9691
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "bias_vs_mu_w": [
+      -0.03843,
+      -0.00699
+     ],
+     "relative_bias_vs_mu_w_norm": [
+      -0.0359,
+      -0.0065
+     ],
+     "coverage_of_mu_w_on_(informational)": 0.9218,
+     "angle_coverage": {
+      "k": 476,
+      "n": 499,
+      "rate": 0.9539,
+      "wilson95": [
+       0.9318,
+       0.9691
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "median_angle_ci_width": 16.78,
+     "mean_angle_est": -0.378,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.0421,
+     "_counts": {
+      "ok": 499,
+      "gate_excl45": 499,
+      "gate_excl0": 21,
+      "gate_pass": 499
+     }
+    },
+    "S04 midpoint moderate": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.34101,
+      0.33946
+     ],
+     "target_angle": 44.87,
+     "mean_est": [
+      0.34033,
+      0.34196
+     ],
+     "bias_vs_own_target": [
+      -0.00068,
+      0.0025
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00259,
+      0.00269
+     ],
+     "empirical_sd": [
+      0.05795,
+      0.06014
+     ],
+     "median_se": [
+      0.05817,
+      0.05787
+     ],
+     "coverage_w_on": {
+      "k": 483,
+      "n": 500,
+      "rate": 0.966,
+      "wilson95": [
+       0.9462,
+       0.9787
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 476,
+      "n": 500,
+      "rate": 0.952,
+      "wilson95": [
+       0.9296,
+       0.9675
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "bias_vs_mu_w": [
+      -0.00967,
+      -0.00804
+     ],
+     "relative_bias_vs_mu_w_norm": [
+      -0.0195,
+      -0.0162
+     ],
+     "coverage_of_mu_w_on_(informational)": 0.966,
+     "angle_coverage": {
+      "k": 483,
+      "n": 500,
+      "rate": 0.966,
+      "wilson95": [
+       0.9462,
+       0.9787
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "median_angle_ci_width": 27.53,
+     "mean_angle_est": 45.119,
+     "P(gate & excl 45)": 0.034,
+     "P(gate & excl 0)": 0.998,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 17,
+      "gate_excl0": 499,
+      "gate_pass": 500
+     }
+    },
+    "S13 heterogeneous weights+thresholds": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.66255,
+      0.00069
+     ],
+     "target_angle": 0.06,
+     "mean_est": [
+      0.6696,
+      -0.00208
+     ],
+     "bias_vs_own_target": [
+      0.00705,
+      -0.00277
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00358,
+      0.00258
+     ],
+     "empirical_sd": [
+      0.07997,
+      0.05759
+     ],
+     "median_se": [
+      0.08721,
+      0.05556
+     ],
+     "coverage_w_on": {
+      "k": 488,
+      "n": 500,
+      "rate": 0.976,
+      "wilson95": [
+       0.9585,
+       0.9862
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "coverage_w_off": {
+      "k": 476,
+      "n": 500,
+      "rate": 0.952,
+      "wilson95": [
+       0.9296,
+       0.9675
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "bias_vs_mu_w": [
+      -0.06262,
+      -0.00208
+     ],
+     "relative_bias_vs_mu_w_norm": [
+      -0.0855,
+      -0.0028
+     ],
+     "coverage_of_mu_w_on_(informational)": 0.9,
+     "angle_coverage": {
+      "k": 476,
+      "n": 500,
+      "rate": 0.952,
+      "wilson95": [
+       0.9296,
+       0.9675
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "median_angle_ci_width": 21.61,
+     "mean_angle_est": -0.173,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.048,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 500,
+      "gate_excl0": 24,
+      "gate_pass": 500
+     }
+    },
+    "H2 mixture 6 onset + 6 midpoint": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.47845,
+      0.1723
+     ],
+     "target_angle": 19.805,
+     "mean_est": [
+      0.48641,
+      0.17392
+     ],
+     "bias_vs_own_target": [
+      0.00796,
+      0.00162
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00261,
+      0.00248
+     ],
+     "empirical_sd": [
+      0.0584,
+      0.0555
+     ],
+     "median_se": [
+      0.07641,
+      0.0732
+     ],
+     "coverage_w_on": {
+      "k": 492,
+      "n": 500,
+      "rate": 0.984,
+      "wilson95": [
+       0.9687,
+       0.9919
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "indeterminate"
+     },
+     "coverage_w_off": {
+      "k": 497,
+      "n": 500,
+      "rate": 0.994,
+      "wilson95": [
+       0.9825,
+       0.998
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "clearly outside"
+     },
+     "gate_pass_rate": 1.0,
+     "bias_vs_mu_w": [
+      -0.03859,
+      -0.00108
+     ],
+     "relative_bias_vs_mu_w_norm": [
+      -0.0697,
+      -0.002
+     ],
+     "coverage_of_mu_w_on_(informational)": 0.984,
+     "angle_coverage": {
+      "k": 500,
+      "n": 500,
+      "rate": 1.0,
+      "wilson95": [
+       0.9924,
+       1.0
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "clearly outside"
+     },
+     "median_angle_ci_width": 39.31,
+     "mean_angle_est": 19.66,
+     "P(gate & excl 45)": 0.698,
+     "P(gate & excl 0)": 0.586,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 349,
+      "gate_excl0": 293,
+      "gate_pass": 500
+     }
+    },
+    "S12 onset with lapses 0.15": {
+     "n": 500,
+     "failures": 2,
+     "failure_rate": 0.004,
+     "target": [
+      0.54368,
+      0.00021
+     ],
+     "target_angle": 0.022,
+     "mean_est": [
+      0.55001,
+      -0.00464
+     ],
+     "bias_vs_own_target": [
+      0.00633,
+      -0.00485
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00316,
+      0.00251
+     ],
+     "empirical_sd": [
+      0.07045,
+      0.05597
+     ],
+     "median_se": [
+      0.06701,
+      0.05539
+     ],
+     "coverage_w_on": {
+      "k": 470,
+      "n": 498,
+      "rate": 0.9438,
+      "wilson95": [
+       0.9199,
+       0.9608
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 478,
+      "n": 498,
+      "rate": 0.9598,
+      "wilson95": [
+       0.9388,
+       0.9739
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "bias_vs_mu_w": [
+      -0.14999,
+      -0.00464
+     ],
+     "relative_bias_vs_mu_w_norm": [
+      -0.2143,
+      -0.0066
+     ],
+     "coverage_of_mu_w_on_(informational)": 0.4759,
+     "angle_coverage": {
+      "k": 477,
+      "n": 498,
+      "rate": 0.9578,
+      "wilson95": [
+       0.9364,
+       0.9723
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "median_angle_ci_width": 25.65,
+     "mean_angle_est": -0.396,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.0422,
+     "_counts": {
+      "ok": 498,
+      "gate_excl45": 498,
+      "gate_excl0": 21,
+      "gate_pass": 498
+     }
+    },
+    "S10 guessing": {
+     "n": 500,
+     "failures": 2,
+     "failure_rate": 0.004,
+     "target": [
+      0.00141,
+      -0.00052
+     ],
+     "target_angle": null,
+     "mean_est": [
+      0.00241,
+      -0.00071
+     ],
+     "bias_vs_own_target": [
+      0.001,
+      -0.00019
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00231,
+      0.00234
+     ],
+     "empirical_sd": [
+      0.05161,
+      0.05222
+     ],
+     "median_se": [
+      0.05119,
+      0.05109
+     ],
+     "coverage_w_on": {
+      "k": 477,
+      "n": 498,
+      "rate": 0.9578,
+      "wilson95": [
+       0.9364,
+       0.9723
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 473,
+      "n": 498,
+      "rate": 0.9498,
+      "wilson95": [
+       0.9269,
+       0.9658
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 0.0703,
+     "bias_vs_mu_w": [
+      0.00241,
+      -0.00071
+     ],
+     "relative_bias_vs_mu_w_norm": null,
+     "coverage_of_mu_w_on_(informational)": 0.9598,
+     "P(gate & excl 45)": 0.0402,
+     "P(gate & excl 0)": 0.0482,
+     "_counts": {
+      "ok": 498,
+      "gate_excl45": 20,
+      "gate_excl0": 24,
+      "gate_pass": 35
+     }
+    }
+   },
+   "criteria": {
+    "E1a_weight_coverage": {
+     "S01 onset moderate": {
+      "w_on": {
+       "k": 480,
+       "n": 499,
+       "rate": 0.9619,
+       "wilson95": [
+        0.9413,
+        0.9755
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 482,
+       "n": 499,
+       "rate": 0.9659,
+       "wilson95": [
+        0.9461,
+        0.9786
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S03 onset high": {
+      "w_on": {
+       "k": 474,
+       "n": 499,
+       "rate": 0.9499,
+       "wilson95": [
+        0.9271,
+        0.9658
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 476,
+       "n": 499,
+       "rate": 0.9539,
+       "wilson95": [
+        0.9318,
+        0.9691
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S04 midpoint moderate": {
+      "w_on": {
+       "k": 483,
+       "n": 500,
+       "rate": 0.966,
+       "wilson95": [
+        0.9462,
+        0.9787
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 476,
+       "n": 500,
+       "rate": 0.952,
+       "wilson95": [
+        0.9296,
+        0.9675
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S13 heterogeneous weights+thresholds": {
+      "w_on": {
+       "k": 488,
+       "n": 500,
+       "rate": 0.976,
+       "wilson95": [
+        0.9585,
+        0.9862
+       ],
+       "point_status": "met",
+       "mc_status": "indeterminate"
+      },
+      "w_off": {
+       "k": 476,
+       "n": 500,
+       "rate": 0.952,
+       "wilson95": [
+        0.9296,
+        0.9675
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "H2 mixture 6 onset + 6 midpoint": {
+      "w_on": {
+       "k": 492,
+       "n": 500,
+       "rate": 0.984,
+       "wilson95": [
+        0.9687,
+        0.9919
+       ],
+       "point_status": "not met (point estimate)",
+       "mc_status": "indeterminate"
+      },
+      "w_off": {
+       "k": 497,
+       "n": 500,
+       "rate": 0.994,
+       "wilson95": [
+        0.9825,
+        0.998
+       ],
+       "point_status": "not met (point estimate)",
+       "mc_status": "clearly outside"
+      }
+     },
+     "S12 onset with lapses 0.15": {
+      "w_on": {
+       "k": 470,
+       "n": 498,
+       "rate": 0.9438,
+       "wilson95": [
+        0.9199,
+        0.9608
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 478,
+       "n": 498,
+       "rate": 0.9598,
+       "wilson95": [
+        0.9388,
+        0.9739
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S10 guessing": {
+      "w_on": {
+       "k": 477,
+       "n": 498,
+       "rate": 0.9578,
+       "wilson95": [
+        0.9364,
+        0.9723
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 473,
+       "n": 498,
+       "rate": 0.9498,
+       "wilson95": [
+        0.9269,
+        0.9658
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     }
+    },
+    "E1a2_angle_coverage": {
+     "S01 onset moderate": {
+      "k": 481,
+      "n": 499,
+      "rate": 0.9639,
+      "wilson95": [
+       0.9437,
+       0.9771
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S03 onset high": {
+      "k": 476,
+      "n": 499,
+      "rate": 0.9539,
+      "wilson95": [
+       0.9318,
+       0.9691
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S04 midpoint moderate": {
+      "k": 483,
+      "n": 500,
+      "rate": 0.966,
+      "wilson95": [
+       0.9462,
+       0.9787
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S13 heterogeneous weights+thresholds": {
+      "k": 476,
+      "n": 500,
+      "rate": 0.952,
+      "wilson95": [
+       0.9296,
+       0.9675
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "H2 mixture 6 onset + 6 midpoint": {
+      "k": 500,
+      "n": 500,
+      "rate": 1.0,
+      "wilson95": [
+       0.9924,
+       1.0
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "clearly outside"
+     },
+     "S12 onset with lapses 0.15": {
+      "k": 477,
+      "n": 498,
+      "rate": 0.9578,
+      "wilson95": [
+       0.9364,
+       0.9723
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     }
+    },
+    "E1b_onset_excl45": {
+     "k": 499,
+     "n": 499,
+     "rate": 1.0,
+     "wilson95": [
+      0.9924,
+      1.0
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "E1b_midpoint_excl0": {
+     "k": 499,
+     "n": 500,
+     "rate": 0.998,
+     "wilson95": [
+      0.9888,
+      0.9996
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "E1c_guessing_gate": {
+     "k": 35,
+     "n": 498,
+     "rate": 0.0703,
+     "wilson95": [
+      0.051,
+      0.0962
+     ],
+     "point_status": "not met (point estimate)",
+     "mc_status": "indeterminate"
+    },
+    "E1d_failures": {
+     "S01 onset moderate": {
+      "k": 1,
+      "n": 500,
+      "rate": 0.002,
+      "wilson95": [
+       0.0004,
+       0.0112
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S03 onset high": {
+      "k": 1,
+      "n": 500,
+      "rate": 0.002,
+      "wilson95": [
+       0.0004,
+       0.0112
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S04 midpoint moderate": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S13 heterogeneous weights+thresholds": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "H2 mixture 6 onset + 6 midpoint": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S12 onset with lapses 0.15": {
+      "k": 2,
+      "n": 500,
+      "rate": 0.004,
+      "wilson95": [
+       0.0011,
+       0.0145
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S10 guessing": {
+      "k": 2,
+      "n": 500,
+      "rate": 0.004,
+      "wilson95": [
+       0.0011,
+       0.0145
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     }
+    },
+    "E1e_interpretation": {
+     "max_abs_angle_deviation_deg": 1.37,
+     "per_scenario": {
+      "S01 onset moderate": 0.029,
+      "S03 onset high": 0.063,
+      "S04 midpoint moderate": 0.13,
+      "S13 heterogeneous weights+thresholds": 0.06,
+      "H2 mixture 6 onset + 6 midpoint": 1.37,
+      "S12 onset with lapses 0.15": 0.022
+     },
+     "met": true
+    }
+   },
+   "all_criteria_met_point": false,
+   "any_clearly_outside": true,
+   "n_indeterminate": 3,
+   "acceptable_under_frozen_rule": false
+  },
+  "B3-boot": {
+   "per_scenario": {
+    "S01 onset moderate": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.22587,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "mean_est": [
+      0.22546,
+      0.00055
+     ],
+     "bias_vs_own_target": [
+      -0.00041,
+      0.00055
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00067,
+      0.00077
+     ],
+     "empirical_sd": [
+      0.01495,
+      0.01726
+     ],
+     "median_se": [
+      0.01523,
+      0.01687
+     ],
+     "coverage_w_on": {
+      "k": 482,
+      "n": 500,
+      "rate": 0.964,
+      "wilson95": [
+       0.9438,
+       0.9771
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 477,
+      "n": 500,
+      "rate": 0.954,
+      "wilson95": [
+       0.9319,
+       0.9692
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 460,
+      "n": 500,
+      "rate": 0.92,
+      "wilson95": [
+       0.8929,
+       0.9407
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "median_angle_ci_width": 15.94,
+     "mean_angle_est": 0.155,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.08,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 500,
+      "gate_excl0": 40,
+      "gate_pass": 500
+     }
+    },
+    "S03 onset high": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.28611,
+      -0.0
+     ],
+     "target_angle": -0.0,
+     "mean_est": [
+      0.28587,
+      -0.00136
+     ],
+     "bias_vs_own_target": [
+      -0.00024,
+      -0.00136
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00052,
+      0.00066
+     ],
+     "empirical_sd": [
+      0.01157,
+      0.0148
+     ],
+     "median_se": [
+      0.01099,
+      0.01444
+     ],
+     "coverage_w_on": {
+      "k": 460,
+      "n": 500,
+      "rate": 0.92,
+      "wilson95": [
+       0.8929,
+       0.9407
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "coverage_w_off": {
+      "k": 480,
+      "n": 500,
+      "rate": 0.96,
+      "wilson95": [
+       0.939,
+       0.974
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 458,
+      "n": 500,
+      "rate": 0.916,
+      "wilson95": [
+       0.8884,
+       0.9373
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "median_angle_ci_width": 10.78,
+     "mean_angle_est": -0.27,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.084,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 500,
+      "gate_excl0": 42,
+      "gate_pass": 500
+     }
+    },
+    "S04 midpoint moderate": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.11756,
+      0.11756
+     ],
+     "target_angle": 45.0,
+     "mean_est": [
+      0.11683,
+      0.11738
+     ],
+     "bias_vs_own_target": [
+      -0.00073,
+      -0.00018
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00081,
+      0.00082
+     ],
+     "empirical_sd": [
+      0.01802,
+      0.01833
+     ],
+     "median_se": [
+      0.01771,
+      0.01781
+     ],
+     "coverage_w_on": {
+      "k": 482,
+      "n": 500,
+      "rate": 0.964,
+      "wilson95": [
+       0.9438,
+       0.9771
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 477,
+      "n": 500,
+      "rate": 0.954,
+      "wilson95": [
+       0.9319,
+       0.9692
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 462,
+      "n": 500,
+      "rate": 0.924,
+      "wilson95": [
+       0.8974,
+       0.9441
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "median_angle_ci_width": 24.56,
+     "mean_angle_est": 45.133,
+     "P(gate & excl 45)": 0.076,
+     "P(gate & excl 0)": 1.0,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 38,
+      "gate_excl0": 500,
+      "gate_pass": 500
+     }
+    },
+    "S13 heterogeneous weights+thresholds": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.2212,
+      -0.0
+     ],
+     "target_angle": -0.0,
+     "mean_est": [
+      0.22051,
+      -0.0007
+     ],
+     "bias_vs_own_target": [
+      -0.00069,
+      -0.0007
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00084,
+      0.00076
+     ],
+     "empirical_sd": [
+      0.01869,
+      0.01701
+     ],
+     "median_se": [
+      0.01979,
+      0.0162
+     ],
+     "coverage_w_on": {
+      "k": 486,
+      "n": 500,
+      "rate": 0.972,
+      "wilson95": [
+       0.9536,
+       0.9832
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "coverage_w_off": {
+      "k": 480,
+      "n": 500,
+      "rate": 0.96,
+      "wilson95": [
+       0.939,
+       0.974
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 460,
+      "n": 500,
+      "rate": 0.92,
+      "wilson95": [
+       0.8929,
+       0.9407
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "median_angle_ci_width": 15.86,
+     "mean_angle_est": -0.171,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.08,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 500,
+      "gate_excl0": 40,
+      "gate_pass": 500
+     }
+    },
+    "H2 mixture 6 onset + 6 midpoint": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.17171,
+      0.05878
+     ],
+     "target_angle": 18.897,
+     "mean_est": [
+      0.17245,
+      0.05838
+     ],
+     "bias_vs_own_target": [
+      0.00075,
+      -0.00039
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00073,
+      0.00083
+     ],
+     "empirical_sd": [
+      0.0164,
+      0.01848
+     ],
+     "median_se": [
+      0.02289,
+      0.0246
+     ],
+     "coverage_w_on": {
+      "k": 493,
+      "n": 500,
+      "rate": 0.986,
+      "wilson95": [
+       0.9714,
+       0.9932
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "indeterminate"
+     },
+     "coverage_w_off": {
+      "k": 494,
+      "n": 500,
+      "rate": 0.988,
+      "wilson95": [
+       0.9741,
+       0.9945
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "indeterminate"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 493,
+      "n": 500,
+      "rate": 0.986,
+      "wilson95": [
+       0.9714,
+       0.9932
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "indeterminate"
+     },
+     "median_angle_ci_width": 32.8,
+     "mean_angle_est": 18.744,
+     "P(gate & excl 45)": 0.842,
+     "P(gate & excl 0)": 0.742,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 421,
+      "gate_excl0": 371,
+      "gate_pass": 500
+     }
+    },
+    "S12 onset with lapses 0.15": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.1959,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "mean_est": [
+      0.19579,
+      -0.00138
+     ],
+     "bias_vs_own_target": [
+      -0.00011,
+      -0.00138
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00081,
+      0.00083
+     ],
+     "empirical_sd": [
+      0.0182,
+      0.01849
+     ],
+     "median_se": [
+      0.01746,
+      0.0182
+     ],
+     "coverage_w_on": {
+      "k": 475,
+      "n": 500,
+      "rate": 0.95,
+      "wilson95": [
+       0.9272,
+       0.9659
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 476,
+      "n": 500,
+      "rate": 0.952,
+      "wilson95": [
+       0.9296,
+       0.9675
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 461,
+      "n": 500,
+      "rate": 0.922,
+      "wilson95": [
+       0.8951,
+       0.9424
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "median_angle_ci_width": 19.98,
+     "mean_angle_est": -0.357,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.078,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 500,
+      "gate_excl0": 39,
+      "gate_pass": 500
+     }
+    },
+    "S10 guessing": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.0,
+      0.0
+     ],
+     "target_angle": null,
+     "mean_est": [
+      0.00092,
+      -0.00035
+     ],
+     "bias_vs_own_target": [
+      0.00092,
+      -0.00035
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00088,
+      0.00089
+     ],
+     "empirical_sd": [
+      0.01969,
+      0.02001
+     ],
+     "median_se": [
+      0.01948,
+      0.01918
+     ],
+     "coverage_w_on": {
+      "k": 477,
+      "n": 500,
+      "rate": 0.954,
+      "wilson95": [
+       0.9319,
+       0.9692
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 472,
+      "n": 500,
+      "rate": 0.944,
+      "wilson95": [
+       0.9203,
+       0.961
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 0.056,
+     "P(gate & excl 45)": 0.034,
+     "P(gate & excl 0)": 0.038,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 17,
+      "gate_excl0": 19,
+      "gate_pass": 28
+     }
+    }
+   },
+   "criteria": {
+    "E1a_weight_coverage": {
+     "S01 onset moderate": {
+      "w_on": {
+       "k": 482,
+       "n": 500,
+       "rate": 0.964,
+       "wilson95": [
+        0.9438,
+        0.9771
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 477,
+       "n": 500,
+       "rate": 0.954,
+       "wilson95": [
+        0.9319,
+        0.9692
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S03 onset high": {
+      "w_on": {
+       "k": 460,
+       "n": 500,
+       "rate": 0.92,
+       "wilson95": [
+        0.8929,
+        0.9407
+       ],
+       "point_status": "met",
+       "mc_status": "indeterminate"
+      },
+      "w_off": {
+       "k": 480,
+       "n": 500,
+       "rate": 0.96,
+       "wilson95": [
+        0.939,
+        0.974
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S04 midpoint moderate": {
+      "w_on": {
+       "k": 482,
+       "n": 500,
+       "rate": 0.964,
+       "wilson95": [
+        0.9438,
+        0.9771
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 477,
+       "n": 500,
+       "rate": 0.954,
+       "wilson95": [
+        0.9319,
+        0.9692
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S13 heterogeneous weights+thresholds": {
+      "w_on": {
+       "k": 486,
+       "n": 500,
+       "rate": 0.972,
+       "wilson95": [
+        0.9536,
+        0.9832
+       ],
+       "point_status": "met",
+       "mc_status": "indeterminate"
+      },
+      "w_off": {
+       "k": 480,
+       "n": 500,
+       "rate": 0.96,
+       "wilson95": [
+        0.939,
+        0.974
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "H2 mixture 6 onset + 6 midpoint": {
+      "w_on": {
+       "k": 493,
+       "n": 500,
+       "rate": 0.986,
+       "wilson95": [
+        0.9714,
+        0.9932
+       ],
+       "point_status": "not met (point estimate)",
+       "mc_status": "indeterminate"
+      },
+      "w_off": {
+       "k": 494,
+       "n": 500,
+       "rate": 0.988,
+       "wilson95": [
+        0.9741,
+        0.9945
+       ],
+       "point_status": "not met (point estimate)",
+       "mc_status": "indeterminate"
+      }
+     },
+     "S12 onset with lapses 0.15": {
+      "w_on": {
+       "k": 475,
+       "n": 500,
+       "rate": 0.95,
+       "wilson95": [
+        0.9272,
+        0.9659
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 476,
+       "n": 500,
+       "rate": 0.952,
+       "wilson95": [
+        0.9296,
+        0.9675
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S10 guessing": {
+      "w_on": {
+       "k": 477,
+       "n": 500,
+       "rate": 0.954,
+       "wilson95": [
+        0.9319,
+        0.9692
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 472,
+       "n": 500,
+       "rate": 0.944,
+       "wilson95": [
+        0.9203,
+        0.961
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     }
+    },
+    "E1a2_angle_coverage": {
+     "S01 onset moderate": {
+      "k": 460,
+      "n": 500,
+      "rate": 0.92,
+      "wilson95": [
+       0.8929,
+       0.9407
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "S03 onset high": {
+      "k": 458,
+      "n": 500,
+      "rate": 0.916,
+      "wilson95": [
+       0.8884,
+       0.9373
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "S04 midpoint moderate": {
+      "k": 462,
+      "n": 500,
+      "rate": 0.924,
+      "wilson95": [
+       0.8974,
+       0.9441
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "S13 heterogeneous weights+thresholds": {
+      "k": 460,
+      "n": 500,
+      "rate": 0.92,
+      "wilson95": [
+       0.8929,
+       0.9407
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "H2 mixture 6 onset + 6 midpoint": {
+      "k": 493,
+      "n": 500,
+      "rate": 0.986,
+      "wilson95": [
+       0.9714,
+       0.9932
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "indeterminate"
+     },
+     "S12 onset with lapses 0.15": {
+      "k": 461,
+      "n": 500,
+      "rate": 0.922,
+      "wilson95": [
+       0.8951,
+       0.9424
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     }
+    },
+    "E1b_onset_excl45": {
+     "k": 500,
+     "n": 500,
+     "rate": 1.0,
+     "wilson95": [
+      0.9924,
+      1.0
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "E1b_midpoint_excl0": {
+     "k": 500,
+     "n": 500,
+     "rate": 1.0,
+     "wilson95": [
+      0.9924,
+      1.0
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "E1c_guessing_gate": {
+     "k": 28,
+     "n": 500,
+     "rate": 0.056,
+     "wilson95": [
+      0.039,
+      0.0797
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "E1d_failures": {
+     "S01 onset moderate": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S03 onset high": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S04 midpoint moderate": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S13 heterogeneous weights+thresholds": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "H2 mixture 6 onset + 6 midpoint": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S12 onset with lapses 0.15": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S10 guessing": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     }
+    },
+    "E1e_interpretation": {
+     "max_abs_angle_deviation_deg": 0.462,
+     "per_scenario": {
+      "S01 onset moderate": 0.0,
+      "S03 onset high": 0.0,
+      "S04 midpoint moderate": 0.0,
+      "S13 heterogeneous weights+thresholds": 0.0,
+      "H2 mixture 6 onset + 6 midpoint": 0.462,
+      "S12 onset with lapses 0.15": 0.0
+     },
+     "max_mapping_distortion_deg": 2.84,
+     "met": true
+    }
+   },
+   "all_criteria_met_point": false,
+   "any_clearly_outside": false,
+   "n_indeterminate": 11,
+   "acceptable_under_frozen_rule": false
+  },
+  "B3-t": {
+   "per_scenario": {
+    "S01 onset moderate": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.22587,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "mean_est": [
+      0.22546,
+      0.00055
+     ],
+     "bias_vs_own_target": [
+      -0.00041,
+      0.00055
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00067,
+      0.00077
+     ],
+     "empirical_sd": [
+      0.01495,
+      0.01726
+     ],
+     "median_se": [
+      0.01523,
+      0.01687
+     ],
+     "coverage_w_on": {
+      "k": 482,
+      "n": 500,
+      "rate": 0.964,
+      "wilson95": [
+       0.9438,
+       0.9771
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 477,
+      "n": 500,
+      "rate": 0.954,
+      "wilson95": [
+       0.9319,
+       0.9692
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 477,
+      "n": 500,
+      "rate": 0.954,
+      "wilson95": [
+       0.9319,
+       0.9692
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "median_angle_ci_width": 18.69,
+     "mean_angle_est": 0.155,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.046,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 500,
+      "gate_excl0": 23,
+      "gate_pass": 500
+     }
+    },
+    "S03 onset high": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.28611,
+      -0.0
+     ],
+     "target_angle": -0.0,
+     "mean_est": [
+      0.28587,
+      -0.00136
+     ],
+     "bias_vs_own_target": [
+      -0.00024,
+      -0.00136
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00052,
+      0.00066
+     ],
+     "empirical_sd": [
+      0.01157,
+      0.0148
+     ],
+     "median_se": [
+      0.01099,
+      0.01444
+     ],
+     "coverage_w_on": {
+      "k": 460,
+      "n": 500,
+      "rate": 0.92,
+      "wilson95": [
+       0.8929,
+       0.9407
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "coverage_w_off": {
+      "k": 480,
+      "n": 500,
+      "rate": 0.96,
+      "wilson95": [
+       0.939,
+       0.974
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 479,
+      "n": 500,
+      "rate": 0.958,
+      "wilson95": [
+       0.9366,
+       0.9724
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "median_angle_ci_width": 12.66,
+     "mean_angle_est": -0.27,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.042,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 500,
+      "gate_excl0": 21,
+      "gate_pass": 500
+     }
+    },
+    "S04 midpoint moderate": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.11756,
+      0.11756
+     ],
+     "target_angle": 45.0,
+     "mean_est": [
+      0.11683,
+      0.11738
+     ],
+     "bias_vs_own_target": [
+      -0.00073,
+      -0.00018
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00081,
+      0.00082
+     ],
+     "empirical_sd": [
+      0.01802,
+      0.01833
+     ],
+     "median_se": [
+      0.01771,
+      0.01781
+     ],
+     "coverage_w_on": {
+      "k": 482,
+      "n": 500,
+      "rate": 0.964,
+      "wilson95": [
+       0.9438,
+       0.9771
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 477,
+      "n": 500,
+      "rate": 0.954,
+      "wilson95": [
+       0.9319,
+       0.9692
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 482,
+      "n": 500,
+      "rate": 0.964,
+      "wilson95": [
+       0.9438,
+       0.9771
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "median_angle_ci_width": 29.08,
+     "mean_angle_est": 45.133,
+     "P(gate & excl 45)": 0.036,
+     "P(gate & excl 0)": 0.998,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 18,
+      "gate_excl0": 499,
+      "gate_pass": 500
+     }
+    },
+    "S13 heterogeneous weights+thresholds": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.2212,
+      -0.0
+     ],
+     "target_angle": -0.0,
+     "mean_est": [
+      0.22051,
+      -0.0007
+     ],
+     "bias_vs_own_target": [
+      -0.00069,
+      -0.0007
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00084,
+      0.00076
+     ],
+     "empirical_sd": [
+      0.01869,
+      0.01701
+     ],
+     "median_se": [
+      0.01979,
+      0.0162
+     ],
+     "coverage_w_on": {
+      "k": 486,
+      "n": 500,
+      "rate": 0.972,
+      "wilson95": [
+       0.9536,
+       0.9832
+      ],
+      "point_status": "met",
+      "mc_status": "indeterminate"
+     },
+     "coverage_w_off": {
+      "k": 480,
+      "n": 500,
+      "rate": 0.96,
+      "wilson95": [
+       0.939,
+       0.974
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 478,
+      "n": 500,
+      "rate": 0.956,
+      "wilson95": [
+       0.9343,
+       0.9708
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "median_angle_ci_width": 18.7,
+     "mean_angle_est": -0.171,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.044,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 500,
+      "gate_excl0": 22,
+      "gate_pass": 500
+     }
+    },
+    "H2 mixture 6 onset + 6 midpoint": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.17171,
+      0.05878
+     ],
+     "target_angle": 18.897,
+     "mean_est": [
+      0.17245,
+      0.05838
+     ],
+     "bias_vs_own_target": [
+      0.00075,
+      -0.00039
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00073,
+      0.00083
+     ],
+     "empirical_sd": [
+      0.0164,
+      0.01848
+     ],
+     "median_se": [
+      0.02289,
+      0.0246
+     ],
+     "coverage_w_on": {
+      "k": 493,
+      "n": 500,
+      "rate": 0.986,
+      "wilson95": [
+       0.9714,
+       0.9932
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "indeterminate"
+     },
+     "coverage_w_off": {
+      "k": 494,
+      "n": 500,
+      "rate": 0.988,
+      "wilson95": [
+       0.9741,
+       0.9945
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "indeterminate"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 498,
+      "n": 500,
+      "rate": 0.996,
+      "wilson95": [
+       0.9855,
+       0.9989
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "clearly outside"
+     },
+     "median_angle_ci_width": 38.62,
+     "mean_angle_est": 18.744,
+     "P(gate & excl 45)": 0.74,
+     "P(gate & excl 0)": 0.576,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 370,
+      "gate_excl0": 288,
+      "gate_pass": 500
+     }
+    },
+    "S12 onset with lapses 0.15": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.1959,
+      0.0
+     ],
+     "target_angle": 0.0,
+     "mean_est": [
+      0.19579,
+      -0.00138
+     ],
+     "bias_vs_own_target": [
+      -0.00011,
+      -0.00138
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00081,
+      0.00083
+     ],
+     "empirical_sd": [
+      0.0182,
+      0.01849
+     ],
+     "median_se": [
+      0.01746,
+      0.0182
+     ],
+     "coverage_w_on": {
+      "k": 475,
+      "n": 500,
+      "rate": 0.95,
+      "wilson95": [
+       0.9272,
+       0.9659
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 476,
+      "n": 500,
+      "rate": 0.952,
+      "wilson95": [
+       0.9296,
+       0.9675
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 1.0,
+     "angle_coverage": {
+      "k": 476,
+      "n": 500,
+      "rate": 0.952,
+      "wilson95": [
+       0.9296,
+       0.9675
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "median_angle_ci_width": 23.27,
+     "mean_angle_est": -0.357,
+     "P(gate & excl 45)": 1.0,
+     "P(gate & excl 0)": 0.048,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 500,
+      "gate_excl0": 24,
+      "gate_pass": 500
+     }
+    },
+    "S10 guessing": {
+     "n": 500,
+     "failures": 0,
+     "failure_rate": 0.0,
+     "target": [
+      0.0,
+      0.0
+     ],
+     "target_angle": null,
+     "mean_est": [
+      0.00092,
+      -0.00035
+     ],
+     "bias_vs_own_target": [
+      0.00092,
+      -0.00035
+     ],
+     "bias_vs_own_target_mc_se": [
+      0.00088,
+      0.00089
+     ],
+     "empirical_sd": [
+      0.01969,
+      0.02001
+     ],
+     "median_se": [
+      0.01948,
+      0.01918
+     ],
+     "coverage_w_on": {
+      "k": 477,
+      "n": 500,
+      "rate": 0.954,
+      "wilson95": [
+       0.9319,
+       0.9692
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "coverage_w_off": {
+      "k": 472,
+      "n": 500,
+      "rate": 0.944,
+      "wilson95": [
+       0.9203,
+       0.961
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "gate_pass_rate": 0.056,
+     "P(gate & excl 45)": 0.028,
+     "P(gate & excl 0)": 0.036,
+     "_counts": {
+      "ok": 500,
+      "gate_excl45": 14,
+      "gate_excl0": 18,
+      "gate_pass": 28
+     }
+    }
+   },
+   "criteria": {
+    "E1a_weight_coverage": {
+     "S01 onset moderate": {
+      "w_on": {
+       "k": 482,
+       "n": 500,
+       "rate": 0.964,
+       "wilson95": [
+        0.9438,
+        0.9771
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 477,
+       "n": 500,
+       "rate": 0.954,
+       "wilson95": [
+        0.9319,
+        0.9692
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S03 onset high": {
+      "w_on": {
+       "k": 460,
+       "n": 500,
+       "rate": 0.92,
+       "wilson95": [
+        0.8929,
+        0.9407
+       ],
+       "point_status": "met",
+       "mc_status": "indeterminate"
+      },
+      "w_off": {
+       "k": 480,
+       "n": 500,
+       "rate": 0.96,
+       "wilson95": [
+        0.939,
+        0.974
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S04 midpoint moderate": {
+      "w_on": {
+       "k": 482,
+       "n": 500,
+       "rate": 0.964,
+       "wilson95": [
+        0.9438,
+        0.9771
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 477,
+       "n": 500,
+       "rate": 0.954,
+       "wilson95": [
+        0.9319,
+        0.9692
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S13 heterogeneous weights+thresholds": {
+      "w_on": {
+       "k": 486,
+       "n": 500,
+       "rate": 0.972,
+       "wilson95": [
+        0.9536,
+        0.9832
+       ],
+       "point_status": "met",
+       "mc_status": "indeterminate"
+      },
+      "w_off": {
+       "k": 480,
+       "n": 500,
+       "rate": 0.96,
+       "wilson95": [
+        0.939,
+        0.974
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "H2 mixture 6 onset + 6 midpoint": {
+      "w_on": {
+       "k": 493,
+       "n": 500,
+       "rate": 0.986,
+       "wilson95": [
+        0.9714,
+        0.9932
+       ],
+       "point_status": "not met (point estimate)",
+       "mc_status": "indeterminate"
+      },
+      "w_off": {
+       "k": 494,
+       "n": 500,
+       "rate": 0.988,
+       "wilson95": [
+        0.9741,
+        0.9945
+       ],
+       "point_status": "not met (point estimate)",
+       "mc_status": "indeterminate"
+      }
+     },
+     "S12 onset with lapses 0.15": {
+      "w_on": {
+       "k": 475,
+       "n": 500,
+       "rate": 0.95,
+       "wilson95": [
+        0.9272,
+        0.9659
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 476,
+       "n": 500,
+       "rate": 0.952,
+       "wilson95": [
+        0.9296,
+        0.9675
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     },
+     "S10 guessing": {
+      "w_on": {
+       "k": 477,
+       "n": 500,
+       "rate": 0.954,
+       "wilson95": [
+        0.9319,
+        0.9692
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      },
+      "w_off": {
+       "k": 472,
+       "n": 500,
+       "rate": 0.944,
+       "wilson95": [
+        0.9203,
+        0.961
+       ],
+       "point_status": "met",
+       "mc_status": "clearly inside"
+      }
+     }
+    },
+    "E1a2_angle_coverage": {
+     "S01 onset moderate": {
+      "k": 477,
+      "n": 500,
+      "rate": 0.954,
+      "wilson95": [
+       0.9319,
+       0.9692
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S03 onset high": {
+      "k": 479,
+      "n": 500,
+      "rate": 0.958,
+      "wilson95": [
+       0.9366,
+       0.9724
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S04 midpoint moderate": {
+      "k": 482,
+      "n": 500,
+      "rate": 0.964,
+      "wilson95": [
+       0.9438,
+       0.9771
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S13 heterogeneous weights+thresholds": {
+      "k": 478,
+      "n": 500,
+      "rate": 0.956,
+      "wilson95": [
+       0.9343,
+       0.9708
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "H2 mixture 6 onset + 6 midpoint": {
+      "k": 498,
+      "n": 500,
+      "rate": 0.996,
+      "wilson95": [
+       0.9855,
+       0.9989
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "clearly outside"
+     },
+     "S12 onset with lapses 0.15": {
+      "k": 476,
+      "n": 500,
+      "rate": 0.952,
+      "wilson95": [
+       0.9296,
+       0.9675
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     }
+    },
+    "E1b_onset_excl45": {
+     "k": 500,
+     "n": 500,
+     "rate": 1.0,
+     "wilson95": [
+      0.9924,
+      1.0
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "E1b_midpoint_excl0": {
+     "k": 499,
+     "n": 500,
+     "rate": 0.998,
+     "wilson95": [
+      0.9888,
+      0.9996
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "E1c_guessing_gate": {
+     "k": 28,
+     "n": 500,
+     "rate": 0.056,
+     "wilson95": [
+      0.039,
+      0.0797
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "E1d_failures": {
+     "S01 onset moderate": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S03 onset high": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S04 midpoint moderate": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S13 heterogeneous weights+thresholds": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "H2 mixture 6 onset + 6 midpoint": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S12 onset with lapses 0.15": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     },
+     "S10 guessing": {
+      "k": 0,
+      "n": 500,
+      "rate": 0.0,
+      "wilson95": [
+       0.0,
+       0.0076
+      ],
+      "point_status": "met",
+      "mc_status": "clearly inside"
+     }
+    },
+    "E1e_interpretation": {
+     "max_abs_angle_deviation_deg": 0.462,
+     "per_scenario": {
+      "S01 onset moderate": 0.0,
+      "S03 onset high": 0.0,
+      "S04 midpoint moderate": 0.0,
+      "S13 heterogeneous weights+thresholds": 0.0,
+      "H2 mixture 6 onset + 6 midpoint": 0.462,
+      "S12 onset with lapses 0.15": 0.0
+     },
+     "max_mapping_distortion_deg": 2.84,
+     "met": true
+    }
+   },
+   "all_criteria_met_point": false,
+   "any_clearly_outside": true,
+   "n_indeterminate": 5,
+   "acceptable_under_frozen_rule": false
+  }
+ },
+ "frozen_decision_rule": "A method variant is ACCEPTABLE only if every criterion E1a, E1a2, E1b, E1c, E1d is met at its point estimate, none is 'clearly outside' by MC interval, and E1e is met. If more than one variant is acceptable, NO automatic selection: report trade-offs (estimand scale, magnitude bias vs mu_w, interval width, discrimination) for reviewer decision. If exactly one is acceptable, recommend it subject to review. If none, REVISE the analysis plan. Latent-scale interpretation is not a tie-breaker.",
+ "acceptable_methods": []
+}

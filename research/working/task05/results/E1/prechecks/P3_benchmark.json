@@ -1,0 +1,16 @@
+{
+ "datasets": 200,
+ "scenario": "S13",
+ "draws_or_resamples_per_dataset": 2000,
+ "B2_complete_seconds": {
+  "median": 0.058,
+  "p95": 0.0838,
+  "total": 12.5
+ },
+ "B3_complete_seconds": {
+  "median": 0.00139,
+  "p95": 0.00193,
+  "total": 0.29
+ },
+ "projection_3500_datasets_single_core_s": 224.0
+}

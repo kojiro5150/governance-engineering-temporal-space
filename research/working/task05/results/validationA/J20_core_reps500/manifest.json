@@ -1,0 +1,37 @@
+{
+ "config": {
+  "reps": 500,
+  "allocations": [
+   "J20 (k=2)"
+  ],
+  "scenarios": [
+   "S01 onset moderate",
+   "S03 onset high",
+   "S04 midpoint moderate",
+   "S06 midpoint high",
+   "S07 threshold-onset q=0.2",
+   "S08 offset moderate",
+   "S09 duration heuristic",
+   "S11 biased onset"
+  ],
+  "lapse_model_scenarios": [],
+  "batch_size": 50,
+  "n_participants": 12,
+  "seed_namespace": "task04-recovery-v1",
+  "criteria": {
+   "RC1_bias": "|mean(w_hat) - w_true| <= 0.10 * a for w_on and w_off, in every CORE scenario",
+   "RC2_coverage": "95% Wald CI coverage for w_on and w_off within [0.90, 0.98], in every CORE scenario",
+   "RC3_stability": "unstable-fit rate <= 0.05 in every scenario",
+   "RC4_onset_vs_midpoint": "P(angle CI excludes 45 deg | onset truth, moderate) >= 0.80 AND P(angle CI excludes 0 deg | midpoint truth, moderate) >= 0.80",
+   "RC5_null_false_interpretation": "P(joint Wald test of (w_on, w_off) = 0 rejects at 0.05 | guessing) <= 0.07",
+   "decision_rule": "An allocation PASSES recovery only if RC1-RC5 all hold. The smallest passing allocation within the 30-minute condition-A burden limit is recommended. Low-sensitivity, lapse-heavy and heterogeneity scenarios are reported but are not pass/fail criteria."
+  }
+ },
+ "code_sha256": {
+  "ordinal_model.py": "590db5f37b028e9ae82e8069d611f347d0a3b118b61e4d24685b7dda33ceb7fe",
+  "stimulus.py": "238d882ab07d1f728bbc9454a0abe35af989afd0c3ce113bf04be50ec83bb0e3",
+  "simulate_recovery.py": "7068e977f78e52a0a4b1370ec65649290c17b1a16bdb3abdda3fab2b76f77bab",
+  "simulate_recovery_v3.py": "b7efd8ce1bbdcc05da1d2975179765b0bd11cefe634e0fc155c41e82ef157f36"
+ },
+ "created": "2026-10-10 10:00:51 AEDT"
+}

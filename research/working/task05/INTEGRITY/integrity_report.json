@@ -1,0 +1,124 @@
+{
+ "TASK05_CLOSURE_SHA256SUMS": {
+  "entries": 136,
+  "match": 135,
+  "mismatch": [
+   "logs/DEVIATIONS.md"
+  ],
+  "missing": []
+ },
+ "TASK05_ADDENDUM_A1_SHA256SUMS": {
+  "entries": 39,
+  "match": 39,
+  "mismatch": [],
+  "missing": []
+ },
+ "E1_raw_SHA256SUMS": {
+  "entries": 72,
+  "match": 72,
+  "mismatch": [],
+  "missing": []
+ },
+ "E1H2_raw_SHA256SUMS": {
+  "entries": 15,
+  "match": 15,
+  "mismatch": [],
+  "missing": []
+ },
+ "NZ_raw_SHA256SUMS": {
+  "entries": 25,
+  "match": 25,
+  "mismatch": [],
+  "missing": []
+ },
+ "E1H2_original_E1_hashes_before": {
+  "entries": 2,
+  "match": 2,
+  "mismatch": [],
+  "missing": []
+ },
+ "NZ_prior_hashes_before": {
+  "entries": 5,
+  "match": 5,
+  "mismatch": [],
+  "missing": []
+ },
+ "E1_frozen_spec": {
+  "spec_hash_matches_log": true,
+  "spec_hash": "8a8533eff182c88f5d841e5cc466d3b893b877d6d6a9d779d6e7043dce533d8f",
+  "code_files": 6,
+  "code_mismatch": [],
+  "run_manifest_points_to_spec": true
+ },
+ "E1H2_frozen_spec": {
+  "spec_hash_matches_log": true,
+  "spec_hash": "666c0cb5326206e74bdfc94e221251d72eb945cc4ce1ef9292673cd6fa033745",
+  "code_files": 11,
+  "code_mismatch": [],
+  "run_manifest_points_to_spec": true
+ },
+ "NZ_frozen_spec": {
+  "spec_hash_matches_log": true,
+  "spec_hash": "a2abb1caa66ab9e1f2b395b2e172cd6ec02d28f93965167f3dd77bb3adf32ef0",
+  "code_files": 11,
+  "code_mismatch": [],
+  "run_manifest_points_to_spec": true
+ },
+ "E1_precheck_evidence": {
+  "P1_P2_targets.json": true,
+  "P3_benchmark.json": true,
+  "P4_near_zero.json": true
+ },
+ "E1H2_links": {
+  "original_E1_spec": true,
+  "original_E1_results": true,
+  "precheck": true
+ },
+ "NZ_links": {
+  "E1_spec": true,
+  "E1H2_spec": true,
+  "closure_record": true,
+  "precheck": true
+ },
+ "config_inherited": {
+  "stimulus.py": true,
+  "ordinal_model.py": true,
+  "simulate_recovery.py": true,
+  "simulate_recovery_v2.py": true,
+  "burden.py": true
+ },
+ "config_task05_code": {
+  "adversarial_checks.py": true,
+  "analyse_C1.py": true,
+  "analyse_validationA.py": true,
+  "catch_trials.py": true,
+  "feasibility_B.py": true,
+  "heterogeneity_methods.py": true,
+  "individual_identifiability.py": true,
+  "lapse_catch.py": true,
+  "m4_check.py": true,
+  "mechanisms_C2.py": true,
+  "process_observer.py": true,
+  "simulate_recovery_v3.py": true
+ },
+ "config_task05_code_absent": [],
+ "inherited_code_sha256": {
+  "entries": 4,
+  "match": 4,
+  "mismatch": [],
+  "missing": []
+ },
+ "inherited_vs_repo_task04_archive": {
+  "stimulus.py": true,
+  "ordinal_model.py": true,
+  "simulate_recovery.py": true,
+  "simulate_recovery_v2.py": true,
+  "burden.py": true
+ },
+ "DEVIATIONS_reconciliation": {
+  "closure_manifest_hash": "0a7f10d29cd572b26e2847d96b147ff82b13191d36786d34bda5c013f994c3e4",
+  "closure_version_is_prefix_of_current": true,
+  "delivered_package_version_is_prefix_of_current": true,
+  "append_only": true
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "frozen_spec_sha256": "8a8533eff182c88f5d841e5cc466d3b893b877d6d6a9d779d6e7043dce533d8f",
+ "code_sha256": {
+  "e1_methods.py": "db99b8ba6fd85e6d7a55609cad8cf9838db32c8fadd795b85a9664723263e1c9",
+  "e1_run.py": "e546ebf612257632000f5af1ff641536b5777523c90a88fd6c3d8c477a54d8ce",
+  "e1_analyse.py": "b33bf0c46107675b94462d1bd50105a078723285364b4c54a964ca573a44d200",
+  "heterogeneity_methods.py": "3cfe209ac8a9d0a435fc74bd008ae07731f0849ef3581e1324a6ad36ba758f7d",
+  "ordinal_model.py": "590db5f37b028e9ae82e8069d611f347d0a3b118b61e4d24685b7dda33ceb7fe",
+  "stimulus.py": "238d882ab07d1f728bbc9454a0abe35af989afd0c3ce113bf04be50ec83bb0e3"
+ },
+ "reps": 500,
+ "scenarios": [
+  "S01 onset moderate",
+  "S03 onset high",
+  "S04 midpoint moderate",
+  "S13 heterogeneous weights+thresholds",
+  "H2 mixture 6 onset + 6 midpoint",
+  "S12 onset with lapses 0.15",
+  "S10 guessing"
+ ],
+ "seed_namespace": "task05-E1-v1",
+ "batch_size": 50,
+ "created": "2026-10-10 10:58:55 AEDT"
+}

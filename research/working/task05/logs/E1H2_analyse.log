@@ -1,0 +1,26 @@
+{
+ "B2": {
+  "H2_met": true,
+  "H1_w_on": 0.9459,
+  "H1_w_off": 0.9359,
+  "H2_angle": 0.9399,
+  "H3_failures": 0.002,
+  "composite": false
+ },
+ "B3-boot": {
+  "H2_met": false,
+  "H1_w_on": 0.93,
+  "H1_w_off": 0.922,
+  "H2_angle": 0.882,
+  "H3_failures": 0.0,
+  "composite": false
+ },
+ "B3-t": {
+  "H2_met": true,
+  "H1_w_on": 0.93,
+  "H1_w_off": 0.922,
+  "H2_angle": 0.93,
+  "H3_failures": 0.0,
+  "composite": true
+ }
+}

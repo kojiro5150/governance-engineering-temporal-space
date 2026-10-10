@@ -1,0 +1,18 @@
+{
+ "acceptable_methods": [],
+ "B2": {
+  "all_point": false,
+  "clear_out": true,
+  "indeterminate": 3
+ },
+ "B3-boot": {
+  "all_point": false,
+  "clear_out": false,
+  "indeterminate": 11
+ },
+ "B3-t": {
+  "all_point": false,
+  "clear_out": true,
+  "indeterminate": 5
+ }
+}

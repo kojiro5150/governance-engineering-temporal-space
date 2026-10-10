@@ -1,0 +1,58 @@
+{
+ "C1 S01 onset moderate (lapse 0.02) K=4": {
+  "n_participants": 1200,
+  "p_excluded(>=3 of 4)": 0.0
+ },
+ "C1 S04 midpoint moderate (lapse 0.15) K=4": {
+  "n_participants": 1200,
+  "p_excluded(>=3 of 4)": 0.0025
+ },
+ "C1 S10 guessing (lapse 0.02) K=4": {
+  "n_participants": 1200,
+  "p_excluded(>=3 of 4)": 0.68
+ },
+ "C1 S12 onset moderate (lapse 0.15) K=4": {
+  "n_participants": 1200,
+  "p_excluded(>=3 of 4)": 0.0058
+ },
+ "C2 target 0.85 M0": {
+  "n_participants": 2400,
+  "p_excluded(>=3 of 4)": 0.0
+ },
+ "C2 target 0.85 M1": {
+  "n_participants": 2400,
+  "p_excluded(>=3 of 4)": 0.0054
+ },
+ "C2 target 0.85 M2a": {
+  "n_participants": 2400,
+  "p_excluded(>=3 of 4)": 0.0037
+ },
+ "C2 target 0.85 M2b": {
+  "n_participants": 2400,
+  "p_excluded(>=3 of 4)": 0.0004
+ },
+ "C2 target 0.85 M3": {
+  "n_participants": 2400,
+  "p_excluded(>=3 of 4)": 0.0
+ },
+ "C2 target 0.60 M0": {
+  "n_participants": 2400,
+  "p_excluded(>=3 of 4)": 0.0
+ },
+ "C2 target 0.60 M1": {
+  "n_participants": 2400,
+  "p_excluded(>=3 of 4)": 0.06
+ },
+ "C2 target 0.60 M2a": {
+  "n_participants": 2400,
+  "p_excluded(>=3 of 4)": 0.0163
+ },
+ "C2 target 0.60 M2b": {
+  "n_participants": 2400,
+  "p_excluded(>=3 of 4)": 0.0033
+ },
+ "C2 target 0.60 M3": {
+  "n_participants": 2400,
+  "p_excluded(>=3 of 4)": 0.0004
+ }
+}

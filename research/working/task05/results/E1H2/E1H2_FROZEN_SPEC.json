@@ -1,0 +1,101 @@
+{
+ "title": "Task 05 E1-H2 confirmatory amendment: FROZEN specification",
+ "status": "AMENDMENT made after the original E1 results were seen. The original E1 specification, results and REVISE verdict are unchanged and remain the record of E1.",
+ "frozen_at": "2026-10-10 11:12:53 AEDT",
+ "frozen": true,
+ "reps": 500,
+ "seed_namespace": "task05-E1H2-confirm-v1",
+ "seed_rule": "int(sha256(f'{ns}|{rep}')[:16], 16) -> numpy default_rng",
+ "population": {
+  "description": "Each participant independently onset-weighted (w_on 0.70, w_off 0) or midpoint-weighted (w_on 0.35, w_off 0.35) with probability 0.5; membership drawn per participant per dataset; lapse 0.02; tau 1.0; bias SD 0.5; no weight or threshold heterogeneity within groups.",
+  "n_participants": 12,
+  "order_trials": 20,
+  "p_onset": 0.5
+ },
+ "methods": "B2, B3-boot and B3-t exactly as in the frozen E1 specification (same code, imported unchanged).",
+ "targets": {
+  "mu_w": [
+   0.525,
+   0.175
+  ],
+  "angle_mu_w": 18.435,
+  "theta_star": [
+   0.47845,
+   0.1723
+  ],
+  "theta_star_mc_se": [
+   0.00123,
+   0.00093
+  ],
+  "angle_theta_star": 19.805,
+  "beta_star": [
+   0.171706,
+   0.058777
+  ],
+  "beta_star_mc_se": [
+   8.9e-06,
+   4.3e-06
+  ],
+  "angle_beta_star": 18.897,
+  "source": "Frozen E1 H2 targets. Population targets are functionals of the 50/50 population, not of a sample's composition, so they are unchanged by random membership (deduction). Pre-freeze check T1 re-estimated theta* under random membership: difference -0.23 and +0.04 combined MC SE; beta* recomputed identical to 5 decimals.",
+  "precheck_sha256": "b150f74d7e5586f77dd960fba897ffe60fa0b91df8793884bcebc4414fcb5cc8"
+ },
+ "criteria": {
+  "coverage_band": [
+   0.9,
+   0.98
+  ],
+  "failure_max": 0.05,
+  "H1": "95% weight-CI coverage of the method's own target (B2 theta*, B3 beta*), w_on and w_off, within [0.90, 0.98].",
+  "H2": "Angle-interval coverage of the own target angle (circular containment) within [0.90, 0.98].",
+  "H3": "Failure rate <= 0.05.",
+  "mc_rule": "Judged on point estimates; Wilson 95% MC interval classified clearly inside / indeterminate / clearly outside (same as E1).",
+  "descriptive_not_gating": [
+   "gate pass rate; P(gate and excludes 0); P(gate and excludes 45); P(gate and excludes both); P(gate and excludes neither)",
+   "bias vs own target with MC SE; empirical SD vs median SE; B2 bias vs mu_w and coverage of mu_w",
+   "coverage by realised composition (informational)"
+  ],
+  "composition_strata": [
+   [
+    "n_onset 0-4",
+    0,
+    4
+   ],
+   [
+    "n_onset 5-7",
+    5,
+    7
+   ],
+   [
+    "n_onset 8-12",
+    8,
+    12
+   ]
+  ]
+ },
+ "decision_rule": "Per variant: H2-population criteria MET iff H1, H2 and H3 are met at point estimates and none is clearly outside. Composite amended status (reported separately from, and never replacing, the original E1 verdict): the variant meets every original E1 criterion outside the fixed-composition H2 scenario (from the frozen E1 results, read by hash) AND E1e AND the H2-population criteria. No automatic selection: if several variants meet the composite, trade-offs are reported for reviewer decision; latent-scale interpretation is not a tie-breaker.",
+ "disclosures": [
+  "Criteria bands are identical to E1; none was tuned after the exploratory run.",
+  "An exploratory post-hoc H2 run with random composition (D5, namespace task05-E1-posthoc-H2random-v1, Binomial(12,0.5) composition) was seen before this freeze. It is NOT counted as confirmatory and is not pooled with this run.",
+  "This amendment replaces only the H2 generator. It cannot remove the original E1 shortfalls in other scenarios (e.g. B2's E1c)."
+ ],
+ "original_E1": {
+  "spec_sha256": "8a8533eff182c88f5d841e5cc466d3b893b877d6d6a9d779d6e7043dce533d8f",
+  "results_path_rel_code": "../results/E1/E1_results.json",
+  "results_sha256": "8a2dfc0678034a3b6bbbefe3777df2364a8b9a4a30c63bfd840e68090c3b6ba2",
+  "verdict": "REVISE (no variant acceptable)"
+ },
+ "code_sha256": {
+  "e1h2/e1h2_common.py": "7cafc4e03c1cd430393bb49f9ae78dead66e6e989ffeef116ce7c0ac645644ac",
+  "e1h2/e1h2_run.py": "7908594c959be4349e84563669c12f162f88f750ff4d6cfe732810ef42994ae2",
+  "e1h2/e1h2_analyse.py": "b90db4837f05b5dbdff8460cdaf7db8ebd61d0d11d7a1b3aafeee7f6578f40d9",
+  "e1h2/e1h2_precheck.py": "a21af6c615d99128b8b46312822a6d74451853debfc14a940f77e192d4fd1e31",
+  "e1h2/build_e1h2_spec.py": "aa318a1daf87ffc219edc3066a103604f6c6949b126f75fe4e3401238d403783",
+  "e1_methods.py": "db99b8ba6fd85e6d7a55609cad8cf9838db32c8fadd795b85a9664723263e1c9",
+  "e1_run.py": "e546ebf612257632000f5af1ff641536b5777523c90a88fd6c3d8c477a54d8ce",
+  "e1_analyse.py": "b33bf0c46107675b94462d1bd50105a078723285364b4c54a964ca573a44d200",
+  "heterogeneity_methods.py": "3cfe209ac8a9d0a435fc74bd008ae07731f0849ef3581e1324a6ad36ba758f7d",
+  "ordinal_model.py": "590db5f37b028e9ae82e8069d611f347d0a3b118b61e4d24685b7dda33ceb7fe",
+  "stimulus.py": "238d882ab07d1f728bbc9454a0abe35af989afd0c3ce113bf04be50ec83bb0e3"
+ }
+}

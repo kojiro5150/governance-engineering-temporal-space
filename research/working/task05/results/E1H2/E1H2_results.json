@@ -1,0 +1,540 @@
+{
+ "n_rows": 500,
+ "errors": 0,
+ "n_onset_distribution": [
+  0,
+  0,
+  8,
+  36,
+  58,
+  97,
+  109,
+  92,
+  59,
+  31,
+  8,
+  2,
+  0
+ ],
+ "by_method": {
+  "B2": {
+   "criteria": {
+    "H1_w_on": {
+     "k": 472,
+     "n": 499,
+     "rate": 0.9459,
+     "wilson95": [
+      0.9224,
+      0.9626
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "H1_w_off": {
+     "k": 467,
+     "n": 499,
+     "rate": 0.9359,
+     "wilson95": [
+      0.9109,
+      0.9542
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "H2_angle": {
+     "k": 469,
+     "n": 499,
+     "rate": 0.9399,
+     "wilson95": [
+      0.9155,
+      0.9576
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "H3_failures": {
+     "k": 1,
+     "n": 500,
+     "rate": 0.002,
+     "wilson95": [
+      0.0004,
+      0.0112
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    }
+   },
+   "H_criteria_met_point": true,
+   "H_any_clearly_outside": false,
+   "H_n_indeterminate": 0,
+   "H2_population_criteria_met": true,
+   "target": [
+    0.47845,
+    0.1723
+   ],
+   "target_angle": 19.805,
+   "mean_est": [
+    0.48439,
+    0.17497
+   ],
+   "bias_vs_own_target": [
+    0.00594,
+    0.00267
+   ],
+   "bias_mc_se": [
+    0.00364,
+    0.00354
+   ],
+   "empirical_sd": [
+    0.08124,
+    0.07904
+   ],
+   "median_se": [
+    0.07524,
+    0.07285
+   ],
+   "mean_angle_est": 20.235,
+   "sd_angle_est": 9.424,
+   "median_angle_ci_width": 38.82,
+   "gate": {
+    "pass": {
+     "k": 499,
+     "n": 499,
+     "rate": 1.0,
+     "wilson95": [
+      0.9924,
+      1.0
+     ]
+    },
+    "pass_and_excl_0": {
+     "k": 280,
+     "n": 499,
+     "rate": 0.5611,
+     "wilson95": [
+      0.5173,
+      0.604
+     ]
+    },
+    "pass_and_excl_45": {
+     "k": 310,
+     "n": 499,
+     "rate": 0.6212,
+     "wilson95": [
+      0.5779,
+      0.6627
+     ]
+    },
+    "pass_and_excl_both_0_and_45": {
+     "k": 129,
+     "n": 499,
+     "rate": 0.2585,
+     "wilson95": [
+      0.222,
+      0.2987
+     ]
+    },
+    "pass_and_excl_neither": {
+     "k": 38,
+     "n": 499,
+     "rate": 0.0762,
+     "wilson95": [
+      0.056,
+      0.1028
+     ]
+    }
+   },
+   "bias_vs_mu_w": [
+    -0.04061,
+    -3e-05
+   ],
+   "relative_bias_vs_mu_w_norm": [
+    -0.0734,
+    -0.0
+   ],
+   "coverage_of_mu_w": {
+    "w_on": {
+     "k": 455,
+     "n": 499,
+     "rate": 0.9118,
+     "wilson95": [
+      0.8837,
+      0.9337
+     ]
+    },
+    "w_off": {
+     "k": 467,
+     "n": 499,
+     "rate": 0.9359,
+     "wilson95": [
+      0.9109,
+      0.9542
+     ]
+    }
+   },
+   "informational_by_composition": {
+    "n_onset 0-4": {
+     "n": 102,
+     "cov_w_on": 0.902,
+     "cov_w_off": 0.8922,
+     "cov_angle": 0.8431,
+     "mean_angle": 30.56
+    },
+    "n_onset 5-7": {
+     "n": 297,
+     "cov_w_on": 0.9697,
+     "cov_w_off": 0.9697,
+     "cov_angle": 0.9933,
+     "mean_angle": 20.22
+    },
+    "n_onset 8-12": {
+     "n": 100,
+     "cov_w_on": 0.92,
+     "cov_w_off": 0.88,
+     "cov_angle": 0.88,
+     "mean_angle": 9.74
+    }
+   },
+   "composite_amended_status": {
+    "original_E1_non_H2_criteria_met_point": false,
+    "original_E1_non_H2_any_clearly_outside": false,
+    "original_E1_non_H2_shortfalls": [
+     {
+      "k": 35,
+      "n": 498,
+      "rate": 0.0703,
+      "wilson95": [
+       0.051,
+       0.0962
+      ],
+      "point_status": "not met (point estimate)",
+      "mc_status": "indeterminate"
+     }
+    ],
+    "E1e_met": true,
+    "meets_all_with_amended_H2": false
+   }
+  },
+  "B3-boot": {
+   "criteria": {
+    "H1_w_on": {
+     "k": 465,
+     "n": 500,
+     "rate": 0.93,
+     "wilson95": [
+      0.9042,
+      0.9492
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "H1_w_off": {
+     "k": 461,
+     "n": 500,
+     "rate": 0.922,
+     "wilson95": [
+      0.8951,
+      0.9424
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "H2_angle": {
+     "k": 441,
+     "n": 500,
+     "rate": 0.882,
+     "wilson95": [
+      0.8508,
+      0.9074
+     ],
+     "point_status": "not met (point estimate)",
+     "mc_status": "indeterminate"
+    },
+    "H3_failures": {
+     "k": 0,
+     "n": 500,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.0076
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    }
+   },
+   "H_criteria_met_point": false,
+   "H_any_clearly_outside": false,
+   "H_n_indeterminate": 2,
+   "H2_population_criteria_met": false,
+   "target": [
+    0.171706,
+    0.058777
+   ],
+   "target_angle": 18.897,
+   "mean_est": [
+    0.17097,
+    0.05918
+   ],
+   "bias_vs_own_target": [
+    -0.00073,
+    0.0004
+   ],
+   "bias_mc_se": [
+    0.00108,
+    0.00119
+   ],
+   "empirical_sd": [
+    0.02411,
+    0.02655
+   ],
+   "median_se": [
+    0.02244,
+    0.02418
+   ],
+   "mean_angle_est": 19.499,
+   "sd_angle_est": 9.423,
+   "median_angle_ci_width": 32.39,
+   "gate": {
+    "pass": {
+     "k": 500,
+     "n": 500,
+     "rate": 1.0,
+     "wilson95": [
+      0.9924,
+      1.0
+     ]
+    },
+    "pass_and_excl_0": {
+     "k": 334,
+     "n": 500,
+     "rate": 0.668,
+     "wilson95": [
+      0.6256,
+      0.7079
+     ]
+    },
+    "pass_and_excl_45": {
+     "k": 376,
+     "n": 500,
+     "rate": 0.752,
+     "wilson95": [
+      0.7123,
+      0.7878
+     ]
+    },
+    "pass_and_excl_both_0_and_45": {
+     "k": 213,
+     "n": 500,
+     "rate": 0.426,
+     "wilson95": [
+      0.3834,
+      0.4697
+     ]
+    },
+    "pass_and_excl_neither": {
+     "k": 3,
+     "n": 500,
+     "rate": 0.006,
+     "wilson95": [
+      0.002,
+      0.0175
+     ]
+    }
+   },
+   "informational_by_composition": {
+    "n_onset 0-4": {
+     "n": 102,
+     "cov_w_on": 0.8922,
+     "cov_w_off": 0.8529,
+     "cov_angle": 0.7647,
+     "mean_angle": 29.91
+    },
+    "n_onset 5-7": {
+     "n": 298,
+     "cov_w_on": 0.9799,
+     "cov_w_off": 0.9698,
+     "cov_angle": 0.953,
+     "mean_angle": 19.42
+    },
+    "n_onset 8-12": {
+     "n": 100,
+     "cov_w_on": 0.82,
+     "cov_w_off": 0.85,
+     "cov_angle": 0.79,
+     "mean_angle": 9.11
+    }
+   },
+   "composite_amended_status": {
+    "original_E1_non_H2_criteria_met_point": true,
+    "original_E1_non_H2_any_clearly_outside": false,
+    "original_E1_non_H2_shortfalls": [],
+    "E1e_met": true,
+    "meets_all_with_amended_H2": false
+   }
+  },
+  "B3-t": {
+   "criteria": {
+    "H1_w_on": {
+     "k": 465,
+     "n": 500,
+     "rate": 0.93,
+     "wilson95": [
+      0.9042,
+      0.9492
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "H1_w_off": {
+     "k": 461,
+     "n": 500,
+     "rate": 0.922,
+     "wilson95": [
+      0.8951,
+      0.9424
+     ],
+     "point_status": "met",
+     "mc_status": "indeterminate"
+    },
+    "H2_angle": {
+     "k": 465,
+     "n": 500,
+     "rate": 0.93,
+     "wilson95": [
+      0.9042,
+      0.9492
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    },
+    "H3_failures": {
+     "k": 0,
+     "n": 500,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.0076
+     ],
+     "point_status": "met",
+     "mc_status": "clearly inside"
+    }
+   },
+   "H_criteria_met_point": true,
+   "H_any_clearly_outside": false,
+   "H_n_indeterminate": 1,
+   "H2_population_criteria_met": true,
+   "target": [
+    0.171706,
+    0.058777
+   ],
+   "target_angle": 18.897,
+   "mean_est": [
+    0.17097,
+    0.05918
+   ],
+   "bias_vs_own_target": [
+    -0.00073,
+    0.0004
+   ],
+   "bias_mc_se": [
+    0.00108,
+    0.00119
+   ],
+   "empirical_sd": [
+    0.02411,
+    0.02655
+   ],
+   "median_se": [
+    0.02244,
+    0.02418
+   ],
+   "mean_angle_est": 19.499,
+   "sd_angle_est": 9.423,
+   "median_angle_ci_width": 38.06,
+   "gate": {
+    "pass": {
+     "k": 500,
+     "n": 500,
+     "rate": 1.0,
+     "wilson95": [
+      0.9924,
+      1.0
+     ]
+    },
+    "pass_and_excl_0": {
+     "k": 278,
+     "n": 500,
+     "rate": 0.556,
+     "wilson95": [
+      0.5122,
+      0.599
+     ]
+    },
+    "pass_and_excl_45": {
+     "k": 322,
+     "n": 500,
+     "rate": 0.644,
+     "wilson95": [
+      0.6011,
+      0.6847
+     ]
+    },
+    "pass_and_excl_both_0_and_45": {
+     "k": 124,
+     "n": 500,
+     "rate": 0.248,
+     "wilson95": [
+      0.2122,
+      0.2877
+     ]
+    },
+    "pass_and_excl_neither": {
+     "k": 24,
+     "n": 500,
+     "rate": 0.048,
+     "wilson95": [
+      0.0325,
+      0.0704
+     ]
+    }
+   },
+   "informational_by_composition": {
+    "n_onset 0-4": {
+     "n": 102,
+     "cov_w_on": 0.8922,
+     "cov_w_off": 0.8529,
+     "cov_angle": 0.8529,
+     "mean_angle": 29.91
+    },
+    "n_onset 5-7": {
+     "n": 298,
+     "cov_w_on": 0.9799,
+     "cov_w_off": 0.9698,
+     "cov_angle": 0.9866,
+     "mean_angle": 19.42
+    },
+    "n_onset 8-12": {
+     "n": 100,
+     "cov_w_on": 0.82,
+     "cov_w_off": 0.85,
+     "cov_angle": 0.84,
+     "mean_angle": 9.11
+    }
+   },
+   "composite_amended_status": {
+    "original_E1_non_H2_criteria_met_point": true,
+    "original_E1_non_H2_any_clearly_outside": false,
+    "original_E1_non_H2_shortfalls": [],
+    "E1e_met": true,
+    "meets_all_with_amended_H2": true
+   }
+  }
+ },
+ "original_E1_verdict_unchanged": {
+  "acceptable_methods": [],
+  "verdict": "REVISE"
+ },
+ "decision_rule": "Per variant: H2-population criteria MET iff H1, H2 and H3 are met at point estimates and none is clearly outside. Composite amended status (reported separately from, and never replacing, the original E1 verdict): the variant meets every original E1 criterion outside the fixed-composition H2 scenario (from the frozen E1 results, read by hash) AND E1e AND the H2-population criteria. No automatic selection: if several variants meet the composite, trade-offs are reported for reviewer decision; latent-scale interpretation is not a tie-breaker.",
+ "variants_meeting_all_with_amended_H2": [
+  "B3-t"
+ ]
+}

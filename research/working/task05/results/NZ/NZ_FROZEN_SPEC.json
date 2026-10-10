@@ -1,0 +1,116 @@
+{
+ "title": "Task 05 closure addendum: B3-t near-zero sensitivity validation (NZ). FROZEN specification",
+ "status": "Reviewer-authorised targeted validation after the Task 05 closure record. Does not alter the frozen E1 verdict (REVISE), the E1-H2 results or the closure record's earlier sections.",
+ "frozen_at": "2026-10-10 11:33:10 AEDT",
+ "frozen": true,
+ "grid": [
+  0.0,
+  0.05,
+  0.1,
+  0.2,
+  0.3333333333333333
+ ],
+ "reps_per_grid": 200,
+ "batch_size": 50,
+ "design": "12 participants x 20 order trials, homogeneous: onset weight a, offset weight 0, lapse 0.02, tau 1.0, bias SD 0.5 (e1_methods.sweep_scenario).",
+ "seed_namespace": "task05-NZ-v1",
+ "seed_rule": "int(sha256(f'{ns}|a=<a:.3f>|{rep}')[:16], 16) -> numpy default_rng",
+ "procedure": "e1_methods.run_b3 unchanged; evaluated variant B3-t (angle_ci_t). B3-boot recorded descriptively only.",
+ "targets": {
+  "a=0.000": {
+   "a": 0.0,
+   "beta_star": [
+    0.0,
+    0.0
+   ],
+   "beta_star_on_mc_se": 0.0,
+   "angle": null
+  },
+  "a=0.050": {
+   "a": 0.05,
+   "beta_star": [
+    0.018795137826789227,
+    0.0
+   ],
+   "beta_star_on_mc_se": 1.058234472635005e-06,
+   "angle": 0.0
+  },
+  "a=0.100": {
+   "a": 0.1,
+   "beta_star": [
+    0.037505856592067545,
+    0.0
+   ],
+   "beta_star_on_mc_se": 2.1165719818766885e-06,
+   "angle": 0.0
+  },
+  "a=0.200": {
+   "a": 0.2,
+   "beta_star": [
+    0.07433262806515967,
+    0.0
+   ],
+   "beta_star_on_mc_se": 4.2303163724511734e-06,
+   "angle": 0.0
+  },
+  "a=0.333": {
+   "a": 0.3333333333333333,
+   "beta_star": [
+    0.12119321977761041,
+    0.0
+   ],
+   "beta_star_on_mc_se": 7.001365937467482e-06,
+   "angle": 0.0
+  }
+ },
+ "target_notes": "beta*_on by MC (400,000 draws; pre-check). beta*_off = 0 and angle 0 deg for a > 0, and beta* = (0, 0) at a = 0, by symmetry of the zero-mean orthogonal design (deduction; MC agrees to 1e-20).",
+ "criteria": {
+  "coverage_band": [
+   0.9,
+   0.98
+  ],
+  "N1": "Weight-CI coverage of beta*, w_on and w_off, within [0.90, 0.98] at every grid point.",
+  "N2_grid": [
+   0.2,
+   0.3333333333333333
+  ],
+  "N2": "Angle-interval coverage of the target angle 0 deg (circular containment) within [0.90, 0.98] at a = 0.20 and 1/3. At a = 0.05 and 0.10 angle coverage is reported descriptively, because strategy is interpreted only when the gate passes and the gate has low power there (pre-check P4: 0.05-0.33). This restriction was chosen before execution, with knowledge of P4.",
+  "N3_max": 0.07,
+  "N3": "False strategy claim: P(gate passes AND angle interval excludes the true angle 0 deg) <= 0.07 at every a > 0.",
+  "N4_max": 0.07,
+  "N4": "Gate false positive at a = 0: P(gate passes) <= 0.07.",
+  "N5_max": 0.05,
+  "N5": "Failure rate <= 0.05 at every grid point.",
+  "mc_rule": "Point estimate decides met / not met; Wilson 95% MC interval classified clearly inside / indeterminate / clearly outside (as E1).",
+  "descriptive": [
+   "gate pass rate (power) by a",
+   "P(gate and excludes 45 deg) by a",
+   "angle interval width (all; gate-passed); share >= 180 and >= 360 deg",
+   "wrapping: share of intervals extending beyond +/-180 deg; circular vs linear containment disagreements at 0 and 45 deg",
+   "angle point estimate: circular mean, mean resultant length, share |angle| > 90 deg",
+   "bias vs beta*",
+   "B3-boot equivalents"
+  ]
+ },
+ "decision_rule": "NZ CONFIRMED for B3-t iff N1-N5 all met at point estimates and none clearly outside. Otherwise NOT CONFIRMED and returned to the reviewer; the provisional acceptance is not changed automatically in either direction. No other method is evaluated or selected.",
+ "scope_limit": "1,000 datasets (5 grid points x 200). No extension of grid, reps or methods without reviewer approval.",
+ "related_frozen": {
+  "E1_spec_sha256": "8a8533eff182c88f5d841e5cc466d3b893b877d6d6a9d779d6e7043dce533d8f",
+  "E1H2_spec_sha256": "666c0cb5326206e74bdfc94e221251d72eb945cc4ce1ef9292673cd6fa033745",
+  "closure_record_sha256": "2bafca543984c1df93347cb398227a586611834c386e7d4426bbfa639eee90f4"
+ },
+ "precheck_sha256": "fd8d26a3362eb75b94426fa7120e8c11df4a114b1a536b2bb9467d0c1e792c53",
+ "code_sha256": {
+  "nz/nz_common.py": "e89f47537dc0dcd4d9568103ee8b0bfeeb7c0bae0571753efd9ea55f862b5fca",
+  "nz/nz_run.py": "80de514f3e817b6bdae76022cfd177db7bb1dfee07ade577097751bf031d9b60",
+  "nz/nz_analyse.py": "a410344a2a89858a645a29d9f728acf5ce811f1b26c190ed397504492c0aba83",
+  "nz/nz_precheck.py": "ba8fe3b665df7e135c25c124bb501c79442267d306f07c354c41c7fc69a5aa8c",
+  "nz/build_nz_spec.py": "d8b6cc090dd590f326401e47106cd3006c59adb092ededcbc083dfc61a19e218",
+  "e1_methods.py": "db99b8ba6fd85e6d7a55609cad8cf9838db32c8fadd795b85a9664723263e1c9",
+  "e1_run.py": "e546ebf612257632000f5af1ff641536b5777523c90a88fd6c3d8c477a54d8ce",
+  "e1_analyse.py": "b33bf0c46107675b94462d1bd50105a078723285364b4c54a964ca573a44d200",
+  "heterogeneity_methods.py": "3cfe209ac8a9d0a435fc74bd008ae07731f0849ef3581e1324a6ad36ba758f7d",
+  "ordinal_model.py": "590db5f37b028e9ae82e8069d611f347d0a3b118b61e4d24685b7dda33ceb7fe",
+  "stimulus.py": "238d882ab07d1f728bbc9454a0abe35af989afd0c3ce113bf04be50ec83bb0e3"
+ }
+}
